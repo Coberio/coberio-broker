@@ -1,12 +1,7 @@
 export interface FooterProps {
-  title?: string
-  recommendations: {
-    href: string
-    title: string
-  }[]
 }
 
-export function Footer({ title, recommendations }: FooterProps) {
+export function Footer({ }: FooterProps) {
   return (
     <footer className="bg-gray-50 dark:bg-gray-800">
       <div className="max-w-screen-xl p-4 py-6 mx-auto lg:py-16 md:p-8 lg:p-10">

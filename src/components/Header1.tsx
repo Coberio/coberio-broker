@@ -1,12 +1,10 @@
 export interface MatchesProps {
-  companyName?: string
   companyLogoLink?: string
   ctaText?: string
   ctaLink?: string
 }
 
 export function Header({
-  companyName,
   companyLogoLink,
   ctaText,
   ctaLink,
@@ -22,11 +20,6 @@ export function Header({
                 className="h-6 mr-3 sm:h-9"
                 alt="Landwind Logo"
               />
-            )}
-            {companyName && (
-              <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">
-                {companyName}
-              </span>
             )}
           </a>
           <div className="flex items-center lg:order-2">

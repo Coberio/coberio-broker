@@ -2,7 +2,7 @@
     "lang": "es",
     "route": "/rc-sanitaria/estudio-tatuajes",
     "header": {
-        "companyName": "", 
+        "companyName": "Coberio", 
         "companyLogoLink": "/images/logo.png",
         "ctaText": "¿Hablamos?",
         "ctaLink": "http://localhost:4321/rc-sanitaria/estudio-tatuajes"
@@ -168,7 +168,6 @@
     "whyus": {
         "title": "¿Por qué con Cober?",
         "subtitle": [
-
             "Nuestra misión es ofrecerte un servicio personalizado y de calidad.<br/>Valoramos tu seguridad y tranquilidad por encima de todo lo demás"
         ],
         "list": [
@@ -178,35 +177,6 @@
             "Alta disponibilidad inmediata 7/24",
             "Te acompañamos durante todo el proceso",
             "Te avisamos antes del vencimientos de tus seguros"
-        ]
-    },
-    "recommendations": {
-        "title": "Nuestros Seguros",
-        "list": [
-            {
-                "title": "Seguro Toreros",
-                "href": "#"
-            },
-            {
-                "title": "Seguro Agrario",
-                "href": "#"
-            },
-            {
-                "title": "Seguro Cantantes",
-                "href": "#"
-            },
-            {
-                "title": "Seguro Ejecutivos",
-                "href": "#"
-            },
-            {
-                "title": "Seguro Mascotas",
-                "href": "#"
-            },
-            {
-                "title": "Seguro Comunidades",
-                "href": "#"
-            }
         ]
     }
 }

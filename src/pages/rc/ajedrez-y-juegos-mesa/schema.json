@@ -1,0 +1,179 @@
+{
+    "lang": "es",
+    "route": "/rc-sanitaria/club-ajedrez-juegos-mesa",
+    "header": {
+        "companyName": "Coberio", 
+        "companyLogoLink": "/images/logo.png",
+        "ctaText": "¿Hablamos?",
+        "ctaLink": "http://localhost:4321/rc-sanitaria/club-ajedrez-juegos-mesa"
+    },
+    "hero": {
+        "title": "Seguro para Clubes de Ajedrez y Juegos de Mesa",
+        "description": [
+            "El seguro de Responsabilidad Civil para Clubes de Ajedrez y Juegos de Mesa es una póliza diseñada especialmente para este tipo de asociaciones, ofreciendo protección al negocio y salvaguardando el patrimonio de los asociados.",
+            "Además de contar con coberturas específicas adaptadas a las necesidades de este tipo de clubes, cuentan con el respaldo de una empresa con gran experiencia y prestigio en el ámbito de la responsabilidad civil a nivel internacional, como <a href=\"https://tailwindcss.com\" class=\"hover:underline\">Berkley</a>"
+        ],
+        "ctaText": "Solicita Precio",
+        "ctaLink": "http://localhost:4321/rc-sanitaria/club-ajedrez-juegos-mesa",
+        "ctaImageLink": "/images/hero.png",
+        "secondaryCtaText": "Ya soy cliente",
+        "secondaryCtaLink": "http://localhost:4321/rc-sanitaria/club-ajedrez-juegos-mesa"
+    },
+    "infoLeft": {
+        "title": "¿Qué riesgos enfrenta tu club de ajedrez o juegos de mesa?",
+        "description": [
+            "Los clubes especializados en ajedrez, juegos de mesa y actividades afines son entornos susceptibles a reclamaciones por daños y perjuicios que podrían afectar tanto al patrimonio del club como al de sus miembros. Estos riesgos aconsejan que los directivos y asociados protejan su patrimonio y el de la asociación ante posibles reclamaciones que, por su naturaleza, podrían tener un gran impacto."
+        ],
+        "listItems": [
+            "Un socio presenta una reclamación al club debido a un accidente durante una partida de ajedrez.",
+            "Durante un torneo de juegos de mesa, un participante sufre una lesión.",
+            "Un asociado sufre daños en su propiedad durante una actividad del club."
+        ],
+        "ctaText": "Solicita Precio",
+        "ctaLink": "http://localhost:4321/rc-sanitaria/club-ajedrez-juegos-mesa",
+        "ctaImageLink": "/images/feature-1.png",
+        "secondaryCtaText": "No estoy seguro si cubre lo que necesito",
+        "secondaryCtaLink": "http://localhost:4321/rc-sanitaria/club-ajedrez-juegos-mesa",
+        "secondaryCtaImageLink": "/images/feature-1.png"
+    },
+    "infoRight": {
+        "title": "¿A quién está dirigido?",
+        "description": [
+            "Este seguro está dirigido a asociaciones y clubes dedicados a actividades como:"
+        ],
+        "listItems": [
+            "Clubes de Ajedrez",
+            "Clubes de Juegos de Mesa",
+            "Asociaciones de Estrategia",
+            "Grupos de Aficionados a Juegos de Rol",
+            "Club de Bridge",
+            "Asociaciones de Scrabble",
+            "Clubes de Go"
+        ],
+        "ctaText": "Solicita Precio",
+        "ctaLink": "http://localhost:4321/rc-sanitaria/club-ajedrez-juegos-mesa",
+        "ctaImageLink": "/images/feature-1.png",
+        "secondaryCtaText": "No estoy seguro si es para mí",
+        "secondaryCtaLink": "http://localhost:4321/rc-sanitaria/club-ajedrez-juegos-mesa",
+        "secondaryCtaImageLink": "/images/feature-1.png"
+    },
+    "products": {
+        "title": "Contrata tu seguro de RC para clubes de ajedrez y juegos de mesa",
+        "description": [
+            "Proceso 100% online. Atención personalizada en tu idioma. Acompañamiento durante todo el proceso."
+        ],
+        "list": [
+            {
+                "title": "Básico para Clubes",
+                "subtitle": "Recomendado si estás empezando",
+                "pricePrefix": "desde",
+                "price": "21€",
+                "priceInterval": "mes",
+                "coverages": [
+                    "Responsabilidad Civil Profesional", 
+                    "Responsabilidad Civil de Productos", 
+                    "Defensa Jurídica y Fianzas",
+                    "Responsabilidad Civil de Explotación",
+                    "Responsabilidad Civil Locativa",
+                    "Responsabilidad Civil Patronal",
+                    "Responsabilidad Civil por Incumplimiento RGPD"
+                ],
+                "ctaText": "Contratar Seguro",
+                "ctaLink": "http://localhost:4321/rc-sanitaria/club-ajedrez-juegos-mesa"
+            },
+            {
+                "title": "Plus para Clubes",
+                "subtitle": "Recomendado si estás empezando",
+                "pricePrefix": "desde",
+                "price": "51€",
+                "priceInterval": "mes",
+                "coverages": [
+                    "Responsabilidad Civil Profesional", 
+                    "Responsabilidad Civil de Productos", 
+                    "Defensa Jurídica y Fianzas",
+                    "Responsabilidad Civil de Explotación",
+                    "Responsabilidad Civil Locativa",
+                    "Responsabilidad Civil Patronal",
+                    "Responsabilidad Civil por Incumplimiento RGPD",
+                    "Responsabilidad Civil por Contaminación Accidental",
+                    "Daños a Bienes de Participantes en Custodia",
+                    "Inhabilitación Profesional",
+                    "Recuperación de Archivos Digitales"
+                ],
+                "ctaText": "Contratar Seguro",
+                "ctaLink": "http://localhost:4321/rc-sanitaria/club-ajedrez-juegos-mesa"
+            },
+            {
+                "title": "Premium para Clubes",
+                "subtitle": "Recomendado si estás empezando",
+                "pricePrefix": "desde",
+                "price": "51€",
+                "priceInterval": "mes",
+                "coverages": [
+                    "Responsabilidad Civil Profesional", 
+                    "Responsabilidad Civil de Productos", 
+                    "Defensa Jurídica y Fianzas",
+                    "Responsabilidad Civil de Explotación",
+                    "Responsabilidad Civil Locativa",
+                    "Responsabilidad Civil Patronal",
+                    "Responsabilidad Civil por Incumplimiento RGPD",
+                    "Responsabilidad Civil por Contaminación Accidental",
+                    "Daños a Bienes de Participantes en Custodia",
+                    "Inhabilitación Profesional",
+                    "Recuperación de Archivos Digitales"
+                ],
+                "ctaText": "Contratar Seguro",
+                "ctaLink": "http://localhost:4321/rc-sanitaria/club-ajedrez-juegos-mesa"
+            }
+        ]
+    },
+    "faq": {
+        "title": "Preguntas Frecuentes",
+        "questions": [
+            {
+                "title": "¿Por qué debería contratar un seguro de Responsabilidad Civil para mi club de ajedrez o juegos de mesa?",
+                "description": [
+                    "El Código Civil establece que quien causa daño a otro, por acción u omisión, está obligado a repararlo. Por ello, cualquier club de ajedrez o juegos de mesa se arriesga a demandas de indemnización tanto de participantes como de terceros."
+                ]
+            },
+            {
+                "title": "¿Por qué necesito un seguro de RC para mi club de ajedrez o juegos de mesa?",
+                "description": [
+                    "Los clubes de ajedrez, juegos de mesa y actividades similares están expuestos a riesgos que podrían ocasionar daños a personas o propiedades. Las reclamaciones derivadas de estos riesgos podrían amenazar el patrimonio del club y de sus miembros. Por eso, es crucial contar con una cobertura que proteja contra posibles reclamaciones."
+                ]
+            },
+            {
+                "title": "¿Es obligatorio este tipo de seguros para los clubes de ajedrez y juegos de mesa?",
+                "description": [
+                    "Aunque no son obligatorios, son altamente recomendados debido al riesgo de causar daños a participantes y terceros durante las actividades del club."
+                ]
+            },
+            {
+                "title": "¿Qué necesito para contratar un seguro de responsabilidad civil para mi club de ajedrez y juegos de mesa?",
+                "description": [
+                    "Para contratar un seguro de RC para un club de ajedrez o juegos de mesa, necesitas proporcionar el nombre completo del club, su número de identificación fiscal, la facturación del club y una descripción detallada de las actividades que realiza."
+                ]
+            },
+            {
+                "title": "¿Cuánto cuesta un seguro para mi club de ajedrez y juegos de mesa?",
+                "description": [
+                    "El precio del seguro (prima) varía según el capital asegurado y otros factores. Solicita un presupuesto personalizado <a href=\"http://localhost:4321/rc-sanitaria/club-ajedrez-juegos-mesa\">aquí</a>"
+                ]
+            }
+        ]
+    },
+    "whyus": {
+        "title": "¿Por qué elegir a Cober?",
+        "subtitle": [
+            "Nuestra misión es proporcionarte un servicio personalizado y de calidad.<br/>Valoramos tu seguridad y tranquilidad por encima de todo lo demás"
+        ],
+        "list": [
+            "Proceso 100% online",
+            "Trabajamos con las mejores aseguradoras",
+            "Hablamos tu idioma",
+            "Disponibilidad inmediata 7/24",
+            "Te acompañamos durante todo el proceso",
+            "Recordatorio antes del vencimiento de tus seguros"
+        ]
+    }
+}
