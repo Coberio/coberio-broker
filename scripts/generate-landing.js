@@ -1,4 +1,4 @@
-import { existsSync, mkdirSync, writeFileSync, readFileSync } from 'fs';
+import { existsSync, mkdirSync, writeFileSync, readFileSync, rmSync } from 'fs';
 import { join, dirname } from 'path';
 import schemaTemplate from './schema-template.json' assert { type: "json" };
 import { fileURLToPath } from 'url';
@@ -13,6 +13,16 @@ function createDirectories(route) {
         if (!existsSync(currentPath)) {
             mkdirSync(currentPath);
         }
+    }
+}
+
+function removeDirectories(route) {
+    currentPath = join('src', 'pages', route ?? 'unknown');
+    if (existsSync(currentPath)) {
+        rmSync(currentPath, {
+            force: true,
+            recursive: true
+        });
     }
 }
 
@@ -33,6 +43,7 @@ function createComponentFile(route) {
 }
 
 function generateLanding(route, schema) {
+    removeDirectories(route)
     createDirectories(route);
     createSchemaFile(schema);
     createComponentFile(route)
