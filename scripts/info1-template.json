@@ -1,0 +1,19 @@
+{
+    "title": "¿Qué podría ocurrirte en tu estudio de tatuajes?",
+    "description": [
+        "Los centros especializados en tatuajes y perforaciones son establecimientos <strong>muy expuestos a reclamaciones por daños y perjuicios que pueden amenazar el patrimonio del establecimiento y de sus administradores</strong>. Estos ámbitos de riesgo aconsejan que sus propietarios y administradores protejan su patrimonio y el de la propia empresa ante reclamaciones que, debido a su naturaleza, pueden ser de gran importancia."
+
+    ],
+    "listItems": [
+        "Un cliente pone una reclamación al centro debido a la infección de su tatuaje.",
+        "Durante la eliminación de un tatuaje, el cliente sufre una quemadura.",
+        "Un cliente sufre una infección por un anillado o piercing, por el mal tratamiento de los utensilios"
+    ],
+    "ctaText": "Solicita Precio",
+    "ctaLink": "http://localhost:4321/rc-sanitaria/estudio-tatuajes",
+    "ctaImageLink": "/images/feature-1.png",
+    "secondaryCtaText": "No estoy seguro si cubre lo que necesito",
+    "secondaryCtaLink": "http://localhost:4321/rc-sanitaria/estudio-tatuajes",
+    "secondaryCtaImageLink": "/images/feature-1.png"
+ 
+}

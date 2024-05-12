@@ -1,0 +1,71 @@
+{
+    "title": "Contrata tu seguro de RC para tatuadores",
+    "description": [
+        "Proceso 100% online. Hablamos tu idioma. Te acompañamos durante todo el proceso"
+    ],
+    "list": [
+        {
+            "title": "Tatuadores Basic",
+            "subtitle": "Recomendado si estás empezando",
+            "pricePrefix": "desde",
+            "price": "21€",
+            "priceInterval": "mes",
+            "coverages": [
+                "R.C. PROFESIONAL", 
+                "R.C. PRODUCTOS", 
+                "DEFENSA JURÍDICA Y FIANZAS",
+                "R.C. EXPLOTACIÓN",
+                "R.C. LOCATIVA",
+                "R.C. PATRONAL",
+                "R.C. INCUMPLIMIENTO RGPD"
+            ],
+            "ctaText": "Contratar Seguro",
+            "ctaLink": "http://localhost:4321/rc-sanitaria/estudio-tatuajes"
+        },
+        {
+            "title": "Tatuadores Plus",
+            "subtitle": "Recomendado si estás empezando",
+            "pricePrefix": "desde",
+            "price": "51€",
+            "priceInterval": "mes",
+            "coverages": [
+                "R.C. PROFESIONAL", 
+                "R.C. PRODUCTOS", 
+                "DEFENSA JURÍDICA Y FIANZAS",
+                "R.C. EXPLOTACIÓN",
+                "R.C. LOCATIVA",
+                "R.C. PATRONAL",
+                "R.C. INCUMPLIMIENTO RGPD",
+                "R.C. CONTAMINACIÓN ACCIDENTAL",
+                "DAÑOS A BIENES DE PACIENTES EN CUSTODIA",
+                "INHABILITACIÓN PROFESIONAL",
+                "RECUPERACIÓN DE ARCHIVOS DIGITALES"
+            ],
+            "ctaText": "Contratar Seguro",
+            "ctaLink": "http://localhost:4321/rc-sanitaria/estudio-tatuajes"
+        },
+        {
+            "title": "Tatuadores Plus",
+            "subtitle": "Recomendado si estás empezando",
+            "pricePrefix": "desde",
+            "price": "51€",
+            "priceInterval": "mes",
+            "coverages": [
+                "R.C. PROFESIONAL", 
+                "R.C. PRODUCTOS", 
+                "DEFENSA JURÍDICA Y FIANZAS",
+                "R.C. EXPLOTACIÓN",
+                "R.C. LOCATIVA",
+                "R.C. PATRONAL",
+                "R.C. INCUMPLIMIENTO RGPD",
+                "R.C. CONTAMINACIÓN ACCIDENTAL",
+                "DAÑOS A BIENES DE PACIENTES EN CUSTODIA",
+                "INHABILITACIÓN PROFESIONAL",
+                "RECUPERACIÓN DE ARCHIVOS DIGITALES"
+            ],
+            "ctaText": "Contratar Seguro",
+            "ctaLink": "http://localhost:4321/rc-sanitaria/estudio-tatuajes"
+        }
+    ]
+ 
+}

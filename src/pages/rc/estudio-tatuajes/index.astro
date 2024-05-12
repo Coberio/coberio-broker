@@ -1,102 +1,22 @@
 ---
-import BaseHead from '../../../components/BaseHead.astro';
-import { SITE_TITLE, SITE_DESCRIPTION } from '../../../consts';
-import { Header } from '../../../components/Header1'
-import { Hero } from '../../../components/Hero1'
-import { InfoLeft } from '../../../components/InfoLeft1'
-import { InfoRight } from '../../../components/InfoRight1'
-import { BuyProducts } from '../../../components/BuyProducts1'
-import { Faq } from '../../../components/Faq1'
-import { WhyUs } from '../../../components/WhyUs1'
-import { Footer } from '../../../components/Footer1'
-// import { RecommendedInsurances } from '../../../components/RecommendedInsurances1'
-// import { Coverages } from '../../../components/Coverages1'
-// import { Trustpilot } from '../../../components/Trustpilot1'
+import BaseHead from '@/components/BaseHead.astro';
+import { Design } from '@/components/Design'
+import { Faq } from '@/components/Faq1'
 import schema from './schema.json'
 ---
 
 <!doctype html>
 <html lang="en">
 	<head>
-		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+		<BaseHead seo={schema.seo} />
 	</head>
 	<body>
-		<Header 
-			companyName={schema.header.companyName}
-			companyLogoLink={schema.header.companyLogoLink}
-			ctaText={schema.header.ctaText} 
-			ctaLink={schema.header.ctaLink} 
-		/>
-		<Hero 
-			title={schema.hero.title} 
-			description={schema.hero.description} 
-			ctaText={schema.hero.ctaText} 
-			ctaLink={schema.hero.ctaLink} 
-			ctaImageLink={schema.hero.ctaImageLink} 
-			ctaImageAlt={schema.hero.title} 
-			secondaryCtaText={schema.hero.secondaryCtaText} 
-			secondaryCtaLink={schema.hero.secondaryCtaLink} 
-		/>
-		<section class="bg-gray-50 dark:bg-gray-800">
-			<div class="max-w-screen-xl px-4 py-4 mx-auto space-y-12 lg:space-y-20 lg:py-14 lg:px-6">
-				{schema.infoLeft.title && <InfoLeft
-					title={schema.infoLeft.title}
-					description={schema.infoLeft.description}
-					listItems={schema.infoLeft.listItems}
-					ctaText={schema.infoLeft.ctaText} 
-					ctaLink={schema.infoLeft.ctaLink} 
-					ctaImageLink={schema.infoLeft.ctaImageLink} 
-					ctaImageAlt={schema.infoLeft.ctaText}
-					secondaryCtaText={schema.infoLeft.secondaryCtaText} 
-					secondaryCtaLink={schema.infoLeft.secondaryCtaLink} 
-					secondaryCtaImageLink={schema.infoLeft.secondaryCtaImageLink} 
-					secondaryCtaImageAlt={schema.infoLeft.secondaryCtaText}
-				/>}
-				{schema.infoRight.title && <InfoRight
-					title={schema.infoRight.title}
-					description={schema.infoRight.description}
-					listItems={schema.infoRight.listItems}
-					ctaText={schema.infoRight.ctaText} 
-					ctaLink={schema.infoRight.ctaLink} 
-					ctaImageLink={schema.infoRight.ctaImageLink} 
-					ctaImageAlt={schema.infoRight.ctaText} 
-					secondaryCtaText={schema.infoRight.secondaryCtaText} 
-					secondaryCtaLink={schema.infoRight.secondaryCtaLink} 
-					secondaryCtaImageLink={schema.infoRight.secondaryCtaImageLink} 
-					secondaryCtaImageAlt={schema.infoRight.secondaryCtaText}
-				/>}
-			</div>
-		</section>
-		<!-- <Coverages 
-			title={schema.coverages.title}
-			description={schema.coverages.description}
-			coverages={schema.coverages.main}
-			ctaText={schema.coverages.ctaText} 
-			ctaLink={schema.coverages.ctaLink} 
-			secondaryCtaText={schema.coverages.secondaryCtaText} 
-			secondaryCtaLink={schema.coverages.secondaryCtaLink} 
-		/>
-		<Trustpilot /> -->
-		<BuyProducts 
-			title={schema.products.title}
-			description={schema.products.description}
-			products={schema.products.list}
-		/>
-		<Faq 
-			title={schema.faq.title}
-			questions={schema.faq.questions}
-		/>
-		<WhyUs 
-			title={schema.whyus.title}
-			subtitle={schema.whyus.subtitle}
-			list={schema.whyus.list}
-		/>
-		<Footer />
-		<!-- <RecommendedInsurances 
-			title={schema.recommendations.title}
-			recommendations={schema.recommendations.list}	
-		/> -->
-
-		
+		<Design design={schema.design} schema={schema}>
+			<Faq 
+				title={schema.faq.title}
+				questions={schema.faq.questions}
+				client:visible
+			/>
+		</Design>
 	</body>
 </html>

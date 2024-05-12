@@ -1,0 +1,22 @@
+{
+    "title": "¿A quién está dirigido?",
+    "description": [
+        "Este seguro está dirigido a personas físicas y jurídicas especializadas en tatuajes, anillados, piercing, etc.:"
+    ],
+    "listItems": [
+        "Tatuadores",
+        "Anilladores",
+        "Esteticién",
+        "Pigmentación dérmica permanente",
+        "Perforación de la piel (piercing y anillado)",
+        "Camuflaje (tatuaje terapéutico)",
+        "Micropigmentación"
+    ],
+    "ctaText": "Solicita Precio",
+    "ctaLink": "http://localhost:4321/rc-sanitaria/estudio-tatuajes",
+    "ctaImageLink": "/images/feature-1.png",
+    "secondaryCtaText": "No estoy seguro si es para mí",
+    "secondaryCtaLink": "http://localhost:4321/rc-sanitaria/estudio-tatuajes",
+    "secondaryCtaImageLink": "/images/feature-1.png"
+ 
+}

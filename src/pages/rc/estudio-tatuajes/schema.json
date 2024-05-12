@@ -1,6 +1,13 @@
 {
     "lang": "es",
     "route": "/rc-sanitaria/estudio-tatuajes",
+    "design": "design1",
+    "seo": {
+        "title":"Seguro para Tatuadores",
+        "description": "El seguro de Responsabilidad Civil para Tatuadores es una póliza diseñada especialmente para este tipo de establecimientos ya que ofrece la protección de tu negocio, y protege el patrimonio del asegurado.",
+        "lang": "Spanish",
+        "author": "Coberio"
+    },
     "header": {
         "companyName": "Coberio", 
         "companyLogoLink": "/images/logo.png",

@@ -8,7 +8,7 @@ export function Footer({ }: FooterProps) {
         <div className="grid grid-cols-2 gap-8 md:grid-cols-3 lg:grid-cols-5">
           <div>
             <h3 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
-              Mejor Valorados
+              Otros Seguros
             </h3>
             <ul className="text-gray-500 dark:text-gray-400">
               <li className="mb-4">
@@ -35,7 +35,7 @@ export function Footer({ }: FooterProps) {
           </div>
           <div>
             <h3 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
-              Más Vendidos
+              Seguros Económicos
             </h3>
             <ul className="text-gray-500 dark:text-gray-400">
               <li className="mb-4">
@@ -62,7 +62,7 @@ export function Footer({ }: FooterProps) {
           </div>
           <div>
             <h3 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
-              Más Económicos
+              Seguros Recomendados
             </h3>
             <ul className="text-gray-500 dark:text-gray-400">
               <li className="mb-4">
