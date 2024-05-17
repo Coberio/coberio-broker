@@ -57,10 +57,10 @@ async function generateLanding(landingId) {
 async function getLanding(landingId) {
 
     const pool = new Pool({
-        user: process.env.PG_USER || 'postgres.gywksvselpfvmefrtmxo',
-        host: process.env.PG_HOST || 'aws-0-eu-west-2.pooler.supabase.com',
-        database: process.env.PG_NAME ||'postgres',
-        password: process.env.PG_PASSWORD || "",
+        user: process.env.PG_USER,
+        host: process.env.PG_HOST,
+        database: process.env.PG_NAME,
+        password: process.env.PG_PASSWORD,
         port: 5432, 
     });
 
