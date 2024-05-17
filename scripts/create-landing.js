@@ -58,7 +58,7 @@ async function getLanding(landingId) {
         user: process.env.PG_USER || 'postgres.gywksvselpfvmefrtmxo',
         host: process.env.PG_HOST || 'aws-0-eu-west-2.pooler.supabase.com',
         database: process.env.PG_NAME ||'postgres',
-        password: process.env.PG_PASSWORD || "zE540,X+zXRO",
+        password: process.env.PG_PASSWORD || "",
         port: 5432, 
     });
 
