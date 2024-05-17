@@ -1,6 +1,10 @@
 name: Deploy Landing Pages
 
 on:
+  workflow_run:
+      workflows: ["Create Landing"]
+      types:
+        - completed
   # Trigger the workflow every time you push to the `main` branch
   # Using a different branch name? Replace `main` with your branch’s name
   push:
