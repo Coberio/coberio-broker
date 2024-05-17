@@ -7,6 +7,7 @@ import tailwind from "@astrojs/tailwind";
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://example.com',
+  site: 'https://coberio.github.io',
+  base: 'coberio-broker',
   integrations: [mdx(), sitemap(), react(), tailwind()]
 });
