@@ -1,12 +1,12 @@
 ---
 import BaseHead from '../components/BaseHead.astro';
-import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+import { SITE_TITLE, SITE_DESCRIPTION, SITE_LANG, SITE_AUTH } from '@/consts';
 ---
 
 <!doctype html>
 <html lang="en">
 	<head>
-		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+		<BaseHead seo={{title:SITE_TITLE, description:SITE_DESCRIPTION, lang: SITE_LANG, author: SITE_AUTH}} />
 	</head>
 	<body>
 		<header class="fixed w-full">

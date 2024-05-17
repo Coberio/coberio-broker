@@ -11,5 +11,11 @@
         "./*"
       ]
     },
-  }
+  },
+  "exclude": [
+    "dist",
+    "build",
+    "node_modules",
+    "scripts"
+  ]
 }
