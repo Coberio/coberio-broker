@@ -1,8 +1,9 @@
 import { existsSync, mkdirSync, writeFileSync, readFileSync, rmSync } from 'fs';
 import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
-import { Pool } from 'pg';
+import pg from 'pg';
 
+const { Pool } = pg;
 
 function createDirectories(route) {
     const directories = route.split('/');
@@ -44,11 +45,12 @@ function createComponentFile(route) {
 
 async function generateLanding(landingId) {
 
-    const {route, schema} = await getLanding(landingId)
-    removeDirectories(route)
-    createDirectories(route);
-    createSchemaFile(schema, route);
-    createComponentFile(route)
+    const {metadata:landingSchema, path:landingPath} = await getLanding(landingId)
+    console.log({landingSchema, landingPath})
+    removeDirectories(landingPath)
+    createDirectories(landingPath);
+    createSchemaFile(landingSchema, landingPath);
+    createComponentFile(landingPath)
 }
 
 
