@@ -19,16 +19,12 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
 
       - name: Set up Node.js
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v4
         with:
           node-version: '18'
-
-      - name: Save landingId to output
-        id: save_output
-        run: echo "::set-output name=landingId::${{ github.event.inputs.landingId }}"
 
       - name: Install dependencies and build
         run: |
