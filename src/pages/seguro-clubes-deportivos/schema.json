@@ -1,0 +1,201 @@
+{
+  "faq": {
+    "title": "Preguntas Frecuentes",
+    "questions": [
+      {
+        "title": "¿Por qué debería contratar un seguro de Responsabilidad Civil para un Club de Alpinismo, Boxeo, Esgrima, o Artes Marciales?",
+        "description": [
+          "Las actividades deportivas de alpinismo, boxeo, esgrima, y artes marciales conllevan un alto riesgo de lesiones para los participantes. En caso de que un accidente ocurra durante la práctica de estas actividades, un seguro de Responsabilidad Civil puede proteger al club o asociación de posibles reclamaciones por daños personales."
+        ]
+      },
+      {
+        "title": "¿Por qué un Club de Alpinismo, Boxeo, Esgrima, o Artes Marciales necesita un seguro de RC?",
+        "description": [
+          "Los clubes o asociaciones dedicados a estas disciplinas deportivas están expuestos a situaciones en las que los participantes pueden resultar heridos. Contar con un seguro de Responsabilidad Civil es esencial para proteger al club de posibles demandas por lesiones corporales durante la práctica de estas actividades."
+        ]
+      },
+      {
+        "title": "¿Es obligatorio contratar un seguro de RC para los Clubes de Alpinismo, Boxeo, Esgrima, o Artes Marciales?",
+        "description": [
+          "Aunque no es obligatorio por ley, es altamente recomendable para los clubes o asociaciones que promueven estas actividades debido al riesgo inherente de lesiones que presentan."
+        ]
+      },
+      {
+        "title": "¿Qué información se necesita para contratar un seguro de responsabilidad civil para un Club de Alpinismo, Boxeo, Esgrima, o Artes Marciales?",
+        "description": [
+          "Para contratar un seguro de Responsabilidad Civil para un club de estas disciplinas deportivas, se requiere proporcionar el nombre completo de la asociación, su CIF, la cantidad de socios o participantes, y la descripción detallada de las actividades que se realizan."
+        ]
+      },
+      {
+        "title": "¿Cuál es el costo de un seguro para un Club de Alpinismo, Boxeo, Esgrima, o Artes Marciales?",
+        "description": [
+          "El precio del seguro varía dependiendo del nivel de cobertura deseado, el número de participantes asegurados, y otros factores. Puede solicitar una cotización de manera inmediata <a href=\"http://localhost:4321/rc-deportiva/club-alpinismo-boxeo\">aquí</a>"
+        ]
+      }
+    ]
+  },
+  "seo": {
+    "lang": "Spanish",
+    "title": "Seguro para Clubes Deportivos No Profesionales",
+    "author": "Coberio",
+    "description": "Protege a tu asociación o club de alpinismo, boxeo, esgrima, artes marciales con nuestra póliza de Responsabilidad Civil. Garantiza la seguridad de tus miembros y el patrimonio del club con Cobertura Total."
+  },
+  "hero": {
+    "title": "Seguro de Clubes Deportivos No Profesionales",
+    "ctaLink": "http://localhost:4321/rc-deportiva/clubes-no-profesionales",
+    "ctaText": "Solicita Precio",
+    "description": [
+      "El seguro de Responsabilidad Civil para Asociaciones o Clubes no Profesionales de alpinismo, boxeo, esgrima, artes marciales es una póliza diseñada para brindar la protección necesaria a estos tipos de clubes deportivos.",
+      "Con coberturas específicas y ajustadas a las características de estas actividades, este seguro ofrece la tranquilidad de contar con el respaldo de una empresa con amplia experiencia en el ámbito de la responsabilidad civil a nivel internacional como <a href=\"https://tailwindcss.com\" class=\"hover:underline\">Berkley</a>"
+    ],
+    "ctaImageLink": "/images/hero.png",
+    "secondaryCtaLink": "http://localhost:4321/rc-deportiva/clubes-no-profesionales",
+    "secondaryCtaText": "Ya soy cliente"
+  },
+  "lang": "es",
+  "route": "/seguro-clubes-deportivos",
+  "whyus": {
+    "list": [
+      "Proceso 100% online",
+      "Trabajamos con las mejores aseguradoras",
+      "Hablamos tu idioma",
+      "Alta disponibilidad inmediata 7/24",
+      "Te acompañamos durante todo el proceso",
+      "Te avisamos antes del vencimientos de tus seguros"
+    ],
+    "title": "¿Por qué con Cober?",
+    "subtitle": [
+      "Nuestra misión es ofrecerte un servicio personalizado y de calidad.<br/>Valoramos tu seguridad y tranquilidad por encima de todo lo demás"
+    ]
+  },
+  "design": "design1",
+  "header": {
+    "ctaLink": "http://localhost:4321/rc-sanitaria/estudio-tatuajes",
+    "ctaText": "¿Hablamos?",
+    "companyName": "Coberio",
+    "companyLogoLink": "/images/logo.png"
+  },
+  "infoLeft": {
+    "title": "¿Qué podría ocurrirle a tu asociación o club de alpinismo, boxeo, esgrima, artes marciales?",
+    "ctaLink": "http://localhost:4321/rc-deportiva/asociaciones-clubes",
+    "ctaText": "Solicita Precio",
+    "listItems": [
+      "Un miembro sufre una lesión grave durante una expedición de alpinismo.",
+      "Durante un combate de boxeo, un espectador resulta herido por un descuido en las medidas de seguridad.",
+      "Un participante en una competición de esgrima sufre un accidente por un equipo defectuoso."
+    ],
+    "description": [
+      "Las asociaciones o clubes no profesionales de alpinismo, boxeo, esgrima, artes marciales están expuestos a diversas situaciones de riesgo que pueden poner en peligro su patrimonio y la seguridad de sus miembros. Es importante contar con un seguro que proteja ante posibles reclamaciones y situaciones adversas que puedan surgir en el desarrollo de las actividades del club."
+    ],
+    "ctaImageLink": "/images/feature-1.png",
+    "secondaryCtaLink": "http://localhost:4321/rc-deportiva/asociaciones-clubes",
+    "secondaryCtaText": "No estoy seguro si cubre lo que necesito",
+    "secondaryCtaImageLink": "/images/feature-1.png"
+  },
+  "products": {
+    "list": [
+      {
+        "price": "30€",
+        "title": "Club de Alpinismo Basic",
+        "ctaLink": "http://localhost:4321/rc-asociaciones/alpinismo",
+        "ctaText": "Contratar Seguro",
+        "subtitle": "Recomendado si estás empezando",
+        "coverages": [
+          "R.C. PROFESIONAL",
+          "R.C. PRODUCTOS",
+          "DEFENSA JURÍDICA Y FIANZAS",
+          "R.C. EXPLOTACIÓN",
+          "R.C. LOCATIVA",
+          "R.C. PATRONAL",
+          "R.C. ACCIDENTES DEPORTIVOS"
+        ],
+        "pricePrefix": "desde",
+        "priceInterval": "mes"
+      },
+      {
+        "price": "60€",
+        "title": "Club de Boxeo Plus",
+        "ctaLink": "http://localhost:4321/rc-asociaciones/boxeo",
+        "ctaText": "Contratar Seguro",
+        "subtitle": "Recomendado si estás empezando",
+        "coverages": [
+          "R.C. PROFESIONAL",
+          "R.C. PRODUCTOS",
+          "DEFENSA JURÍDICA Y FIANZAS",
+          "R.C. EXPLOTACIÓN",
+          "R.C. LOCATIVA",
+          "R.C. PATRONAL",
+          "R.C. ACCIDENTES DEPORTIVOS",
+          "DEMANDAS POR MAL PRAXIS"
+        ],
+        "pricePrefix": "desde",
+        "priceInterval": "mes"
+      },
+      {
+        "price": "55€",
+        "title": "Club de Esgrima Plus",
+        "ctaLink": "http://localhost:4321/rc-asociaciones/esgrima",
+        "ctaText": "Contratar Seguro",
+        "subtitle": "Recomendado si estás empezando",
+        "coverages": [
+          "R.C. PROFESIONAL",
+          "R.C. PRODUCTOS",
+          "DEFENSA JURÍDICA Y FIANZAS",
+          "R.C. EXPLOTACIÓN",
+          "R.C. LOCATIVA",
+          "R.C. PATRONAL",
+          "R.C. ACCIDENTES DEPORTIVOS",
+          "TALLERES FORMATIVOS"
+        ],
+        "pricePrefix": "desde",
+        "priceInterval": "mes"
+      },
+      {
+        "price": "65€",
+        "title": "Club de Artes Marciales Plus",
+        "ctaLink": "http://localhost:4321/rc-asociaciones/artesmarciales",
+        "ctaText": "Contratar Seguro",
+        "subtitle": "Recomendado si estás empezando",
+        "coverages": [
+          "R.C. PROFESIONAL",
+          "R.C. PRODUCTOS",
+          "DEFENSA JURÍDICA Y FIANZAS",
+          "R.C. EXPLOTACIÓN",
+          "R.C. LOCATIVA",
+          "R.C. PATRONAL",
+          "R.C. ACCIDENTES DEPORTIVOS",
+          "COBERTURA INTERNACIONAL"
+        ],
+        "pricePrefix": "desde",
+        "priceInterval": "mes"
+      }
+    ],
+    "title": "Contrata tu seguro de RC para Asociaciones o Clubes no profesionales",
+    "description": [
+      "Proceso 100% online. Hablamos tu idioma. Te acompañamos durante todo el proceso"
+    ]
+  },
+  "infoRight": {
+    "title": "¿A quién está dirigido?",
+    "ctaLink": "http://localhost:4321/rc-deportiva/asociaciones-clubes",
+    "ctaText": "Solicita Precio",
+    "listItems": [
+      "Alpinismo",
+      "Boxeo",
+      "Esgrima",
+      "Artes marciales",
+      "Escalada en roca",
+      "Kickboxing",
+      "Judo",
+      "Tai Chi",
+      "Aikido"
+    ],
+    "description": [
+      "Este seguro está dirigido a asociaciones o clubes no profesionales dedicados a actividades deportivas como alpinismo, boxeo, esgrima, artes marciales, etc.:"
+    ],
+    "ctaImageLink": "/images/feature-1.png",
+    "secondaryCtaLink": "http://localhost:4321/rc-deportiva/asociaciones-clubes",
+    "secondaryCtaText": "No estoy seguro si es para mí",
+    "secondaryCtaImageLink": "/images/feature-1.png"
+  }
+}
