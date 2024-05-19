@@ -26,6 +26,10 @@ jobs:
         with:
           node-version: '18'
 
+      - name: Save landingId to output
+        id: save_output
+        run: echo "::set-output name=landingId::${{ github.event.inputs.landingId }}"
+
       - name: Install dependencies and build
         run: |
           set -e
