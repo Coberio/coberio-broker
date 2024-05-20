@@ -61,11 +61,11 @@ export function Design1({ schema, children }: DesignProps) {
           />}
         </div>
       </section>
-      <BuyProducts 
+      {!!schema.products && <BuyProducts 
         title={schema.products.title}
         description={schema.products.description}
         products={schema.products.list}
-      />
+      />}
       {children}
       <WhyUs 
         title={schema.whyus.title}
