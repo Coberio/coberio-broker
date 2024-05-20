@@ -233,7 +233,7 @@ async function getSchema(openAiClient, insuranceType, route){
         design: 'design1',
         "header": {
             "companyName": "Coberio", 
-            "companyLogoLink": "/images/logo.png",
+            "companyLogoLink": "./images/logo.png",
             "ctaText": "¿Hablamos?",
             "ctaLink": "http://localhost:4321/rc-sanitaria/estudio-tatuajes"
         }
