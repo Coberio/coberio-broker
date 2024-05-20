@@ -1,0 +1,116 @@
+{
+  "faq": {
+    "title": "Preguntas Frecuentes",
+    "questions": [
+      {
+        "title": "¿Por qué debería contratar un seguro de Responsabilidad Civil para Agrupaciones de Teatro y Títeres?",
+        "description": [
+          "Dado que las actividades teatrales y de títeres pueden involucrar riesgos tanto para los participantes como para el público, es fundamental contar con un seguro que cubra posibles accidentes o daños durante las actuaciones o eventos."
+        ]
+      },
+      {
+        "title": "¿Qué cubre un seguro de Responsabilidad Civil para agrupaciones de teatro no profesionales?",
+        "description": [
+          "Este tipo de seguro generalmente cubre accidentes o daños causados a terceros ya sea en ensayos, actuaciones o en cualquier actividad relacionada con el grupo de teatro.",
+          "Además, puede incluir daños a propiedades utilizadas durante las representaciones y lesiones que podrían ocurrir a los espectadores o a los miembros del grupo."
+        ]
+      },
+      {
+        "title": "¿Es obligatorio tener un seguro de Responsabilidad Civil para grupos de teatro no profesionales?",
+        "description": [
+          "No es obligatorio por ley, pero es altamente recomendable para proteger a los miembros del grupo y al público frente a cualquier incidente que pueda surgir durante las actividades teatrales."
+        ]
+      },
+      {
+        "title": "¿Qué necesito para contratar un seguro de responsabilidad civil para una agrupación no profesional de teatro o títeres?",
+        "description": [
+          "Para contratar este seguro, generalmente necesitas proporcionar información básica sobre el grupo, como el número de miembros, tipos de actividades realizadas, y detalles de los eventos o actuaciones programadas."
+        ]
+      },
+      {
+        "title": "¿Cuánto cuesta un seguro para un grupo de teatro no profesional?",
+        "description": [
+          "El costo del seguro puede variar dependiendo del tamaño del grupo, el tipo y la frecuencia de las actuaciones, así como de otros factores. Para obtener una cotización precisa, puedes hacer clic en el siguiente enlace <a href=\"http://localhost:4321/rc-sanitaria/estudio-tatuajes\">aquí</a>"
+        ]
+      }
+    ]
+  },
+  "seo": {
+    "lang": "Spanish",
+    "title": "Seguro de Responsabilidad Civil para Grupos de Teatro Amateur",
+    "author": "Coberio",
+    "description": "Este seguro de Responsabilidad Civil está diseñado para cubrir a agrupaciones no profesionales de teatro y títeres, protegiendo el patrimonio del asegurado y asegurando la continuidad de sus actividades artísticas."
+  },
+  "hero": {
+    "title": "Seguro para Agrupaciones de Teatro y Títeres",
+    "ctaLink": "http://localhost:4321/rc-sanitaria/estudio-tatuajes",
+    "ctaText": "Solicita Precio",
+    "description": [
+      "El seguro de Responsabilidad Civil para Agrupaciones no profesionales de teatro y títeres está diseñado para ofrecer protección integral a tu grupo, asegurando la cobertura ante posibles incidentes durante las representaciones.",
+      "Esta póliza incluye características específicas que se adaptan a las necesidades del teatro y títeres, respaldada por una empresa de renombre internacional en el sector de la responsabilidad civil como <a href=\"https://tailwindcss.com\" class=\"hover:underline\">Berkley</a>"
+    ],
+    "ctaImageLink": "./images/hero.png",
+    "secondaryCtaLink": "http://localhost:4321/rc-sanitaria/estudio-tatuajes",
+    "secondaryCtaText": "Ya soy cliente"
+  },
+  "lang": "es",
+  "route": "/seguro-teatro-titeres-amateurs",
+  "whyus": {
+    "list": [
+      "Proceso 100% online",
+      "Trabajamos con las mejores aseguradoras",
+      "Hablamos tu idioma",
+      "Alta disponibilidad inmediata 7/24",
+      "Te acompañamos durante todo el proceso",
+      "Te avisamos antes del vencimientos de tus seguros"
+    ],
+    "title": "¿Por qué con Cober?",
+    "subtitle": [
+      "Nuestra misión es ofrecerte un servicio personalizado y de calidad.<br/>Valoramos tu seguridad y tranquilidad por encima de todo lo demás"
+    ]
+  },
+  "design": "design1",
+  "header": {
+    "ctaLink": "http://localhost:4321/rc-sanitaria/estudio-tatuajes",
+    "ctaText": "¿Hablamos?",
+    "companyName": "Coberio",
+    "companyLogoLink": "/images/logo.png"
+  },
+  "infoLeft": {
+    "title": "¿Qué riesgos enfrentan las agrupaciones no profesionales de teatro y títeres?",
+    "ctaLink": "http://localhost:4321/rc-sanitaria/estudio-tatuajes",
+    "ctaText": "Solicita Precio",
+    "listItems": [
+      "Un espectador sufre un accidente dentro de las instalaciones durante una función.",
+      "Un miembro de la agrupación se lesiona durante un ensayo.",
+      "Daños a terceros por elementos escénicos o decorados mal instalados"
+    ],
+    "description": [
+      "En el ámbito de las artes escénicas, especialmente en agrupaciones no profesionales de teatro y títeres, existen diversos riesgos <strong>que pueden resultar en reclamaciones por daños o lesiones</strong> dentro y fuera del escenario. Es crucial que los miembros y responsables tengan protección para manejar situaciones inesperadas y asegurar la continuidad de sus actividades."
+    ],
+    "ctaImageLink": "./images/feature-1.png",
+    "secondaryCtaLink": "http://localhost:4321/rc-sanitaria/estudio-tatuajes",
+    "secondaryCtaText": "No estoy seguro si cubre lo que necesito",
+    "secondaryCtaImageLink": "./images/feature-1.png"
+  },
+  "infoRight": {
+    "title": "¿A quién está dirigido?",
+    "ctaLink": "http://localhost:4321/rc-sanitaria/estudio-tatuajes",
+    "ctaText": "Solicita Precio",
+    "listItems": [
+      "Grupos de teatro amateur",
+      "Compañías de títeres",
+      "Grupos de teatro comunitario",
+      "Equipos de improvisación",
+      "Grupos de teatro escolar",
+      "Colectivos de arte escénico"
+    ],
+    "description": [
+      "Este seguro está dirigido a agrupaciones no profesionales y otros grupos relacionados con el teatro y los títeres:"
+    ],
+    "ctaImageLink": "./images/feature-1.png",
+    "secondaryCtaLink": "http://localhost:4321/rc-sanitaria/estudio-tatuajes",
+    "secondaryCtaText": "No estoy seguro si es para mí",
+    "secondaryCtaImageLink": "./images/feature-1.png"
+  }
+}
