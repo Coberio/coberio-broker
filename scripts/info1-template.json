@@ -11,9 +11,9 @@
     ],
     "ctaText": "Solicita Precio",
     "ctaLink": "http://localhost:4321/rc-sanitaria/estudio-tatuajes",
-    "ctaImageLink": "./images/feature-1.png",
+    "ctaImageLink": "/images/feature-1.png",
     "secondaryCtaText": "No estoy seguro si cubre lo que necesito",
     "secondaryCtaLink": "http://localhost:4321/rc-sanitaria/estudio-tatuajes",
-    "secondaryCtaImageLink": "./images/feature-1.png"
+    "secondaryCtaImageLink": "/images/feature-1.png"
  
 }

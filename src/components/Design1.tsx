@@ -10,14 +10,18 @@ import type { SchemaProps } from '@/components/SchemaProps'
 
 export interface DesignProps {
 	schema: SchemaProps
+  base: string
   children: React.ReactNode
 }
 
-export function Design1({ schema, children }: DesignProps) {
+const formatImage = (imgPath:string, base:string) => 
+  imgPath.startsWith('http') ? imgPath : `${base}${imgPath}`
+
+export function Design1({ schema, base, children }: DesignProps) {
   return (
     <>
       <Header 
-        companyLogoLink={schema.header.companyLogoLink}
+        companyLogoLink={formatImage(schema.header.companyLogoLink, base)}
         ctaText={schema.header.ctaText} 
         ctaLink={schema.header.ctaLink}   
       />
@@ -26,7 +30,7 @@ export function Design1({ schema, children }: DesignProps) {
         description={schema.hero.description} 
         ctaText={schema.hero.ctaText} 
         ctaLink={schema.hero.ctaLink} 
-        ctaImageLink={schema.hero.ctaImageLink} 
+        ctaImageLink={formatImage(schema.hero.ctaImageLink, base)} 
         ctaImageAlt={schema.hero.title} 
         secondaryCtaText={schema.hero.secondaryCtaText} 
         secondaryCtaLink={schema.hero.secondaryCtaLink} 
@@ -39,11 +43,11 @@ export function Design1({ schema, children }: DesignProps) {
             listItems={schema.infoLeft.listItems}
             ctaText={schema.infoLeft.ctaText} 
             ctaLink={schema.infoLeft.ctaLink} 
-            ctaImageLink={schema.infoLeft.ctaImageLink} 
+            ctaImageLink={formatImage(schema.infoLeft.ctaImageLink, base)} 
             ctaImageAlt={schema.infoLeft.ctaText}
             secondaryCtaText={schema.infoLeft.secondaryCtaText} 
             secondaryCtaLink={schema.infoLeft.secondaryCtaLink} 
-            secondaryCtaImageLink={schema.infoLeft.secondaryCtaImageLink} 
+            secondaryCtaImageLink={formatImage(schema.infoLeft.secondaryCtaImageLink, base)} 
             secondaryCtaImageAlt={schema.infoLeft.secondaryCtaText}
           />}
           {schema.infoRight.title && <InfoRight
@@ -52,11 +56,11 @@ export function Design1({ schema, children }: DesignProps) {
             listItems={schema.infoRight.listItems}
             ctaText={schema.infoRight.ctaText} 
             ctaLink={schema.infoRight.ctaLink} 
-            ctaImageLink={schema.infoRight.ctaImageLink} 
+            ctaImageLink={formatImage(schema.infoRight.ctaImageLink, base)} 
             ctaImageAlt={schema.infoRight.ctaText} 
             secondaryCtaText={schema.infoRight.secondaryCtaText} 
             secondaryCtaLink={schema.infoRight.secondaryCtaLink} 
-            secondaryCtaImageLink={schema.infoRight.secondaryCtaImageLink} 
+            secondaryCtaImageLink={formatImage(schema.infoRight.secondaryCtaImageLink, base)} 
             secondaryCtaImageAlt={schema.infoRight.secondaryCtaText}
           />}
         </div>
