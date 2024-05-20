@@ -50,7 +50,7 @@
       "El seguro de Responsabilidad Civil para Agrupaciones no Profesionales de Teatro y Títeres es una póliza diseñada especialmente para este tipo de grupos artísticos, ofreciendo la protección necesaria para sus actividades y espectáculos.",
       "Contar con coberturas específicas y ajustadas a las necesidades de estas agrupaciones es fundamental para garantizar la seguridad de los participantes y el público. Además, con la protección de una empresa reconocida internacionalmente en el ámbito de la responsabilidad civil como <a href=\"https://tailwindcss.com\" class=\"hover:underline\">Berkley</a>."
     ],
-    "ctaImageLink": "/images/hero.png",
+    "ctaImageLink": "images/hero.png",
     "secondaryCtaLink": "http://localhost:4321/rc-sanitaria/agrupaciones-teatro-titeres",
     "secondaryCtaText": "Ya soy cliente"
   },
@@ -75,7 +75,7 @@
     "ctaLink": "http://localhost:4321/rc-sanitaria/estudio-tatuajes",
     "ctaText": "¿Hablamos?",
     "companyName": "Coberio",
-    "companyLogoLink": "/images/logo.png"
+    "companyLogoLink": "images/logo.png"
   },
   "infoLeft": {
     "title": "¿Qué podría ocurrirte en tu agrupación de teatro y títeres?",
