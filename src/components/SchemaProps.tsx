@@ -38,7 +38,7 @@ export interface SchemaProps {
 		secondaryCtaLink: string
 		secondaryCtaImageLink: string
 	}
-	products: {
+	products?: {
 		title: string
 		description: string[]
 		list: {
