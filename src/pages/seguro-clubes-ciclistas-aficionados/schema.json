@@ -1,0 +1,155 @@
+{
+  "faq": {
+    "title": "Preguntas Frecuentes",
+    "questions": [
+      {
+        "title": "¿Por qué debería contratar un seguro de Responsabilidad Civil para Clubes Ciclistas no Profesionales?",
+        "description": [
+          "La práctica del ciclismo en grupo conlleva riesgos de posibles accidentes que pueden ocasionar daños a terceros. Contar con un seguro de Responsabilidad Civil te protegerá en caso de reclamaciones por daños causados durante las salidas en grupo."
+        ]
+      },
+      {
+        "title": "¿Por qué necesito un seguro de RC para un Club Ciclista no Profesional?",
+        "description": [
+          "Los clubes ciclistas no profesionales suelen organizar salidas en grupo donde se comparte la vía pública con otros vehículos y peatones. En caso de accidentes o daños a terceros, un seguro de Responsabilidad Civil es fundamental para cubrir posibles reclamaciones."
+        ]
+      },
+      {
+        "title": "¿Es obligatorio este tipo de seguro para los clubes ciclistas no profesionales?",
+        "description": [
+          "Aunque no es obligatorio, es altamente recomendable contar con un seguro de Responsabilidad Civil para clubes ciclistas no profesionales, ya que pueden estar expuestos a situaciones de riesgo durante sus salidas en grupo."
+        ]
+      },
+      {
+        "title": "¿Qué necesito para contratar un seguro de responsabilidad civil para un club ciclista no profesional?",
+        "description": [
+          "Para contratar un seguro de RC para un club ciclista no profesional, necesitarás proporcionar información básica sobre el club, como el nombre completo, CIF, número de socios, y las actividades que realiza el club."
+        ]
+      },
+      {
+        "title": "¿Cuánto cuesta un seguro para mi club ciclista no profesional?",
+        "description": [
+          "El precio del seguro dependerá del nivel de cobertura que se solicite, así como de otros factores. Puedes solicitar un presupuesto personalizado de forma rápida y sencilla <a href=\"http://localhost:4321/rc-ciclistas/club-no-profesional\">aquí</a>"
+        ]
+      }
+    ]
+  },
+  "seo": {
+    "lang": "Spanish",
+    "title": "Seguro para Ciclistas No Profesionales",
+    "author": "Coberio",
+    "description": "El seguro de Responsabilidad Civil para Clubes Ciclistas No Profesionales es una póliza diseñada para proteger a los ciclistas aficionados y sus actividades. Esta póliza ofrece la protección necesaria para que puedas disfrutar de tus salidas en grupo con tranquilidad y seguridad. ¡Protege tu pasión por el ciclismo con nuestro seguro especializado!"
+  },
+  "hero": {
+    "title": "Seguro para Clubes Ciclistas No Profesionales",
+    "ctaLink": "http://localhost:4321/rc-sanitaria/clubes-ciclistas",
+    "ctaText": "Solicita Precio",
+    "description": [
+      "El seguro de Responsabilidad Civil para Clubes Ciclistas No Profesionales es una póliza diseñada especialmente para este tipo de asociaciones, ofreciendo la protección necesaria para sus actividades deportivas y eventos organizados.",
+      "Con coberturas específicas y ajustadas a las necesidades de los clubes, esta póliza garantiza la tranquilidad y seguridad de sus miembros y patrimonio.",
+      "Además, cuentan con el respaldo de una empresa reconocida a nivel internacional en el ámbito de la responsabilidad civil como <a href=\"https://tailwindcss.com\" class=\"hover:underline\">Berkley</a>"
+    ],
+    "ctaImageLink": "/images/hero.png",
+    "secondaryCtaLink": "http://localhost:4321/rc-sanitaria/clubes-ciclistas",
+    "secondaryCtaText": "Ya soy cliente"
+  },
+  "lang": "es",
+  "route": "/seguro-clubes-ciclistas-aficionados",
+  "whyus": {
+    "list": [
+      "Proceso 100% online",
+      "Trabajamos con las mejores aseguradoras",
+      "Hablamos tu idioma",
+      "Alta disponibilidad inmediata 7/24",
+      "Te acompañamos durante todo el proceso",
+      "Te avisamos antes del vencimientos de tus seguros"
+    ],
+    "title": "¿Por qué con Cober?",
+    "subtitle": [
+      "Nuestra misión es ofrecerte un servicio personalizado y de calidad.<br/>Valoramos tu seguridad y tranquilidad por encima de todo lo demás"
+    ]
+  },
+  "design": "design1",
+  "header": {
+    "ctaLink": "http://localhost:4321/rc-sanitaria/estudio-tatuajes",
+    "ctaText": "¿Hablamos?",
+    "companyName": "Coberio",
+    "companyLogoLink": "/images/logo.png"
+  },
+  "infoLeft": {
+    "title": "¿Qué podría ocurrirte en tu club ciclista no profesional?",
+    "ctaLink": "http://localhost:4321/rc-deportiva/clubes-ciclistas",
+    "ctaText": "Solicita Precio",
+    "listItems": [
+      "Un miembro sufre un accidente durante una ruta en bicicleta y responsabiliza al club por falta de señalización adecuada.",
+      "Durante una competición organizada por el club, un espectador resulta herido por el descuido de los organizadores.",
+      "Un tercer vehículo colisiona con un grupo de ciclistas del club, generando daños materiales y personales."
+    ],
+    "description": [
+      "Los clubes ciclistas no profesionales son espacios donde se practica el ciclismo de manera recreativa y en grupo. Sin embargo, existen riesgos que pueden afectar tanto a los participantes como a terceros. Es importante protegerse ante posibles reclamaciones por daños y perjuicios que puedan surgir durante las actividades del club."
+    ],
+    "ctaImageLink": "/images/feature-1.png",
+    "secondaryCtaLink": "http://localhost:4321/rc-deportiva/clubes-ciclistas",
+    "secondaryCtaText": "No estoy seguro si cubre lo que necesito",
+    "secondaryCtaImageLink": "/images/feature-1.png"
+  },
+  "products": {
+    "list": [
+      {
+        "price": "18€",
+        "title": "Seguro Básico para clubes ciclistas",
+        "ctaLink": "http://localhost:4321/rc-sanitaria/clubes-ciclistas",
+        "ctaText": "Contratar Seguro",
+        "subtitle": "Recomendado si estás empezando",
+        "coverages": [
+          "Responsabilidad civil frente a terceros",
+          "Defensa jurídica y fianzas",
+          "Asistencia en viaje",
+          "Accidentes personales"
+        ],
+        "pricePrefix": "desde",
+        "priceInterval": "mes"
+      },
+      {
+        "price": "35€",
+        "title": "Seguro Avanzado para clubes ciclistas",
+        "ctaLink": "http://localhost:4321/rc-sanitaria/clubes-ciclistas",
+        "ctaText": "Contratar Seguro",
+        "subtitle": "Recomendado si ya tienes experiencia",
+        "coverages": [
+          "Responsabilidad civil frente a terceros",
+          "Defensa jurídica y fianzas",
+          "Asistencia en viaje",
+          "Accidentes personales",
+          "Robo de bicicletas"
+        ],
+        "pricePrefix": "desde",
+        "priceInterval": "mes"
+      }
+    ],
+    "title": "Contrata tu seguro para clubes ciclistas no profesionales",
+    "description": [
+      "Proceso 100% online. Hablamos tu idioma. Te acompañamos durante todo el proceso"
+    ]
+  },
+  "infoRight": {
+    "title": "¿A quién está dirigido?",
+    "ctaLink": "http://localhost:4321/rc-sanitaria/clubes-ciclistas",
+    "ctaText": "Solicita Precio",
+    "listItems": [
+      "Clubes de ciclismo recreativo",
+      "Grupos de ciclistas aficionados",
+      "Asociaciones ciclistas recreativas",
+      "Eventos ciclistas no competitivos",
+      "Salidas grupales en bicicleta",
+      "Actividades de promoción de la bicicleta"
+    ],
+    "description": [
+      "Este seguro está dirigido a clubes ciclistas no profesionales que buscan protegerse en caso de accidentes o responsabilidades derivadas de sus actividades:"
+    ],
+    "ctaImageLink": "/images/feature-1.png",
+    "secondaryCtaLink": "http://localhost:4321/rc-sanitaria/clubes-ciclistas",
+    "secondaryCtaText": "No estoy seguro si es para mí",
+    "secondaryCtaImageLink": "/images/feature-1.png"
+  }
+}
