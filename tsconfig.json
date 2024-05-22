@@ -16,6 +16,7 @@
     "dist",
     "build",
     "node_modules",
-    "scripts"
+    "scripts",
+    "public"
   ]
 }
