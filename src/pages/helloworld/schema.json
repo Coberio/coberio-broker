@@ -12,7 +12,9 @@
         "companyName": "Coberio", 
         "companyLogoLink": "/images/logo.png",
         "ctaText": "¿Hablamos?",
-        "ctaLink": "http://localhost:4321/rc-sanitaria/estudio-tatuajes"
+        "ctaLink": "https://wa.me/34682558762?text=",
+        "ctaLinkText": "Hola, quiero solicitar más información del seguro para taturadores"
+
     },
     "hero": {
         "title": "Seguro para Tatuadores",
@@ -21,10 +23,12 @@
             "Además de contar con coberturas específicas y ajustadas a sus características, tienen la protección de una empresa con gran experiencia y prestigio en el ámbito de la responsabilidad civil a nivel internacional como <a href=\"https://tailwindcss.com\" class=\"hover:underline\">Berkley</a>"
         ],
         "ctaText": "Solicita Precio",
-        "ctaLink": "http://localhost:4321/rc-sanitaria/estudio-tatuajes",
+        "ctaLink": "https://wa.me/34682558762?text=",
+        "ctaLinkText": "Hola, quiero solicitar precio del seguro para tatuadores",
         "ctaImageLink": "/images/hero.png",
         "secondaryCtaText": "Ya soy cliente",
-        "secondaryCtaLink": "http://localhost:4321/rc-sanitaria/estudio-tatuajes"
+        "secondaryCtaLink": "https://wa.me/34682558762?text=",
+        "secondaryCtaLinkText": "Hola, soy cliente del seguro para taturadores"
     },
     "infoLeft": {
         "title": "¿Qué podría ocurrirte en tu estudio de tatuajes?",
@@ -38,10 +42,12 @@
             "Un cliente sufre una infección por un anillado o piercing, por el mal tratamiento de los utensilios"
         ],
         "ctaText": "Solicita Precio",
-        "ctaLink": "http://localhost:4321/rc-sanitaria/estudio-tatuajes",
+        "ctaLink": "https://wa.me/34682558762?text=",
+        "ctaLinkText": "Hola quiero solicitar precio del seguro para taturadores",
         "ctaImageLink": "/images/feature-1.png",
         "secondaryCtaText": "No estoy seguro si cubre lo que necesito",
-        "secondaryCtaLink": "http://localhost:4321/rc-sanitaria/estudio-tatuajes",
+        "secondaryCtaLink": "https://wa.me/34682558762?text=",
+        "secondaryCtaLinkText": "Hola, no estoy seguro si el seguro para tatuadores que ofrecen tiene las coberturas que necesito, ¿me puedes ayudar?",
         "secondaryCtaImageLink": "/images/feature-1.png"
     },
     "infoRight": {
@@ -60,10 +66,12 @@
             "Micropigmentación"
         ],
         "ctaText": "Solicita Precio",
-        "ctaLink": "http://localhost:4321/rc-sanitaria/estudio-tatuajes",
+        "ctaLink": "https://wa.me/34682558762?text=",
+        "ctaLinkText": "Hola quiero solicitar precio del seguro para taturadores",
         "ctaImageLink": "/images/feature-1.png",
         "secondaryCtaText": "No estoy seguro si es para mí",
-        "secondaryCtaLink": "http://localhost:4321/rc-sanitaria/estudio-tatuajes",
+        "secondaryCtaLink": "https://wa.me/34682558762?text=",
+        "secondaryCtaLinkText": "Hola, necesito más información sobre el seguro para tatuadores. No estoy seguro si este seguro se adapta a mis necesidades.",
         "secondaryCtaImageLink": "/images/feature-1.png"
     },
     "products": {

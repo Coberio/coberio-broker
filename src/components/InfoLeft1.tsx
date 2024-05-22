@@ -5,11 +5,13 @@ export interface InfoLeftProps {
 
   ctaText?: string
   ctaLink?: string
+  ctaLinkText?: string
   ctaImageLink?: string
   ctaImageAlt?: string
 
   secondaryCtaText?: string
   secondaryCtaLink?: string
+  secondaryCtaLinkText?: string
   secondaryCtaImageLink?: string
   secondaryCtaImageAlt?: string
 }
@@ -21,11 +23,13 @@ export function InfoLeft({
 
   ctaText,
   ctaLink,
+  ctaLinkText,
   ctaImageLink,
   ctaImageAlt,
 
   secondaryCtaText,
   secondaryCtaLink,
+  secondaryCtaLinkText,
   secondaryCtaImageLink,
   secondaryCtaImageAlt,
 }: InfoLeftProps) {
@@ -72,7 +76,7 @@ export function InfoLeft({
         )}
         {ctaText && (
           <a
-            href={ctaLink}
+            href={encodeURI(`${ctaLink}${ctaLinkText}`)}
             className="mb-4 inline-block text-white text-center bg-purple-600 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 sm:mr-2 dark:bg-purple-600 dark:hover:bg-purple-700 focus:outline-none dark:focus:ring-purple-800"
           >
             {ctaText}
@@ -80,7 +84,7 @@ export function InfoLeft({
         )}
         {secondaryCtaText && (
           <a
-            href={secondaryCtaLink}
+            href={encodeURI(`${secondaryCtaLink}${secondaryCtaLinkText}`)}
             className="flex items-center text-base font-medium text-purple-600 hover:text-purple-800 dark:text-purple-500 dark:hover:text-purple-700 hover:underline"
           >
             {secondaryCtaText}

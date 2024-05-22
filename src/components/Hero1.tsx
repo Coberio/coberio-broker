@@ -3,11 +3,12 @@ export interface HeroProps {
   description: string[]
   ctaText: string
   ctaLink: string
+  ctaLinkText?: string
   ctaImageLink: string
   ctaImageAlt: string
-
   secondaryCtaText?: string
   secondaryCtaLink?: string
+  secondaryCtaLinkText?: string
 }
 
 export function Hero({
@@ -15,11 +16,13 @@ export function Hero({
   description,
   ctaText,
   ctaLink,
+  ctaLinkText,
   ctaImageLink,
   ctaImageAlt,
 
   secondaryCtaText,
   secondaryCtaLink,
+  secondaryCtaLinkText,
 }: HeroProps) {
   return (
     <section className="bg-white dark:bg-gray-900">
@@ -37,14 +40,14 @@ export function Hero({
           ))}
           <div className="mt-8 space-y-4 sm:flex sm:space-y-0 sm:space-x-4">
             <a
-              href={ctaLink}
+              href={encodeURI(`${ctaLink}${ctaLinkText}`)}
               className="inline-flex items-center justify-center px-5 py-3 text-sm font-medium text-center text-white bg-purple-600 hover:bg-purple-600 focus:ring-4 focus:ring-purple-300  rounded-lg lg:px-5  lg:py-2.5 sm:mr-2 lg:mr-0 dark:bg-purple-600 dark:hover:bg-purple-700 focus:outline-none dark:focus:ring-purple-800"
             >
               {ctaText}
             </a>
             {secondaryCtaText && (
               <a
-                href={secondaryCtaLink}
+                href={encodeURI(`${secondaryCtaLink}${secondaryCtaLinkText}`)}
                 className="flex items-center text-base font-medium text-purple-600 hover:text-purple-800 dark:text-purple-500 dark:hover:text-purple-700 hover:underline"
               >
                 {secondaryCtaText}

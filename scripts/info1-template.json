@@ -10,10 +10,12 @@
         "Un cliente sufre una infección por un anillado o piercing, por el mal tratamiento de los utensilios"
     ],
     "ctaText": "Solicita Precio",
-    "ctaLink": "http://localhost:4321/rc-sanitaria/estudio-tatuajes",
+    "ctaLink": "https://wa.me/34682558762?text=",
+    "ctaLinkText": "Hola quiero solicitar precio del seguro para taturadores",
     "ctaImageLink": "/images/feature-1.png",
     "secondaryCtaText": "No estoy seguro si cubre lo que necesito",
-    "secondaryCtaLink": "http://localhost:4321/rc-sanitaria/estudio-tatuajes",
+    "secondaryCtaLink": "https://wa.me/34682558762?text=",
+    "secondaryCtaLinkText": "Hola, no estoy seguro si el seguro para tatuadores que ofrecen tiene las coberturas que necesito, ¿me puedes ayudar?",
     "secondaryCtaImageLink": "/images/feature-1.png"
  
 }

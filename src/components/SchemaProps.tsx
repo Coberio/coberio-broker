@@ -6,15 +6,18 @@ export interface SchemaProps {
 		companyLogoLink: string
 		ctaText: string
 		ctaLink: string
+		ctaLinkText: string
 	}
 	hero: {
 		title: string
 		description: string[]
 		ctaText: string
 		ctaLink: string
+		ctaLinkText: string
 		ctaImageLink: string
 		secondaryCtaText: string
 		secondaryCtaLink: string
+		secondaryCtaLinkText: string
 	}
 	infoLeft: {
 		title: string
@@ -22,9 +25,11 @@ export interface SchemaProps {
 		listItems: string[]
 		ctaText: string
 		ctaLink: string
+		ctaLinkText: string
 		ctaImageLink: string
 		secondaryCtaText: string
 		secondaryCtaLink: string
+		secondaryCtaLinkText: string
 		secondaryCtaImageLink: string
 	}
 	infoRight: {
@@ -33,9 +38,11 @@ export interface SchemaProps {
 		listItems: string[]
 		ctaText: string
 		ctaLink: string
+		ctaLinkText: string
 		ctaImageLink: string
 		secondaryCtaText: string
 		secondaryCtaLink: string
+		secondaryCtaLinkText: string
 		secondaryCtaImageLink: string
 	}
 	products?: {

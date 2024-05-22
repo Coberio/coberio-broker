@@ -230,16 +230,16 @@ async function getSchema(openAiClient, insuranceType, route){
     const jsonSchema = {
         "lang": "es",
         route: route,
-        design: 'design1',
-        "header": {
-            "companyName": "Coberio", 
-            "companyLogoLink": "/images/logo.png",
-            "ctaText": "¿Hablamos?",
-            "ctaLink": "http://localhost:4321/rc-sanitaria/estudio-tatuajes"
-        }
+        design: 'design1'
     }
 
     jsonSchema.seo = await getSeoSchema(openAiClient, insuranceType)
+    jsonSchema.header = {
+        "companyName": "Coberio", 
+        "companyLogoLink": "/images/logo.png",
+        "ctaLink": "https://wa.me/34682558762?text=",
+        ...await getHeaderSchema(openAiClient, insuranceType)
+    }
     jsonSchema.hero = await getHeroSchema(openAiClient, insuranceType)
     jsonSchema.infoLeft = await getInfo1Schema(openAiClient, insuranceType)
     jsonSchema.infoRight = await getInfo2Schema(openAiClient, insuranceType)

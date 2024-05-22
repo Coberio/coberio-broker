@@ -24,16 +24,19 @@ export function Design1({ schema, base, children }: DesignProps) {
         companyLogoLink={formatImage(schema.header.companyLogoLink, base)}
         ctaText={schema.header.ctaText} 
         ctaLink={schema.header.ctaLink}   
+        ctaLinkText={schema.header.ctaLinkText}   
       />
       <Hero 
         title={schema.hero.title} 
         description={schema.hero.description} 
         ctaText={schema.hero.ctaText} 
         ctaLink={schema.hero.ctaLink} 
+        ctaLinkText={schema.hero.ctaLinkText} 
         ctaImageLink={formatImage(schema.hero.ctaImageLink, base)} 
         ctaImageAlt={schema.hero.title} 
         secondaryCtaText={schema.hero.secondaryCtaText} 
         secondaryCtaLink={schema.hero.secondaryCtaLink} 
+        secondaryCtaLinkText={schema.hero.secondaryCtaLinkText} 
       />
       <section className="bg-gray-50 dark:bg-gray-800">
         <div className="max-w-screen-xl px-4 py-4 mx-auto space-y-12 lg:space-y-20 lg:py-14 lg:px-6">
@@ -43,10 +46,12 @@ export function Design1({ schema, base, children }: DesignProps) {
             listItems={schema.infoLeft.listItems}
             ctaText={schema.infoLeft.ctaText} 
             ctaLink={schema.infoLeft.ctaLink} 
+            ctaLinkText={schema.infoLeft.ctaLinkText} 
             ctaImageLink={formatImage(schema.infoLeft.ctaImageLink, base)} 
             ctaImageAlt={schema.infoLeft.ctaText}
             secondaryCtaText={schema.infoLeft.secondaryCtaText} 
             secondaryCtaLink={schema.infoLeft.secondaryCtaLink} 
+            secondaryCtaLinkText={schema.infoLeft.secondaryCtaLinkText} 
             secondaryCtaImageLink={formatImage(schema.infoLeft.secondaryCtaImageLink, base)} 
             secondaryCtaImageAlt={schema.infoLeft.secondaryCtaText}
           />}
@@ -56,10 +61,12 @@ export function Design1({ schema, base, children }: DesignProps) {
             listItems={schema.infoRight.listItems}
             ctaText={schema.infoRight.ctaText} 
             ctaLink={schema.infoRight.ctaLink} 
+            ctaLinkText={schema.infoRight.ctaLinkText} 
             ctaImageLink={formatImage(schema.infoRight.ctaImageLink, base)} 
             ctaImageAlt={schema.infoRight.ctaText} 
             secondaryCtaText={schema.infoRight.secondaryCtaText} 
             secondaryCtaLink={schema.infoRight.secondaryCtaLink} 
+            secondaryCtaLinkText={schema.infoRight.secondaryCtaLinkText} 
             secondaryCtaImageLink={formatImage(schema.infoRight.secondaryCtaImageLink, base)} 
             secondaryCtaImageAlt={schema.infoRight.secondaryCtaText}
           />}

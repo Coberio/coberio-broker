@@ -5,8 +5,10 @@
         "Además de contar con coberturas específicas y ajustadas a sus características, tienen la protección de una empresa con gran experiencia y prestigio en el ámbito de la responsabilidad civil a nivel internacional como <a href=\"https://tailwindcss.com\" class=\"hover:underline\">Berkley</a>"
     ],
     "ctaText": "Solicita Precio",
-    "ctaLink": "http://localhost:4321/rc-sanitaria/estudio-tatuajes",
+    "ctaLink": "https://wa.me/34682558762?text=",
+    "ctaLinkText": "Hola, quiero solicitar precio del seguro para tatuadores",
     "ctaImageLink": "/images/hero.png",
     "secondaryCtaText": "Ya soy cliente",
-    "secondaryCtaLink": "http://localhost:4321/rc-sanitaria/estudio-tatuajes"
+    "secondaryCtaLink": "https://wa.me/34682558762?text=",
+    "secondaryCtaLinkText": "Hola, soy cliente del seguro para taturadores"
 }

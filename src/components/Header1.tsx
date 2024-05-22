@@ -2,12 +2,14 @@ export interface MatchesProps {
   companyLogoLink?: string
   ctaText?: string
   ctaLink?: string
+  ctaLinkText?: string
 }
 
 export function Header({
   companyLogoLink,
   ctaText,
   ctaLink,
+  ctaLinkText
 }: MatchesProps) {
   return (
     <header className="fixed w-full">
@@ -38,7 +40,7 @@ export function Header({
             {/* <a href="#" className="text-gray-800 dark:text-white hover:bg-gray-50 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 sm:mr-2 dark:hover:bg-gray-700 focus:outline-none dark:focus:ring-gray-800">Log in</a> */}
             {ctaText && (
               <a
-                href={ctaLink}
+                href={encodeURI(`${ctaLink}${ctaLinkText}`)}
                 className="text-white bg-purple-600 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 sm:mr-2 lg:mr-0 dark:bg-purple-600 dark:hover:bg-purple-700 focus:outline-none dark:focus:ring-purple-800"
               >
                 {ctaText}
