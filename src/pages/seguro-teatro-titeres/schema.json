@@ -1,0 +1,125 @@
+{
+  "faq": {
+    "title": "Preguntas Frecuentes",
+    "questions": [
+      {
+        "title": "¿Por qué debería contratar un seguro de Responsabilidad Civil para agrupaciones no profesionales de teatro y títeres?",
+        "description": [
+          "Las agrupaciones no profesionales de teatro y títeres pueden enfrentarse a situaciones en las que puedan causar daños a terceros durante sus actuaciones.",
+          "Contar con un seguro de Responsabilidad Civil protege a la agrupación en caso de reclamaciones por posibles accidentes o daños ocasionados durante sus actividades artísticas."
+        ]
+      },
+      {
+        "title": "¿Por qué necesito un seguro de RC para una agrupación no profesional de teatro y títeres?",
+        "description": [
+          "Las actividades artísticas pueden implicar riesgos tanto para los miembros de la agrupación como para el público asistente.",
+          "Un seguro de Responsabilidad Civil garantiza la protección económica frente a posibles reclamaciones por daños materiales, personales o morales que puedan surgir durante las representaciones teatrales o de títeres."
+        ]
+      },
+      {
+        "title": "¿Es obligatorio contar con un seguro de RC para agrupaciones no profesionales de teatro y títeres?",
+        "description": [
+          "Aunque no es obligatorio en todos los casos, es altamente recomendable para proteger los intereses de la agrupación y evitar posibles consecuencias económicas negativas en caso de accidentes o daños durante las actuaciones."
+        ]
+      },
+      {
+        "title": "¿Qué se necesita para contratar un seguro de responsabilidad civil para una agrupación no profesional de teatro y títeres?",
+        "description": [
+          "Para contratar un seguro de RC para una agrupación no profesional de teatro y títeres, se deben proporcionar datos como el nombre completo de la agrupación, número de integrantes, tipo de actividades artísticas que realizan y fechas de las representaciones planificadas."
+        ]
+      },
+      {
+        "title": "¿Cuánto cuesta un seguro para una agrupación no profesional de teatro y títeres?",
+        "description": [
+          "El costo del seguro dependerá de factores como el número de integrantes de la agrupación, la frecuencia de las actuaciones, el capital asegurado y otros elementos específicos de cada caso.",
+          "Puedes obtener un presupuesto personalizado de manera rápida y sencilla en el siguiente enlace: <a href=\"http://localhost:4321/rc-teatro-titeres\">aquí</a>"
+        ]
+      }
+    ]
+  },
+  "seo": {
+    "lang": "Spanish",
+    "title": "Seguro para Grupos de Teatro y Títeres",
+    "author": "Coberio",
+    "description": "El seguro de Responsabilidad Civil para Agrupaciones no Profesionales de Teatro y Títeres es una póliza que brinda protección a tu grupo artístico, garantizando la seguridad de tus integrantes y cuidando el patrimonio del asegurado."
+  },
+  "hero": {
+    "title": "Seguro para Grupos de Teatro",
+    "ctaLink": "https://wa.me/34682558762?text=",
+    "ctaText": "Solicita Presupuesto",
+    "ctaLinkText": "Hola, quiero solicitar presupuesto del seguro para grupos de teatro y títeres",
+    "description": [
+      "El seguro de Responsabilidad Civil para Agrupaciones no Profesionales de Teatro y Títeres es una póliza diseñada especialmente para este tipo de grupos artísticos, ofreciendo protección a sus integrantes y al patrimonio del asegurado.",
+      "Además de contar con coberturas específicas y ajustadas a las necesidades de este sector, tienen la tranquilidad de estar respaldados por una compañía con amplia experiencia y prestigio en el ámbito de la responsabilidad civil a nivel internacional como <a href=\"https://tailwindcss.com\" class=\"hover:underline\">Berkley</a>"
+    ],
+    "ctaImageLink": "https://i.pinimg.com/736x/65/e8/c2/65e8c22db6ab9e6a221272f0868b73a0.jpg",
+    "secondaryCtaLink": "https://wa.me/34682558762?text=",
+    "secondaryCtaText": "Ya soy cliente",
+    "secondaryCtaLinkText": "Hola, soy cliente del seguro para grupos de teatro y títeres"
+  },
+  "lang": "es",
+  "route": "/seguro-teatro-titeres",
+  "whyus": {
+    "list": [
+      "Proceso 100% online",
+      "Trabajamos con las mejores aseguradoras",
+      "Hablamos tu idioma",
+      "Alta disponibilidad inmediata 7/24",
+      "Te acompañamos durante todo el proceso",
+      "Te avisamos antes del vencimientos de tus seguros"
+    ],
+    "title": "¿Por qué con Cober?",
+    "subtitle": [
+      "Nuestra misión es ofrecerte un servicio personalizado y de calidad.<br/>Valoramos tu seguridad y tranquilidad por encima de todo lo demás"
+    ]
+  },
+  "design": "design1",
+  "header": {
+    "ctaLink": "https://wa.me/34682558762?text=",
+    "ctaText": "¿Hablamos?",
+    "companyName": "Coberio",
+    "ctaLinkText": "Hola, quiero solicitar más información del seguro para agrupaciones de teatro y títeres",
+    "companyLogoLink": "/images/logo.png"
+  },
+  "infoLeft": {
+    "title": "¿Qué podría ocurrirte en tu agrupación de teatro o títeres?",
+    "ctaLink": "https://wa.me/34682558762?text=",
+    "ctaText": "Solicita Precio",
+    "listItems": [
+      "Un espectador presenta una reclamación por un accidente causado por un elemento escénico.",
+      "Durante una representación, un integrante de la agrupación sufre una lesión debido a un fallo en el escenario.",
+      "Un miembro del público sufre un percance debido a la manipulación de un títere durante la función."
+    ],
+    "ctaLinkText": "Hola quiero solicitar precio del seguro para agrupaciones de teatro y títeres",
+    "description": [
+      "Las agrupaciones no profesionales de teatro y títeres están expuestas a posibles reclamaciones por daños y perjuicios que pueden poner en riesgo el patrimonio de la agrupación y sus integrantes. Es fundamental proteger el patrimonio de la agrupación y de sus miembros ante posibles reclamaciones que, por su naturaleza, podrían tener un impacto significativo."
+    ],
+    "ctaImageLink": "/images/feature-1.png",
+    "secondaryCtaLink": "https://wa.me/34682558762?text=",
+    "secondaryCtaText": "No estoy seguro si cubre lo que necesito",
+    "secondaryCtaLinText": "Hola, no estoy seguro si el seguro para agrupaciones de teatro y títeres que ofrecen tiene las coberturas que necesito, ¿me puedes ayudar?",
+    "secondaryCtaImageLink": "/images/feature-1.png"
+  },
+  "infoRight": {
+    "title": "¿A quién está dirigido?",
+    "ctaLink": "https://wa.me/34682558762?text=",
+    "ctaText": "Solicita Precio",
+    "listItems": [
+      "Asociaciones de teatro",
+      "Grupos de títeres",
+      "Colectivos de teatro aficionado",
+      "Escuelas de teatro",
+      "Grupos de teatro comunitario",
+      "Circos itinerantes"
+    ],
+    "ctaLinkText": "Hola quiero solicitar precio del seguro para agrupaciones de teatro y títeres",
+    "description": [
+      "Este seguro está dirigido a personas físicas y jurídicas especializadas en teatro y títeres:"
+    ],
+    "ctaImageLink": "/images/feature-1.png",
+    "secondaryCtaLink": "https://wa.me/34682558762?text=",
+    "secondaryCtaText": "No estoy seguro si es para mí",
+    "secondaryCtaLinkText": "Hola, necesito más información sobre el seguro para agrupaciones de teatro y títeres. No estoy seguro si este seguro se adapta a mis necesidades.",
+    "secondaryCtaImageLink": "/images/feature-1.png"
+  }
+}
