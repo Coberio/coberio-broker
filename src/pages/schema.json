@@ -1,0 +1,146 @@
+{
+    "lang": "es",
+    "route": "/",
+    "design": "design1",
+    "seo": {
+        "title":"Cuidamos ❤️ lo que es importante para tí",
+        "description": "Somos un neobroker de seguros autorizado por la DGSFP con la misión de ayudar a negocios y particulares a mejorar su tranquilidad. <strong>Sabemos que tu tiempo es valioso y estamos aquí para ahorrártelo</strong>",
+        "lang": "Spanish",
+        "author": "Coberio"
+    },
+    "header": {
+        "companyName": "Coberio", 
+        "companyLogoLink": "/images/logo.png",
+        "ctaText": "¿Hablamos?",
+        "ctaLink": "https://wa.me/34682558762?text=",
+        "ctaLinkText": "Hola, quiero solicitar más información sobre sus seguros"
+    },
+    "hero": {
+        "title": "Cober ❤️ lo que es importante para tí",
+        "description": [
+            "Somos un neobroker de seguros autorizado por la DGSFP con la misión de ayudar a negocios y particulares. <strong>Sabemos que tu dinero y tiempo es valioso y estamos aquí para ahorrártelo</strong>"
+        ],
+        "ctaText": "Solicita Precio",
+        "ctaLink": "https://wa.me/34682558762?text=",
+        "ctaLinkText": "Hola, quiero solicitar precio de sus seguros",
+        "ctaImageLink": "/images/home.png",
+        "ctaVideoLink": "",
+        "ctaImageStyle": {"width": "400px", "maskImage": "linear-gradient(rgb(255 255 255 / 95%) 60%, transparent)",  "userSelect": "none"},
+        "secondaryCtaText": "Ya soy cliente",
+        "secondaryCtaLink": "https://wa.me/34682558762?text=",
+        "secondaryCtaLinkText": "Hola, soy cliente suyo en Cober.io"
+    },
+    "infoRight": {
+        "title": "Te ayudamos a encontrar tu seguro",
+        "description": [
+            "Huye de las complicaciones. Dinos qué necesitas y te ayudamos en <strong>cuestión de minutos</strong>, sin historias raras ni complicaciones."
+        ],
+        "listItems": [
+            "Proceso 100% online",
+            "Trabajamos con las mejores aseguradoras",
+            "Hablamos tu idioma",
+            "Alta disponibilidad inmediata 7/24",
+            "Te acompañamos durante todo el proceso",
+            "Te avisamos antes del vencimientos de tus seguros"
+            
+        ],
+        "ctaText": "Quiero saber más",
+        "ctaLink": "https://wa.me/34682558762?text=",
+        "ctaLinkText": "Hola quiero solicitar precio del seguro para taturadores",
+        "ctaImageLink": "/images/feature-1.png",
+        "secondaryCtaText": "",
+        "secondaryCtaLink": "https://wa.me/34682558762?text=",
+        "secondaryCtaLinkText": "Hola, quiero saber más sobre vuestros seguros",
+        "secondaryCtaImageLink": "/images/feature-1.png"
+    },
+    "products": {
+        "title": "Contrata tu seguro en menos de 5 minutos",
+        "description": [
+            "Proceso 100% online. Hablamos tu idioma. Te acompañamos durante todo el proceso"
+        ],
+        "list": [
+            {
+                "title": "🏠 Seguro Hogar",
+                "subtitle": "",
+                "pricePrefix": "desde",
+                "price": "21€",
+                "priceInterval": "mes",
+                "coverages": [],
+                "ctaText": "Contratar Seguro",
+                "ctaLink": "http://localhost:4321/rc-sanitaria/estudio-tatuajes"
+            },
+            {
+                "title": "🏥 Seguro Salud",
+                "subtitle": "",
+                "pricePrefix": "desde",
+                "price": "51€",
+                "priceInterval": "mes",
+                "coverages": [
+                ],
+                "ctaText": "Contratar Seguro",
+                "ctaLink": "http://localhost:4321/rc-sanitaria/estudio-tatuajes"
+            },
+            {
+                "title": "❤️ Seguro Vida",
+                "subtitle": "",
+                "pricePrefix": "desde",
+                "price": "51€",
+                "priceInterval": "mes",
+                "coverages": [],
+                "ctaText": "Contratar Seguro",
+                "ctaLink": "http://localhost:4321/rc-sanitaria/estudio-tatuajes"
+            },
+            {
+                "title": "🦮 Seguro Perros",
+                "subtitle": "",
+                "pricePrefix": "desde",
+                "price": "51€",
+                "priceInterval": "mes",
+                "coverages": [
+                ],
+                "ctaText": "Contratar Seguro",
+                "ctaLink": "http://localhost:4321/rc-sanitaria/estudio-tatuajes"
+            }
+        ]
+    },
+    "faq": {
+        "title": "Preguntas Frecuentes",
+        "questions": [
+            {
+                "title": "¿Qué es eso de &quot;Neobroker&quot;?",
+                "description": ["¿Alguna vez has pensado en un broker tradicional como un dinosaurio tratando de usar un smartphone? Puede ser un poco torpe y lento, ¿verdad? ¡Pues aquí es donde entra el <strong>neobroker</strong>, como un superhéroe tecnológico!<br><br>Un <strong>neobroker</strong> es como el primo joven, moderno y fuerte de zumosol. A diferencia del broker tradicional, que podría necesitar días o semanas para hacer todo el papeleo, el <strong>neobroker</strong> es súper rápido y eficiente gracias a la tecnología de última generación.<br><br><a href=\"https://wa.me/34682558762?text=¡Hola!\" target=\"_blank\"><strong>Empieza aquí</strong></a> con el mejor neobroker de España"
+                ]
+            },
+            {
+                "title": "¿Qué ventajas tiene contratar mis seguros con Cober.io?",
+                "description": [
+                    "Piensa en nosotros como los chefs de un restaurante. No estamos obligados a servir solo un tipo de comida. En su lugar, te preparamos justo lo que quieres y necesitas. Además, seguimos recetas y normas muy estrictas (normativas financieras y de profesionalidad) para asegurarnos de que todo esté perfecto y seguro para ti.<br><br>Así que, cuando vienes con nosotros, no solo obtienes asesoramiento independiente y especializado, sino que también recibes un servicio fiable, profesional y hecho a medida. ¡Es como tener un chef experto en casa que siempre te da lo mejor de lo mejor!"
+                ]
+            },
+            {
+                "title": "Pero entonces..., ¿Es más caro contratar un seguro en Cober.io?",
+                "description": [
+                    "¡Para nada! Imagínate que somos como esos amigos que siempre se conocen los lugares mejores para comer, ¡pero en el mundo de los seguros! Buscamos entre montones de opciones para encontrar el precio más amigable y el mejor servicio para ti.<br><br>En realidad, puedes hacer esto tú mismo recorriendo las compañias aseguradoras, mirando la letra pequeña, perdiendo muuucho tiempo y pagando lo mismo que si lo haces con nosotros.<br><br>¿Dónde está la trampa entonces? En ningún sitio. Nosotros ganamos de las comisiones que las compañias aseguradoras nos dan por vender sus seguros, y a cambio te ofrecemos un mejor servicio que estas."
+                ]
+            },
+            {
+                "title": "¿Qué seguros tenéis en Cober.io?",
+                "description": [
+                    "¡Casi que mejor te decimos los que no tenemos! Tenemos seguros hasta para toreros en paro, así te haces una idea.<br><br><a href=\"seguros\" target=\"_blank\"><strong>Pincha aquí</strong></a> para ver todos nuestros seguros"
+                ]
+            }
+        ]
+    },
+    "whyus": {
+        "title": "¿Por qué con Cober?",
+        "subtitle": [
+            "En Cober.io queremos cambiar la mentalidad anticuada y rudimentaria del mundo de los seguros. No queremos ser más de lo mismo. Hemos pasado por los mismos problemas que tú y creemos que se pueden hacer mejor las cosas."
+        ],
+        "list": [
+            "¿Que no te acuerdas nunca de la fecha de renovación de tus seguros? Te avisamos con suficiente antelación para que no te pille por sorpresa",
+            "¿Que no quieres rellenar formularios interminables? Haz una foto a algunos de tus documentos y ya estaría todo.",
+            "¿Necesitas un parte amistoso? Te lo proporcionamos con tus datos ya completados para que puedas enviarlo de forma digital a la parte afectada en segundos."
+        ],
+        "footerTitle": "Esta es nuestra visión y tenemos ganas e ilusión de sobras para seguir haciendo más accesible y eficaz tu experiencia con los seguros"
+    }
+}

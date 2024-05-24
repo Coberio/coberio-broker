@@ -8,18 +8,20 @@ export interface SchemaProps {
 		ctaLink: string
 		ctaLinkText: string
 	}
-	hero: {
+	hero?: {
 		title: string
 		description: string[]
 		ctaText: string
 		ctaLink: string
 		ctaLinkText: string
 		ctaImageLink: string
+		ctaVideoLink?: string
+		ctaImageStyle?: {}
 		secondaryCtaText: string
 		secondaryCtaLink: string
 		secondaryCtaLinkText: string
 	}
-	infoLeft: {
+	infoLeft?: {
 		title: string
 		description: string[]
 		listItems: string[]
@@ -32,7 +34,7 @@ export interface SchemaProps {
 		secondaryCtaLinkText: string
 		secondaryCtaImageLink: string
 	}
-	infoRight: {
+	infoRight?: {
 		title: string
 		description: string[]
 		listItems: string[]
@@ -59,7 +61,7 @@ export interface SchemaProps {
 			ctaLink: string
 		}[]
 	}
-	faq: {
+	faq?: {
 		title: string
 		questions: {
 			title: string
@@ -67,9 +69,10 @@ export interface SchemaProps {
 		}[]
 			
 	}
-	whyus: {
+	whyus?: {
 		title: string
 		subtitle: string[]
 		list: string[]
+		footerTitle?: string
 	}
 }

@@ -11,7 +11,7 @@ import schema from './schema.json'
 		<BaseHead seo={schema.seo} />
 	</head>
 	<body>
-		<Design base={import.meta.env.BASE_URL} design={schema.design} schema={schema}>
+		<Design design={schema.design} schema={schema}>
 			<Faq 
 				title={schema.faq.title}
 				questions={schema.faq.questions}

@@ -32,6 +32,7 @@ export function BuyProducts({
           {description &&
             description.map((paragraph) => (
               <p
+                key={paragraph}
                 className="mb-5 w-full text-center font-light text-gray-500 sm:text-xl dark:text-gray-400"
                 dangerouslySetInnerHTML={{ __html: paragraph }}
               ></p>
@@ -40,7 +41,7 @@ export function BuyProducts({
         <div className="space-y-8 lg:flex sm:gap-6 xl:gap-10 lg:space-y-0">
           {products &&
             products.map((p) => (
-              <div className="flex flex-col max-w-lg p-6 mx-auto text-center text-gray-900 bg-white border border-gray-100 rounded-lg shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
+              <div key={p.title} className="flex flex-col max-w-lg p-6 mx-auto text-center text-gray-900 bg-white border border-gray-100 rounded-lg shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
                 <h3 className="mb-4 text-2xl font-semibold">{p.title}</h3>
 
                 {p.subtitle && (
@@ -53,7 +54,7 @@ export function BuyProducts({
                 {p.coverages && (
                   <ul role="list" className="space-y-4 text-left flex-grow">
                     {p.coverages.map((coverage) => (
-                      <li className="flex items-center space-x-3">
+                      <li key={coverage} className="flex items-center space-x-3">
                         <svg
                           className="flex-shrink-0 w-5 h-5 text-purple-500 dark:text-purple-400"
                           fill="currentColor"
@@ -61,9 +62,9 @@ export function BuyProducts({
                           xmlns="http://www.w3.org/2000/svg"
                         >
                           <path
-                            fill-rule="evenodd"
+                            fillRule="evenodd"
                             d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                            clip-rule="evenodd"
+                            clipRule="evenodd"
                           ></path>
                         </svg>
                         <span>{coverage}</span>

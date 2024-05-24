@@ -1,3 +1,5 @@
+import { getResource } from "@/utils";
+
 export interface MatchesProps {
   companyLogoLink?: string
   ctaText?: string
@@ -12,32 +14,19 @@ export function Header({
   ctaLinkText
 }: MatchesProps) {
   return (
-    <header className="fixed w-full">
+    <header className="fixed w-full z-10">
       <nav className="bg-white border-gray-200 py-2.5 dark:bg-gray-900">
         <div className="flex flex-wrap items-center justify-between max-w-screen-xl px-4 mx-auto">
-          <a href={companyLogoLink} className="flex items-center">
+          <a href={getResource('/')} className="flex items-center">
             {companyLogoLink && (
               <img
                 src={companyLogoLink}
                 className="h-6 mr-3 sm:h-9"
-                alt="Landwind Logo"
+                alt={ctaText}
               />
             )}
           </a>
           <div className="flex items-center lg:order-2">
-            {/* <div className="hidden mt-2 mr-4 sm:inline-block">
-              <a
-                className="github-button"
-                href="https://github.com/themesberg/landwind"
-                data-size="large"
-                data-icon="octicon-star"
-                data-show-count="true"
-                aria-label="Star themesberg/landwind on GitHub"
-              >
-                English
-              </a>
-            </div> */}
-            {/* <a href="#" className="text-gray-800 dark:text-white hover:bg-gray-50 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 sm:mr-2 dark:hover:bg-gray-700 focus:outline-none dark:focus:ring-gray-800">Log in</a> */}
             {ctaText && (
               <a
                 href={encodeURI(`${ctaLink}${ctaLinkText}`)}
@@ -46,14 +35,14 @@ export function Header({
                 {ctaText}
               </a>
             )}
-            <button
-              data-collapse-toggle="mobile-menu-2"
-              type="button"
+            <label
+              data-collapse-toggle="mobile-menu"
+              htmlFor="menu" 
+              tabIndex={0}
               className="inline-flex items-center p-2 ml-1 text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
-              aria-controls="mobile-menu-2"
-              aria-expanded="false"
+              
             >
-              <span className="sr-only">Open main menu</span>
+              <span className="sr-only">Abrir Menu</span>
               <svg
                 className="w-6 h-6"
                 fill="currentColor"
@@ -61,9 +50,9 @@ export function Header({
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path
-                  fill-rule="evenodd"
+                  fillRule="evenodd"
                   d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
-                  clip-rule="evenodd"
+                  clipRule="evenodd"
                 ></path>
               </svg>
               <svg
@@ -73,21 +62,21 @@ export function Header({
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path
-                  fill-rule="evenodd"
+                  fillRule="evenodd"
                   d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
-                  clip-rule="evenodd"
+                  clipRule="evenodd"
                 ></path>
               </svg>
-            </button>
-          </div>
-          <div
-            className="items-center justify-between hidden w-full lg:flex lg:w-auto lg:order-1"
-            id="mobile-menu-2"
+            </label>
+            <input id="menu" className="hidden peer" type="checkbox" />
+            <div
+            className="absolute hidden py-4 px-8 bg-white left-0 top-16 peer-checked:block w-full"
+            id="mobile-menu"
           >
-            <ul className="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
+            <ul className="flex flex-col font-medium">
               <li>
                 <a
-                  href="#"
+                  href={getResource('/')}
                   className="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
                   aria-current="page"
                 >
@@ -96,26 +85,53 @@ export function Header({
               </li>
               <li>
                 <a
-                  href="#"
+                  href={getResource('/blog')}
                   className="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
                 >
-                  Seguros
+                  Blog
                 </a>
               </li>
               <li>
                 <a
-                  href="#"
+                  href="https://www.cober.io/legal/privacy-policy.html"
                   className="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
+                  target="_blank"
                 >
-                  Nosotros
+                  Legal
+                </a>
+              </li>
+            </ul>
+          </div>
+          </div>
+          <div
+            className="items-center justify-between hidden w-full lg:flex lg:w-auto lg:order-1"
+            id="mobile-menu"
+          >
+            <ul className="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
+              <li>
+                <a
+                  href={getResource('/')}
+                  className="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
+                  aria-current="page"
+                >
+                  Inicio
                 </a>
               </li>
               <li>
                 <a
-                  href="#"
+                  href={getResource('/blog')}
                   className="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
                 >
-                  Contacto
+                  Blog
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.cober.io/legal/privacy-policy.html"
+                  className="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
+                  target="_blank"
+                >
+                  Legal
                 </a>
               </li>
             </ul>

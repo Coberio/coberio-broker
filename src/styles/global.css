@@ -3,3 +3,13 @@
   https://github.com/HermanMartinus/bearblog/blob/297026a877bc2ab2b3bdfbd6b9f7961c350917dd/templates/styles/blog/default.css
   License MIT: https://github.com/HermanMartinus/bearblog/blob/master/LICENSE.md
  */
+
+ .hero-image {
+  mask-image: linear-gradient(rgb(255 255 255 / 85%) 80%, transparent);
+  border-radius: 20px;
+  aspect-ratio: 4 / 3;
+ }
+
+ .masked-image{
+  mask-image: linear-gradient(rgb(255 255 255 / 95%) 90%, transparent)
+ }

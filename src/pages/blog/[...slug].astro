@@ -1,6 +1,10 @@
 ---
+import BaseHead from '@/components/BaseHead.astro';
+import { Design } from '@/components/Design'
+import schema from './schema.json'
+import { getResource } from '@/utils';
+
 import { type CollectionEntry, getCollection } from 'astro:content';
-import BlogPost from '../../layouts/BlogPost.astro';
 
 export async function getStaticPaths() {
 	const posts = await getCollection('blog');
@@ -15,6 +19,80 @@ const post = Astro.props;
 const { Content } = await post.render();
 ---
 
-<BlogPost {...post.data}>
-	<Content />
-</BlogPost>
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead seo={schema.seo} />
+	</head>
+	<body>
+		<Design design={schema.design} schema={schema}>
+			<article class="p-10">
+				<div class="image">
+					{post.data.heroImage && <img width={1020} height={510} src={getResource(post.data.heroImage)} alt="" />}
+				</div>
+				<div class="max-w-[1020px] px-4 py-4 mx-auto space-y-4 lg:py-14 lg:px-6 text-lg">
+					<div>
+						<div class="date">
+							<time datetime={post.data.pubDate.toISOString()}>
+								{
+									post.data.pubDate.toLocaleDateString('en-us', {
+										year: 'numeric',
+										month: 'short',
+										day: 'numeric',
+									})
+								}
+							</time>
+							{
+								post.data.updatedDate && (
+									<div class="last-updated-on">
+										Última Actualización <time datetime={post.data.updatedDate.toISOString()}>
+								{
+									post.data.updatedDate.toLocaleDateString('en-us', {
+										year: 'numeric',
+										month: 'short',
+										day: 'numeric',
+									})
+								}
+							</time>
+									</div>
+								)
+							}
+						</div>
+						<h1 class="mb-4 text-5xl font-extrabold tracking-tight text-gray-900 dark:text-white">{post.data.title}</h1>
+						<hr />
+					</div>
+					<Content />
+				</div>
+			</article>
+		</Design>
+	</body>
+</html>
+<style>
+	.image {
+		width: 100%;
+	}
+	.image img {
+		display: block;
+		margin: 0 auto;
+		border-radius: 12px;
+		box-shadow: var(--box-shadow);
+		margin-top: 50px; 
+	}
+	
+	.title {
+		margin-bottom: 1em;
+		padding: 1em 0;
+		text-align: center;
+		line-height: 1;
+	}
+	.title h1 {
+		margin: 0 0 0.5em 0;
+	}
+	.date {
+		margin-bottom: 0.5em;
+		color: rgb(var(--gray));
+	}
+	.last-updated-on {
+		font-style: italic;
+	}
+</style>
