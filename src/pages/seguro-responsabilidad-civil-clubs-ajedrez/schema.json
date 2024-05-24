@@ -1,0 +1,117 @@
+{
+  "faq": {
+    "title": "Preguntas Frecuentes",
+    "questions": [
+      {
+        "title": "¿Por qué es importante contratar un seguro de Responsabilidad Civil para Clubs de Ajedrez?",
+        "description": [
+          "Los clubs de ajedrez son lugares donde se realizan competiciones y eventos que pueden conllevar riesgos de daños materiales o personales. Contar con un seguro de Responsabilidad Civil te protegerá ante posibles reclamaciones por parte de socios, jugadores o terceros."
+        ]
+      },
+      {
+        "title": "¿Qué coberturas ofrece un seguro de RC para Clubs de Ajedrez?",
+        "description": [
+          "Un seguro de Responsabilidad Civil para Clubs de Ajedrez puede ofrecer cobertura ante daños a la propiedad, lesiones personales, gastos legales, entre otros. Es importante revisar detenidamente las coberturas incluidas en la póliza para asegurar una protección adecuada."
+        ]
+      },
+      {
+        "title": "¿Es obligatorio contratar un seguro de RC para Clubs de Ajedrez?",
+        "description": [
+          "Aunque no es obligatorio, es altamente recomendable para proteger los intereses del club y sus integrantes ante posibles contingencias durante las actividades desarrolladas."
+        ]
+      },
+      {
+        "title": "¿Cómo puedo contratar un seguro de responsabilidad civil para mi Club de Ajedrez?",
+        "description": [
+          "Para contratar un seguro de RC para Clubs de Ajedrez, es necesario proporcionar la información del club, sus actividades, número de socios, entre otros detalles relevantes. Puedes solicitar asesoramiento personalizado para elegir la mejor póliza para tu club."
+        ]
+      },
+      {
+        "title": "¿Cuál es el coste de un seguro para un Club de Ajedrez?",
+        "description": [
+          "El precio de un seguro para un Club de Ajedrez dependerá del nivel de cobertura deseado, el tamaño del club, el número de socios y otras variables. Puedes solicitar un presupuesto personalizado <a href=\"http://localhost:4321/rc-clubs/ajedrez\">aquí</a>"
+        ]
+      }
+    ]
+  },
+  "seo": {
+    "lang": "Spanish",
+    "title": "Seguro para Clubs de Ajedrez",
+    "author": "Coberio",
+    "description": "Protege tu club de ajedrez con nuestra póliza de Responsabilidad Civil, diseñada para brindar la máxima seguridad a tu establecimiento y resguardar tu patrimonio. ¡Confía en nosotros para proteger lo que más te importa!"
+  },
+  "hero": {
+    "title": "Seguro para Clubs de Ajedrez",
+    "ctaLink": "https://wa.me/34682558762?text=",
+    "ctaText": "Solicita Precio",
+    "ctaLinkText": "Hola, quiero solicitar precio del seguro para clubs de ajedrez",
+    "description": [
+      "El seguro de Responsabilidad Civil para Clubs de Ajedrez es una póliza diseñada especialmente para este tipo de establecimientos, ofreciendo protección para tu club y el patrimonio del asegurado.",
+      "Con coberturas específicas y ajustadas a las necesidades de los clubs de ajedrez, cuentas con la seguridad de una empresa con gran experiencia y prestigio en el ámbito de la responsabilidad civil a nivel internacional como <a href=\"https://tailwindcss.com\" class=\"hover:underline\">Berkley</a>"
+    ],
+    "ctaImageLink": "/images/hero.png",
+    "secondaryCtaLink": "https://wa.me/34682558762?text=",
+    "secondaryCtaText": "Ya soy cliente",
+    "secondaryCtaLinkText": "Hola, soy cliente del seguro para clubs de ajedrez"
+  },
+  "lang": "es",
+  "route": "/seguro-responsabilidad-civil-clubs-ajedrez",
+  "whyus": {
+    "list": [
+      "Proceso 100% online",
+      "Trabajamos con las mejores aseguradoras",
+      "Hablamos tu idioma",
+      "Alta disponibilidad inmediata 7/24",
+      "Te acompañamos durante todo el proceso",
+      "Te avisamos antes del vencimientos de tus seguros"
+    ],
+    "title": "¿Por qué con Cober?",
+    "subtitle": [
+      "Nuestra misión es ofrecerte un servicio personalizado y de calidad.<br/>Valoramos tu seguridad y tranquilidad por encima de todo lo demás"
+    ]
+  },
+  "design": "design1",
+  "header": {
+    "ctaLink": "https://wa.me/34682558762?text=",
+    "ctaText": "¿Hablamos?",
+    "companyName": "Coberio",
+    "ctaLinkText": "Hola, quiero solicitar más información del Seguro para Clubs de Ajedrez",
+    "companyLogoLink": "/images/logo.png"
+  },
+  "infoLeft": {
+    "title": "¿Qué riesgos enfrenta tu club de ajedrez?",
+    "ctaLink": "https://wa.me/34682558762?text=",
+    "ctaText": "Solicita Precio",
+    "listItems": [
+      "Un jugador sufre una lesión durante un torneo organizado por el club.",
+      "Se producen daños materiales en las instalaciones del club durante una partida.",
+      "Un visitante sufre un accidente en las instalaciones del club y decide poner una reclamación."
+    ],
+    "ctaLinkText": "Hola quiero solicitar precio del seguro para clubs de ajedrez",
+    "description": [
+      "Los clubs de ajedrez son espacios donde se llevan a cabo actividades que pueden resultar en reclamaciones por daños y perjuicios. Es importante proteger el patrimonio del club y de sus administradores ante posibles situaciones que puedan afectar su estabilidad financiera."
+    ],
+    "ctaImageLink": "/images/feature-1.png",
+    "secondaryCtaLink": "https://wa.me/34682558762?text=",
+    "secondaryCtaText": "No estoy seguro si cubre lo que necesito",
+    "secondaryCtaLinkText": "Hola, no estoy seguro si el seguro para clubs de ajedrez que ofrecen tiene las coberturas que necesito, ¿me puedes ayudar?",
+    "secondaryCtaImageLink": "/images/feature-1.png"
+  },
+  "infoRight": {
+    "title": "¿A quién está dirigido?",
+    "ctaLink": "https://wa.me/34682558762?text=",
+    "ctaText": "Solicita Precio",
+    "listItems": [
+      "Clubs de ajedrez"
+    ],
+    "ctaLinkText": "Hola quiero solicitar precio del seguro para clubs de ajedrez",
+    "description": [
+      "Este seguro está dirigido a clubs de ajedrez que deseen protegerse de posibles reclamaciones por daños materiales o personales durante sus actividades:"
+    ],
+    "ctaImageLink": "/images/feature-1.png",
+    "secondaryCtaLink": "https://wa.me/34682558762?text=",
+    "secondaryCtaText": "No estoy seguro si es para mí",
+    "secondaryCtaLinkText": "Hola, necesito más información sobre el seguro para clubs de ajedrez. No estoy seguro si este seguro se adapta a mis necesidades.",
+    "secondaryCtaImageLink": "/images/feature-1.png"
+  }
+}
