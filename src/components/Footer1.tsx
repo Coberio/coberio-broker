@@ -14,23 +14,23 @@ export function Footer({ }: FooterProps) {
             </h3>
             <ul className="text-gray-500 dark:text-gray-400">
               <li className="mb-4">
-                <a href="#" className=" hover:underline">
-                  About
+                <a href={getResource('seguro-teatro-titeres')} className=" hover:underline" target="_blank">
+                  Seguro RC para grupos de teatro
                 </a>
               </li>
               <li className="mb-4">
-                <a href="#" className="hover:underline">
-                  Careers
+                <a href={getResource('seguro-teatro-titeres')} className=" hover:underline" target="_blank">
+                Seguro RC para grupos de teatro
                 </a>
               </li>
               <li className="mb-4">
-                <a href="#" className="hover:underline">
-                  Brand Center
+                <a href={getResource('seguro-teatro-titeres')} className=" hover:underline" target="_blank">
+                Seguro RC para grupos de teatro
                 </a>
               </li>
               <li className="mb-4">
-                <a href="#" className="hover:underline">
-                  Blog
+                <a href={getResource('seguro-teatro-titeres')} className=" hover:underline" target="_blank">
+                Seguro RC para grupos de teatro
                 </a>
               </li>
             </ul>

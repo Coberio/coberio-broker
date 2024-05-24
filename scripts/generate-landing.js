@@ -1,5 +1,6 @@
 import { existsSync, mkdirSync, writeFileSync, readFileSync, rmSync } from 'fs';
 import { join, dirname } from 'path';
+import schemaHeaderTemplate from './header-template.json' assert { type: "json" };
 import schemaHeroTemplate from './hero-template.json' assert { type: "json" };
 import schemaSeoTemplate from './seo-template.json' assert { type: "json" };
 import schemaInfo1Template from './info1-template.json' assert { type: "json" };
@@ -75,9 +76,8 @@ No respondas con ningun otro comentario o información adicional.
     return route
 }
 
-async function getSeoSchema(openAiClient, insuranceType){
-
-    const json = JSON.stringify(schemaSeoTemplate)
+async function getSeoSchema(insuranceType) {
+    const json = JSON.stringify(schemaSeoTemplate);
 
     const prompt = `
 Ejemplo de fichero JSON generado para un seguro de "responsabilidad civil para estudios de tatuajes":
@@ -87,20 +87,23 @@ ${json}
 SOLO DEBES responder con un fichero JSON sintácticamente correcto.
 Optimiza los textos para SEO 
 Modifica el campo "title" y "description" para un seguro de "${insuranceType}".
-`
+`;
 
-    const jsonString = await openAiClient.getCompletion([{
-        role: 'user',
-        content: prompt
-    }])
+    const jsonString = await openAiClient.getCompletion(
+      [
+        {
+          role: 'user',
+          content: prompt
+        }
+      ],
+      {}
+    );
 
-    return JSON.parse(jsonString)
-}
+    return JSON.parse(jsonString);
+  }
 
-
-async function getHeroSchema(openAiClient, insuranceType){
-
-    const json = JSON.stringify(schemaHeroTemplate)
+  async function getHeaderSchema(insuranceType) {
+    const json = JSON.stringify(schemaHeaderTemplate);
 
     const prompt = `
 Ejemplo de fichero JSON generado para un seguro de "responsabilidad civil para estudios de tatuajes":
@@ -108,25 +111,54 @@ Ejemplo de fichero JSON generado para un seguro de "responsabilidad civil para e
 ${json}
 
 SOLO DEBES responder con un fichero JSON sintácticamente correcto.
-DEBES modificar el campo "title" y "description" para un seguro de "${insuranceType}".
+DEBES modificar el valor de los campos del JSON para adaptarlos al nuevo tipo de seguro de "${insuranceType}".
+NO debes modificar enlaces o imágenes, solo texto.
+NO debes modificar el nombre de las keys o campos del JSON.
+`;
+
+    const jsonString = await openAiClient.getCompletion(
+      [
+        {
+          role: 'user',
+          content: prompt
+        }
+      ],
+      {}
+    );
+
+    return JSON.parse(jsonString);
+  }
+
+  async function getHeroSchema(insuranceType) {
+    const json = JSON.stringify(schemaHeroTemplate);
+
+    const prompt = `
+Ejemplo de fichero JSON generado para un seguro de "responsabilidad civil para estudios de tatuajes":
+
+${json}
+
+SOLO DEBES responder con un fichero JSON sintácticamente correcto.
+DEBES modificar el valor de los campos del JSON para adaptarlos al nuevo tipo de seguro de "${insuranceType}".
 DEBES utilizar un título atractivo y fácil de leer 
 NO debes modificar enlaces o imágenes, solo texto.
-NO debes modificar el nombre de las keys o campos del JSON.
-DEBES modificar el valor de los campos del JSON para adaptarlos al nuevo tipo de seguro de "${insuranceType}".
-`
+NO debes modificar el nombre de las keys del JSON.
+`;
 
-    const jsonString = await openAiClient.getCompletion([{
-        role: 'user',
-        content: prompt
-    }])
+    const jsonString = await openAiClient.getCompletion(
+      [
+        {
+          role: 'user',
+          content: prompt
+        }
+      ],
+      {}
+    );
 
-    return JSON.parse(jsonString)
-}
+    return JSON.parse(jsonString);
+  }
 
-
-async function getInfo1Schema(openAiClient, insuranceType){
-
-    const json = JSON.stringify(schemaInfo1Template)
+  async function getInfo1Schema(insuranceType) {
+    const json = JSON.stringify(schemaInfo1Template);
 
     const prompt = `
 Ejemplo de fichero JSON generado para un seguro de "responsabilidad civil para estudios de tatuajes":
@@ -134,45 +166,106 @@ Ejemplo de fichero JSON generado para un seguro de "responsabilidad civil para e
 ${json}
 
 SOLO DEBES responder con un fichero JSON sintácticamente correcto.
-DEBES modificar el campo "title", "description" y "listItems" para un seguro de "${insuranceType}".
+DEBES modificar el valor de los campos del JSON para adaptarlos al nuevo tipo de seguro de "${insuranceType}".
+NO debes modificar enlaces o imágenes, solo texto.
+NO debes modificar el nombre de las keys o campos del JSON.
+`;
+
+    const jsonString = await openAiClient.getCompletion(
+      [
+        {
+          role: 'user',
+          content: prompt
+        }
+      ],
+      {}
+    );
+
+    return JSON.parse(jsonString);
+  }
+
+  async function getInfo2Schema(insuranceType) {
+    const json = JSON.stringify(schemaInfo2Template);
+
+    const prompt = `
+Ejemplo de fichero JSON generado para un seguro de "responsabilidad civil para estudios de tatuajes":
+
+${json}
+
+SOLO DEBES responder con un fichero JSON sintácticamente correcto.
+DEBES modificar el valor de los campos del JSON para adaptarlos al nuevo tipo de seguro de "${insuranceType}".
+No debes modificar enlaces o imágenes, solo texto.
+No debes modificar el nombre de las keys o campos del JSON.
+`;
+
+    const jsonString = await openAiClient.getCompletion(
+      [
+        {
+          role: 'user',
+          content: prompt
+        }
+      ],
+      {}
+    );
+
+    return JSON.parse(jsonString);
+  }
+
+  //   private async getProductsSchema(insuranceType: string) {
+  //     const json = JSON.stringify(schemaProductsTemplate);
+
+  //     const prompt = `
+  // Ejemplo de fichero JSON generado para un seguro de "responsabilidad civil para estudios de tatuajes":
+
+  // ${json}
+
+  // SOLO DEBES responder con un fichero JSON sintácticamente correcto.
+  // DEBES modificar el campo "title", "description", "subtitle", .etc para un seguro de "${insuranceType}".
+  // NO debes modificar enlaces o imágenes, solo texto.
+  // NO debes modificar el nombre de las keys o campos del JSON.
+  // DEBES modificar el valor de los campos del JSON para adaptarlos al nuevo tipo de seguro de "${insuranceType}".
+  // `;
+
+  //     const jsonString = await openAiClient.getCompletion(
+  //       [
+  //         {
+  //           role: 'user',
+  //           content: prompt
+  //         }
+  //       ],
+  //       {}
+  //     );
+
+  //     return JSON.parse(jsonString);
+  //   }
+
+  async function getFaqSchema(insuranceType) {
+    const json = JSON.stringify(schemaFaqTemplate);
+
+    const prompt = `
+Ejemplo de fichero JSON generado para un seguro de "responsabilidad civil para estudios de tatuajes":
+
+${json}
+
+SOLO DEBES responder con un fichero JSON sintácticamente correcto.
+DEBES modificar los campos "title" y "description" para un seguro de "${insuranceType}".
 NO debes modificar enlaces o imágenes, solo texto.
 NO debes modificar el nombre de las keys o campos del JSON.
 DEBES modificar el valor de los campos del JSON para adaptarlos al nuevo tipo de seguro de "${insuranceType}".
-`
+`;
 
-    const jsonString = await openAiClient.getCompletion([{
-        role: 'user',
-        content: prompt
-    }])
+    const jsonString = await openAiClient.getCompletion(
+      [
+        {
+          role: 'user',
+          content: prompt
+        }
+      ],
+      {}
+    );
 
-    return JSON.parse(jsonString)
-}
-
-
-async function getInfo2Schema(openAiClient, insuranceType){
-
-    const json = JSON.stringify(schemaInfo2Template)
-
-    const prompt = `
-Ejemplo de fichero JSON generado para un seguro de "responsabilidad civil para estudios de tatuajes":
-
-${json}
-
-SOLO DEBES responder con un fichero JSON sintácticamente correcto.
-DEBES modificar el campo "title", "description" y "listItems" para un seguro de "${insuranceType}".
-No debes modificar enlaces o imágenes, solo texto.
-No debes modificar el nombre de las keys o campos del JSON.
-DEBES modificar el valor de los campos del JSON para adaptarlos al nuevo tipo de seguro de "${insuranceType}".
-`
-
-    const jsonString = await openAiClient.getCompletion([{
-        role: 'user',
-        content: prompt
-    }])
-
-    return JSON.parse(jsonString)
-}
-
+    return JSON.parse(jsonString);
+  }
 
 async function getProductsSchema(openAiClient, insuranceType){
 
@@ -197,33 +290,6 @@ DEBES modificar el valor de los campos del JSON para adaptarlos al nuevo tipo de
 
     return JSON.parse(jsonString)
 }
-
-
-async function getFaqSchema(openAiClient, insuranceType){
-
-    const json = JSON.stringify(schemaFaqTemplate)
-
-    const prompt = `
-Ejemplo de fichero JSON generado para un seguro de "responsabilidad civil para estudios de tatuajes":
-
-${json}
-
-SOLO DEBES responder con un fichero JSON sintácticamente correcto.
-DEBES modificar los campos "title" y "description" para un seguro de "${insuranceType}".
-NO debes modificar enlaces o imágenes, solo texto.
-NO debes modificar el nombre de las keys o campos del JSON.
-DEBES modificar el valor de los campos del JSON para adaptarlos al nuevo tipo de seguro de "${insuranceType}".
-`
-
-    const jsonString = await openAiClient.getCompletion([{
-        role: 'user',
-        content: prompt
-    }])
-
-    return JSON.parse(jsonString)
-}
-
-
 
 async function getSchema(openAiClient, insuranceType, route){
 
@@ -251,7 +317,7 @@ async function getSchema(openAiClient, insuranceType, route){
 }
 
 const insuranceType = "responsabilidad civil para Asociaciones o Clubes deportivos no profesionales de equitación"
-const openAiClient = new OpenAiHttpClient("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")
+const openAiClient = new OpenAiHttpClient(process.env.OPENAI_API_KEY)
 
 const route = await getRoute(openAiClient, insuranceType);
 const schema = await getSchema(openAiClient, insuranceType, route);
