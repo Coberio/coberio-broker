@@ -1,0 +1,121 @@
+{
+  "faq": {
+    "title": "Preguntas Frecuentes",
+    "questions": [
+      {
+        "title": "¿Por qué es importante un seguro de Responsabilidad Civil para Asociaciones de Vecinos?",
+        "description": [
+          "Este tipo de seguro es crucial porque protege a la asociación y sus miembros ante posibles reclamaciones por incidentes que puedan ocurrir durante actividades organizadas por la asociación o en propiedades comunes."
+        ]
+      },
+      {
+        "title": "¿Qué cubre un seguro de Responsabilidad Civil para Asociaciones de Vecinos?",
+        "description": [
+          "Cubre la responsabilidad civil frente a terceros por daños materiales o personales que se puedan causar durante la realización de actividades propias de la asociación o en las instalaciones gestionadas por la misma."
+        ]
+      },
+      {
+        "title": "¿Es obligatorio contar con un seguro de Responsabilidad Civil para Asociaciones de Vecinos?",
+        "description": [
+          "No es obligatorio por ley, pero es altamente recomendable para protegerse de posibles reclamaciones y garantizar la continuidad de la asociación ante posibles adversidades."
+        ]
+      },
+      {
+        "title": "¿Qué necesito para contratar un seguro de Responsabilidad Civil para Asociaciones de Vecinos?",
+        "description": [
+          "Para contratar este seguro, debes proporcionar: nombre de la asociación, CIF, número de socios y tipo de actividades que realiza la asociación."
+        ]
+      },
+      {
+        "title": "¿Cuánto cuesta un seguro de Responsabilidad Civil para Asociaciones de Vecinos?",
+        "description": [
+          "El costo puede variar en función del número de socios, el tipo de actividades que organiza la asociación y el capital asegurado solicitado. Solicita un presupuesto a medida <a href=\"http://localhost:4321/rc-sanitaria/asociacion-vecinos\">aquí</a>"
+        ]
+      }
+    ]
+  },
+  "seo": {
+    "lang": "Spanish",
+    "title": "Seguro de Responsabilidad Civil para Asociaciones de Vecinos",
+    "author": "Coberio",
+    "description": "Descubre nuestro seguro de Responsabilidad Civil específicamente diseñado para Asociaciones de Vecinos, que brinda protección legal y de patrimonio ante posibles reclamaciones o daños a terceros."
+  },
+  "hero": {
+    "title": "Seguro de Responsabilidad Civil para Asociaciones de Vecinos",
+    "ctaLink": "https://wa.me/34682558762?text=",
+    "ctaText": "Solicita Precio",
+    "ctaLinkText": "Hola, quiero solicitar precio del seguro para asociaciones de vecinos",
+    "description": [
+      "Este seguro de Responsabilidad Civil está dirigido específicamente a Asociaciones de Vecinos, proporcionando cobertura integral para proteger los intereses de la comunidad y su patrimonio ante posibles reclamaciones.",
+      "Incluye coberturas adaptadas a las necesidades de las asociaciones, respaldadas por la solidez y experiencia de una empresa líder a nivel internacional en responsabilidad civil como <a href=\"https://tailwindcss.com\" class=\"hover:underline\">Berkley</a>"
+    ],
+    "ctaImageLink": "/images/hero.png",
+    "secondaryCtaLink": "https://wa.me/34682558762?text=",
+    "secondaryCtaText": "Ya soy cliente",
+    "secondaryCtaLinkText": "Hola, soy cliente del seguro para asociaciones de vecinos"
+  },
+  "lang": "es",
+  "route": "/seguro-responsabilidad-civil-asociaciones-vecinos",
+  "whyus": {
+    "list": [
+      "Proceso 100% online",
+      "Trabajamos con las mejores aseguradoras",
+      "Hablamos tu idioma",
+      "Alta disponibilidad inmediata 7/24",
+      "Te acompañamos durante todo el proceso",
+      "Te avisamos antes del vencimientos de tus seguros"
+    ],
+    "title": "¿Por qué con Cober?",
+    "subtitle": [
+      "Nuestra misión es ofrecerte un servicio personalizado y de calidad.<br/>Valoramos tu seguridad y tranquilidad por encima de todo lo demás"
+    ]
+  },
+  "design": "design1",
+  "header": {
+    "ctaLink": "https://wa.me/34682558762?text=",
+    "ctaText": "¿Necesitas más información?",
+    "companyName": "Coberio",
+    "ctaLinkText": "Hola, deseo obtener más detalles sobre el seguro de Responsabilidad Civil para Asociaciones de Vecinos",
+    "companyLogoLink": "/images/logo.png"
+  },
+  "infoLeft": {
+    "title": "¿Qué riesgos enfrenta tu Asociación de Vecinos?",
+    "ctaLink": "https://wa.me/34682558762?text=",
+    "ctaText": "Solicita Precio",
+    "listItems": [
+      "Un vecino se lesiona en una área común mal mantenida y presenta una demanda por negligencia.",
+      "Durante una actividad organizada por la asociación, un participante sufre un accidente y responsabiliza a la asociación.",
+      "Se produce un daño a la propiedad comunitaria por un evento organizado por la asociación, y se reclaman daños y perjuicios."
+    ],
+    "ctaLinkText": "Hola quiero solicitar precio del seguro para asociaciones de vecinos",
+    "description": [
+      "Las Asociaciones de Vecinos se hallan en una posición vulnerable frente a posibles reclamaciones legales o daños a terceros que pueden comprometer el patrimonio de la asociación. Es esencial proteger los intereses de la comunidad y minimizar los riesgos legales a los que puede estar expuesta."
+    ],
+    "ctaImageLink": "/images/feature-1.png",
+    "secondaryCtaLink": "https://wa.me/34682558762?text=",
+    "secondaryCtaText": "No estoy seguro si cubre lo que necesito",
+    "secondaryCtaLinkText": "Hola, no estoy seguro si el seguro para asociaciones de vecinos que ofrecen tiene las coberturas que necesito, ¿me puedes ayudar?",
+    "secondaryCtaImageLink": "/images/feature-1.png"
+  },
+  "infoRight": {
+    "title": "¿A quién está dirigido?",
+    "ctaLink": "https://wa.me/34682558762?text=",
+    "ctaText": "Solicita Precio",
+    "listItems": [
+      "Reuniones de vecinos",
+      "Organización de eventos y actividades comunitarias",
+      "Mantenimiento y uso de áreas comunes",
+      "Gestión de conflictos entre vecinos",
+      "Actividades recreativas organizadas por la asociación"
+    ],
+    "ctaLinkText": "Hola quiero solicitar precio del seguro para asociaciones de vecinos",
+    "description": [
+      "Este seguro está dirigido a asociaciones de vecinos que buscan protegerse frente a reclamaciones por daños a terceros durante actividades comunitarias."
+    ],
+    "ctaImageLink": "/images/feature-1.png",
+    "secondaryCtaLink": "https://wa.me/34682558762?text=",
+    "secondaryCtaText": "No estoy seguro si es para mí",
+    "secondaryCtaLinkText": "Hola, necesito más información sobre el seguro para asociaciones de vecinos. No estoy seguro si este seguro se adapta a mis necesidades.",
+    "secondaryCtaImageLink": "/images/feature-1.png"
+  }
+}
