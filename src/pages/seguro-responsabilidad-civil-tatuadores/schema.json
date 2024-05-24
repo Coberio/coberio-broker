@@ -1,0 +1,124 @@
+{
+  "faq": {
+    "title": "Preguntas Frecuentes",
+    "questions": [
+      {
+        "title": "¿Por qué debería contratar un seguro de Responsabilidad Civil Sanitaria?",
+        "description": [
+          "En su artículo 1902, el Código Civil establece que “el que por acción u omisión causa daño a otro, interviniendo culpa o negligencia, está obligado a reparar el daño causado”. Por este motivo, cualquier profesional sanitario se arriesga ante una demanda de indemnización a un paciente o a sus familiares."
+        ]
+      },
+      {
+        "title": "¿Por qué necesito un seguro de RC Sanitaria para un estudio de tatuajes?",
+        "description": [
+          "Los estudios de tatuajes y piercings o anillados son establecimientos muy expuestos al riesgo de provocar daños personales a clientes y a empleados.",
+          "Por la naturaleza de productos y los servicios que ofrece, pueden causar perjuicios muy graves; cuyas reclamaciones pueden incluso amenazar tu propio patrimonio familiar. Por ello, para poder contar con cobertura ante posibles reclamaciones por un error en la actividad, es importante contar con un seguro que te proteja."
+        ]
+      },
+      {
+        "title": "¿Es obligatorio este tipo de seguros para los estudios de tatuajes?",
+        "description": [
+          "Sin ser obligatorios, son muy recomendables debido al alto nivel de exposición al riesgo de provocar daños a clientes y a empleados."
+        ]
+      },
+      {
+        "title": "¿Qué necesito para contratar un seguro de responsabilidad civil para un estudio de tatuajes y piercing?",
+        "description": [
+          "Para poder contratar un seguro de RC para un estudio de tatuajes y piercing debes proporcionar: el nombre completo, CIF, facturación del centro, y la actividad específica que realiza."
+        ]
+      },
+      {
+        "title": "¿Cuánto cuesta un seguro para mi estudio de tatuajes?",
+        "description": [
+          "El precio del seguro (prima) depende del capital asegurado que se solicite, así como de otros factores. Solicita precio de forma inmediata <a href=\"http://localhost:4321/rc-sanitaria/estudio-tatuajes\">aquí</a>"
+        ]
+      }
+    ]
+  },
+  "seo": {
+    "lang": "Spanish",
+    "title": "Seguro para Tatuadores",
+    "author": "Coberio",
+    "description": "El seguro de Responsabilidad Civil para Tatuadores es una póliza diseñada especialmente para este tipo de establecimientos ya que ofrece la protección de tu negocio, y protege el patrimonio del asegurado."
+  },
+  "hero": {
+    "title": "Seguro para Tatuadores",
+    "ctaLink": "https://wa.me/34682558762?text=",
+    "ctaText": "Solicita Precio",
+    "ctaLinkText": "Hola, quiero solicitar precio del seguro para tatuadores",
+    "description": [
+      "El seguro de Responsabilidad Civil para Tatuadores es una póliza diseñada especialmente para este tipo de establecimientos ya que ofrece la protección de tu negocio, y protege el patrimonio del asegurado.",
+      "Además de contar con coberturas específicas y ajustadas a sus características, tienen la protección de una empresa con gran experiencia y prestigio en el ámbito de la responsabilidad civil a nivel internacional como <a href=\"https://tailwindcss.com\" class=\"hover:underline\">Berkley</a>"
+    ],
+    "ctaImageLink": "/images/hero.png",
+    "secondaryCtaLink": "https://wa.me/34682558762?text=",
+    "secondaryCtaText": "Ya soy cliente",
+    "secondaryCtaLinkText": "Hola, soy cliente del seguro para taturadores"
+  },
+  "lang": "es",
+  "route": "",
+  "whyus": {
+    "list": [
+      "Proceso 100% online",
+      "Trabajamos con las mejores aseguradoras",
+      "Hablamos tu idioma",
+      "Alta disponibilidad inmediata 7/24",
+      "Te acompañamos durante todo el proceso",
+      "Te avisamos antes del vencimientos de tus seguros"
+    ],
+    "title": "¿Por qué con Cober?",
+    "subtitle": [
+      "Nuestra misión es ofrecerte un servicio personalizado y de calidad.<br/>Valoramos tu seguridad y tranquilidad por encima de todo lo demás"
+    ]
+  },
+  "design": "design1",
+  "header": {
+    "ctaLink": "https://wa.me/34682558762?text=",
+    "ctaText": "¿Hablamos?",
+    "companyName": "Coberio",
+    "ctaLinkText": "Hola, quiero solicitar más información del seguro para taturadores",
+    "companyLogoLink": "/images/logo.png"
+  },
+  "infoLeft": {
+    "title": "¿Qué podría ocurrirte en tu estudio de tatuajes?",
+    "ctaLink": "https://wa.me/34682558762?text=",
+    "ctaText": "Solicita Precio",
+    "listItems": [
+      "Un cliente pone una reclamación al centro debido a la infección de su tatuaje.",
+      "Durante la eliminación de un tatuaje, el cliente sufre una quemadura.",
+      "Un cliente sufre una infección por un anillado o piercing, por el mal tratamiento de los utensilios"
+    ],
+    "ctaLinkText": "Hola quiero solicitar precio del seguro para taturadores",
+    "description": [
+      "Los centros especializados en tatuajes y perforaciones son establecimientos <strong>muy expuestos a reclamaciones por daños y perjuicios que pueden amenazar el patrimonio del establecimiento y de sus administradores</strong>. Estos ámbitos de riesgo aconsejan que sus propietarios y administradores protejan su patrimonio y el de la propia empresa ante reclamaciones que, debido a su naturaleza, pueden ser de gran importancia."
+    ],
+    "ctaImageLink": "/images/feature-1.png",
+    "secondaryCtaLink": "https://wa.me/34682558762?text=",
+    "secondaryCtaText": "No estoy seguro si cubre lo que necesito",
+    "secondaryCtaLinkText": "Hola, no estoy seguro si el seguro para tatuadores que ofrecen tiene las coberturas que necesito, ¿me puedes ayudar?",
+    "secondaryCtaImageLink": "/images/feature-1.png"
+  },
+  "infoRight": {
+    "title": "¿A quién está dirigido?",
+    "ctaLink": "https://wa.me/34682558762?text=",
+    "ctaText": "Solicita Precio",
+    "listItems": [
+      "Tatuadores",
+      "Anilladores",
+      "Esteticién",
+      "Pigmentación dérmica permanente",
+      "Perforación de la piel (piercing y anillado)",
+      "Camuflaje (tatuaje terapéutico)",
+      "Micropigmentación"
+    ],
+    "ctaLinkText": "Hola quiero solicitar precio del seguro para taturadores",
+    "description": [
+      "Este seguro está dirigido a personas físicas y jurídicas especializadas en tatuajes, anillados, piercing, etc.:"
+    ],
+    "ctaImageLink": "/images/feature-1.png",
+    "secondaryCtaLink": "https://wa.me/34682558762?text=",
+    "secondaryCtaText": "No estoy seguro si es para mí",
+    "secondaryCtaLinkText": "Hola, necesito más información sobre el seguro para tatuadores. No estoy seguro si este seguro se adapta a mis necesidades.",
+    "secondaryCtaImageLink": "/images/feature-1.png"
+  }
+}
