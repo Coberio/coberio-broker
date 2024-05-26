@@ -9,7 +9,7 @@ function createDirectories(route) {
     const directories = route.split('/');
 
     for (let directory of directories) {
-        const currentPath = join('src', 'page', directory || '');
+        const currentPath = join('src', 'pages', directory || '');
         if (!existsSync(currentPath)) {
             mkdirSync(currentPath);
         }
