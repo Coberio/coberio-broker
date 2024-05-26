@@ -38,16 +38,18 @@
     ]
   },
   "seo": {
+    "lang": "Spanish",
     "title": "Seguros para Instituciones Educativas",
+    "author": "Coberio",
     "description": "El seguro de Responsabilidad Civil para Instituciones Educativas es indispensable para proteger tanto a los alumnos como al personal de la institución, brindando tranquilidad y seguridad en caso de cualquier imprevisto. ¡Protege tu centro educativo con nuestra póliza especializada!"
   },
   "hero": {
-    "title": "Seguro Educativo Integral",
+    "title": "Seguro Para Centros Educativos",
     "ctaLink": "https://wa.me/34682558762?text=",
     "ctaText": "Solicita Precio",
     "ctaLinkText": "Hola, quiero solicitar precio del seguro Educativo Integral para Instituciones Educativas",
     "description": [
-      "El seguro Educativo Integral para Instituciones Educativas es una póliza diseñada especialmente para colegios, guarderías y centros de formación, ofreciendo protección ante posibles incidentes que puedan afectar a alumnos y personal.",
+      "El seguro para Instituciones Educativas es una póliza diseñada especialmente para colegios, guarderías y centros de formación, ofreciendo protección ante posibles incidentes que puedan afectar a alumnos y personal.",
       "Con coberturas específicas y ajustadas a las necesidades educativas, cuenta con el respaldo de una compañía con amplia experiencia en seguros a nivel internacional como <a href=\"https://tailwindcss.com\" class=\"hover:underline\">Berkley</a>"
     ],
     "ctaImageLink": "/images/hero.png",
