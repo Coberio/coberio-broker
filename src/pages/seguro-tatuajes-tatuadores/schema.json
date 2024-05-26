@@ -1,0 +1,125 @@
+{
+  "faq": {
+    "title": "Preguntas Frecuentes",
+    "questions": [
+      {
+        "title": "¿Por qué debería contratar un seguro de Responsabilidad Civil para Estudios de Tatuajes y Tatuadores?",
+        "description": [
+          "En su artículo 1902, el Código Civil establece que “el que por acción u omisión causa daño a otro, interviniendo culpa o negligencia, está obligado a reparar el daño causado”. Por este motivo, cualquier estudio de tatuajes y tatuadores se arriesga ante una demanda de indemnización a un cliente o a un tercero."
+        ]
+      },
+      {
+        "title": "¿Por qué necesito un seguro de RC para un estudio de tatuajes y tatuadores?",
+        "description": [
+          "Los estudios de tatuajes y tatuadores son establecimientos muy expuestos al riesgo de provocar daños personales a clientes y a empleados.",
+          "Por la naturaleza de productos y los servicios que ofrece, pueden causar perjuicios muy graves; cuyas reclamaciones pueden incluso amenazar tu propio patrimonio familiar. Por ello, para poder contar con cobertura ante posibles reclamaciones por un error en la actividad, es importante contar con un seguro que te proteja."
+        ]
+      },
+      {
+        "title": "¿Es obligatorio este tipo de seguros para los estudios de tatuajes y tatuadores?",
+        "description": [
+          "Sin ser obligatorios, son muy recomendables debido al alto nivel de exposición al riesgo de provocar daños a clientes y a empleados."
+        ]
+      },
+      {
+        "title": "¿Qué necesito para contratar un seguro de responsabilidad civil para un estudio de tatuajes y tatuadores?",
+        "description": [
+          "Para poder contratar un seguro de RC para un estudio de tatuajes y tatuadores debes proporcionar: el nombre completo, CIF, facturación del centro, y la actividad específica que realiza."
+        ]
+      },
+      {
+        "title": "¿Cuánto cuesta un seguro para mi estudio de tatuajes y tatuadores?",
+        "description": [
+          "El precio del seguro (prima) depende del capital asegurado que se solicite, así como de otros factores. Solicita precio de forma inmediata <a href=\"http://localhost:4321/rc-sanitaria/estudio-tatuajes\">aquí</a>"
+        ]
+      }
+    ]
+  },
+  "seo": {
+    "lang": "Spanish",
+    "title": "Seguro para Estudios de Tatuajes y Tatuadores",
+    "author": "Coberio",
+    "description": "Protege tu estudio de tatuajes y a los tatuadores con nuestra póliza de Responsabilidad Civil. Ofrecemos la protección necesaria para tu negocio y el patrimonio del asegurado. ¡Cuida tu negocio con Coberio!"
+  },
+  "hero": {
+    "title": "Protección Integral para Estudios de Tatuajes y Tatuadores",
+    "ctaLink": "https://wa.me/34682558762?text=",
+    "ctaText": "Solicita Precio",
+    "ctaLinkText": "Hola, quiero solicitar precio del seguro para estudios de tatuajes y tatuadores",
+    "description": [
+      "El seguro de Responsabilidad Civil para Estudios de Tatuajes y Tatuadores es una póliza diseñada especialmente para estos establecimientos, ofreciendo protección para tu negocio y patrimonio.",
+      "Cuenta con coberturas específicas y ajustadas a las necesidades del sector, respaldado por una empresa con amplia experiencia en el ámbito de la responsabilidad civil a nivel internacional como <a href=\"https://tailwindcss.com\" class=\"hover:underline\">Berkley</a>"
+    ],
+    "ctaImageLink": "/images/hero.png",
+    "secondaryCtaLink": "https://wa.me/34682558762?text=",
+    "secondaryCtaText": "Ya soy cliente",
+    "secondaryCtaLinkText": "Hola, soy cliente del seguro para estudios de tatuajes y tatuadores"
+  },
+  "lang": "es",
+  "route": "/seguro-tatuajes-tatuadores",
+  "whyus": {
+    "list": [
+      "Proceso 100% online",
+      "Trabajamos con las mejores aseguradoras",
+      "Hablamos tu idioma",
+      "Alta disponibilidad inmediata 7/24",
+      "Te acompañamos durante todo el proceso",
+      "Te avisamos antes del vencimientos de tus seguros"
+    ],
+    "title": "¿Por qué con Cober?",
+    "subtitle": [
+      "Nuestra misión es ofrecerte un servicio personalizado y de calidad.<br/>Valoramos tu seguridad y tranquilidad por encima de todo lo demás"
+    ]
+  },
+  "design": "design1",
+  "header": {
+    "ctaLink": "https://wa.me/34682558762?text=",
+    "ctaText": "¿Hablamos?",
+    "companyName": "Coberio",
+    "ctaLinkText": "Hola, quiero solicitar más información del seguro para estudios de tatuajes y tatuadores",
+    "companyLogoLink": "/images/logo.png"
+  },
+  "infoLeft": {
+    "title": "Protege tu estudio de tatuajes y a tus tatuadores",
+    "ctaLink": "https://wa.me/34682558762?text=",
+    "ctaText": "Solicita Precio",
+    "listItems": [
+      "Un cliente demanda al estudio por una reacción alérgica a la tinta utilizada en el tatuaje.",
+      "Durante un proceso de tatuaje, un tatuador causa una lesión accidental a un cliente.",
+      "Un cliente insatisfecho demanda al estudio por un diseño de tatuaje mal realizado."
+    ],
+    "ctaLinkText": "Hola quiero solicitar precio del seguro para tatuadores",
+    "description": [
+      "Los estudios de tatuajes y sus tatuadores están expuestos a diversos riesgos que pueden afectar su patrimonio y su reputación. Es fundamental contar con un seguro que proteja tanto a tu negocio como a tus empleados en caso de reclamaciones o imprevistos."
+    ],
+    "ctaImageLink": "/images/feature-1.png",
+    "secondaryCtaLink": "https://wa.me/34682558762?text=",
+    "secondaryCtaText": "No estoy seguro si cubre lo que necesito",
+    "secondaryCtaLinkText": "Hola, no estoy seguro si el seguro para tatuadores que ofrecen tiene las coberturas que necesito, ¿me puedes ayudar?",
+    "secondaryCtaImageLink": "/images/feature-1.png"
+  },
+  "infoRight": {
+    "title": "Seguro para Estudios de Tatuajes y Tatuadores",
+    "ctaLink": "https://wa.me/34682558762?text=",
+    "ctaText": "Solicita Precio",
+    "listItems": [
+      "Estudios de tatuajes",
+      "Tatuadores",
+      "Anilladores",
+      "Esteticién",
+      "Pigmentación dérmica permanente",
+      "Perforación de la piel (piercing y anillado)",
+      "Camuflaje (tatuaje terapéutico)",
+      "Micropigmentación"
+    ],
+    "ctaLinkText": "Hola quiero solicitar precio del seguro para estudios de tatuajes y tatuadores",
+    "description": [
+      "Este seguro está dirigido a estudios de tatuajes y tatuadores que buscan proteger su negocio y su actividad profesional:"
+    ],
+    "ctaImageLink": "/images/feature-1.png",
+    "secondaryCtaLink": "https://wa.me/34682558762?text=",
+    "secondaryCtaText": "No estoy seguro si es para mí",
+    "secondaryCtaLinkText": "Hola, necesito más información sobre el seguro para estudios de tatuajes y tatuadores. No estoy seguro si este seguro se adapta a mis necesidades.",
+    "secondaryCtaImageLink": "/images/feature-1.png"
+  }
+}
