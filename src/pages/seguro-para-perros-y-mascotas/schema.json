@@ -1,0 +1,122 @@
+{
+  "faq": {
+    "title": "Preguntas Frecuentes",
+    "questions": [
+      {
+        "title": "¿Por qué debería contratar un seguro de Responsabilidad Civil para perros y mascotas?",
+        "description": [
+          "Los perros y mascotas pueden causar daños a terceros, tanto a nivel material como personal. Un seguro de Responsabilidad Civil para perros y mascotas te protege de posibles reclamaciones por daños causados por tus animales."
+        ]
+      },
+      {
+        "title": "¿Por qué necesito un seguro de RC para perros y mascotas?",
+        "description": [
+          "Las mascotas pueden ocasionar accidentes inesperados que resulten en daños a terceros. Un seguro de Responsabilidad Civil para perros y mascotas te brinda la tranquilidad de estar protegido ante estas situaciones."
+        ]
+      },
+      {
+        "title": "¿Es obligatorio este tipo de seguros para los dueños de perros y mascotas?",
+        "description": [
+          "Aunque no es obligatorio por ley, es altamente recomendable tener un seguro de Responsabilidad Civil para perros y mascotas para evitar situaciones inesperadas que puedan suponer un gasto económico importante."
+        ]
+      },
+      {
+        "title": "¿Qué documentación necesito para contratar un seguro de responsabilidad civil para perros y mascotas?",
+        "description": [
+          "Para contratar un seguro de RC para perros y mascotas, necesitarás proporcionar información sobre tu mascota, como su raza, edad, y antecedentes de comportamiento. También es importante informar sobre tu situación como propietario y las coberturas que deseas incluir."
+        ]
+      },
+      {
+        "title": "¿Cuánto cuesta un seguro para mi perro o mascota?",
+        "description": [
+          "El precio de un seguro para perros y mascotas puede variar dependiendo de factores como la raza, la edad, y las coberturas que se incluyan. Para obtener un presupuesto personalizado, puedes solicitarlo de forma rápida <a href=\"http://localhost:4321/rc-perros-mascotas\">aquí</a>"
+        ]
+      }
+    ]
+  },
+  "seo": {
+    "lang": "Spanish",
+    "title": "Seguro para Perros y Mascotas",
+    "author": "Coberio",
+    "description": "Obtén la mejor protección para tu mascota con nuestro seguro especializado en perros y otras mascotas. Con nuestra póliza de Seguro para Perros y Mascotas, podrás garantizar su bienestar y cuidado en caso de cualquier imprevisto."
+  },
+  "hero": {
+    "title": "Protege a tu mejor amigo con nuestro seguro para perros y mascotas",
+    "ctaLink": "https://wa.me/34682558762?text=",
+    "ctaText": "Solicita Precio",
+    "ctaLinkText": "Hola, quiero solicitar precio del seguro para perros y mascotas",
+    "description": [
+      "El seguro de Responsabilidad Civil para Perros y Mascotas es una póliza diseñada especialmente para dueños de mascotas, ofreciendo protección y tranquilidad en caso de cualquier accidente o incidente en el que estén involucrados tus compañeros peludos.",
+      "Además de contar con coberturas específicas y ajustadas a las necesidades de tus mascotas, tendrás el respaldo de una empresa con amplia experiencia en el cuidado y protección de animales como <a href=\"https://tailwindcss.com\" class=\"hover:underline\">Berkley</a>"
+    ],
+    "ctaImageLink": "/images/hero.png",
+    "secondaryCtaLink": "https://wa.me/34682558762?text=",
+    "secondaryCtaText": "Ya soy cliente",
+    "secondaryCtaLinkText": "Hola, soy cliente del seguro para perros y mascotas"
+  },
+  "lang": "es",
+  "route": "/seguro-para-perros-y-mascotas",
+  "whyus": {
+    "list": [
+      "Proceso 100% online",
+      "Trabajamos con las mejores aseguradoras",
+      "Hablamos tu idioma",
+      "Alta disponibilidad inmediata 7/24",
+      "Te acompañamos durante todo el proceso",
+      "Te avisamos antes del vencimientos de tus seguros"
+    ],
+    "title": "¿Por qué con Cober?",
+    "subtitle": [
+      "Nuestra misión es ofrecerte un servicio personalizado y de calidad.<br/>Valoramos tu seguridad y tranquilidad por encima de todo lo demás"
+    ]
+  },
+  "design": "design1",
+  "header": {
+    "ctaLink": "https://wa.me/34682558762?text=",
+    "ctaText": "¿Hablamos?",
+    "companyName": "Coberio",
+    "ctaLinkText": "Hola, quiero solicitar más información del seguro para perros y mascotas",
+    "companyLogoLink": "/images/logo.png"
+  },
+  "infoLeft": {
+    "title": "¿Cómo proteger a tu perro o mascota con nuestro seguro?",
+    "ctaLink": "https://wa.me/34682558762?text=",
+    "ctaText": "Solicita Precio",
+    "listItems": [
+      "Tu perro sufre un accidente y necesita atención veterinaria de emergencia.",
+      "Tu mascota contrae una enfermedad grave y requiere tratamientos costosos.",
+      "Tu perro ocasiona daños a terceros y debes hacer frente a una reclamación de responsabilidad civil."
+    ],
+    "ctaLinkText": "Hola quiero solicitar precio del seguro para perros y mascotas",
+    "description": [
+      "Nuestro seguro para perros y mascotas te ofrece la tranquilidad de saber que estarán protegidos en caso de cualquier imprevisto. Ya sea por accidentes, enfermedades o responsabilidad civil, nuestro seguro te brinda la cobertura que necesitas para garantizar el bienestar de tu fiel compañero."
+    ],
+    "ctaImageLink": "/images/feature-1.png",
+    "secondaryCtaLink": "https://wa.me/34682558762?text=",
+    "secondaryCtaText": "No estoy seguro si cubre lo que necesito",
+    "secondaryCtaLinkText": "Hola, no estoy seguro si el seguro para perros y mascotas que ofrecen tiene las coberturas que necesito, ¿me puedes ayudar?",
+    "secondaryCtaImageLink": "/images/feature-1.png"
+  },
+  "infoRight": {
+    "title": "¿A quién está dirigido?",
+    "ctaLink": "https://wa.me/34682558762?text=",
+    "ctaText": "Solicita Precio",
+    "listItems": [
+      "Perros",
+      "Gatos",
+      "Aves",
+      "Roedores",
+      "Reptiles",
+      "Animales exóticos"
+    ],
+    "ctaLinkText": "Hola quiero solicitar precio del seguro para perros y mascotas",
+    "description": [
+      "Este seguro está dirigido a todas aquellas personas que deseen asegurar a sus perros y mascotas, garantizando su bienestar y protección:"
+    ],
+    "ctaImageLink": "/images/feature-1.png",
+    "secondaryCtaLink": "https://wa.me/34682558762?text=",
+    "secondaryCtaText": "No estoy seguro si es para mí",
+    "secondaryCtaLinkText": "Hola, necesito más información sobre el seguro para perros y mascotas. No estoy seguro si este seguro se adapta a mis necesidades.",
+    "secondaryCtaImageLink": "/images/feature-1.png"
+  }
+}
