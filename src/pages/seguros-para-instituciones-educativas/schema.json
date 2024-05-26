@@ -1,0 +1,122 @@
+{
+  "faq": {
+    "title": "Preguntas Frecuentes",
+    "questions": [
+      {
+        "title": "¿Por qué debería contratar un seguro de Responsabilidad Civil para Instituciones Educativas?",
+        "description": [
+          "Contratar un seguro de Responsabilidad Civil es fundamental para proteger a las instituciones educativas de posibles reclamaciones por daños a terceros.",
+          "Ante situaciones imprevistas que puedan causar perjuicios a alumnos, profesores o personal administrativo, contar con un seguro adecuado garantiza la tranquilidad y seguridad de la institución."
+        ]
+      },
+      {
+        "title": "¿Por qué necesito un seguro de RC para mi institución educativa?",
+        "description": [
+          "Las instituciones educativas están expuestas a diversos riesgos, desde accidentes en instalaciones hasta reclamaciones por mala praxis educativa.",
+          "Contar con un seguro de Responsabilidad Civil permite hacer frente a eventuales demandas y proteger el patrimonio de la institución y de sus directivos."
+        ]
+      },
+      {
+        "title": "¿Es obligatorio tener un seguro de Responsabilidad Civil para Instituciones Educativas?",
+        "description": [
+          "Aunque no es obligatorio por ley, es altamente recomendable para garantizar la cobertura de posibles reclamaciones y proteger los intereses de la institución educativa."
+        ]
+      },
+      {
+        "title": "¿Qué se necesita para contratar un seguro de RC para una institución educativa?",
+        "description": [
+          "Para contratar un seguro de Responsabilidad Civil para una institución educativa se requiere proporcionar información como: nombre completo de la institución, CIF, número de alumnos y personal, así como actividades y programas educativos ofrecidos."
+        ]
+      },
+      {
+        "title": "¿Cuál es el costo de un seguro para una institución educativa?",
+        "description": [
+          "El precio del seguro para una institución educativa varía en función de distintos factores como el tamaño de la institución, el nivel de cobertura deseado y el historial de riesgos.",
+          "Solicita un presupuesto personalizado de forma inmediata <a href=\"http://localhost:4321/rc-educativa/institucion\">aquí</a>"
+        ]
+      }
+    ]
+  },
+  "seo": {
+    "title": "Seguros para Instituciones Educativas",
+    "description": "El seguro de Responsabilidad Civil para Instituciones Educativas es indispensable para proteger tanto a los alumnos como al personal de la institución, brindando tranquilidad y seguridad en caso de cualquier imprevisto. ¡Protege tu centro educativo con nuestra póliza especializada!"
+  },
+  "hero": {
+    "title": "Seguro Educativo Integral",
+    "ctaLink": "https://wa.me/34682558762?text=",
+    "ctaText": "Solicita Precio",
+    "ctaLinkText": "Hola, quiero solicitar precio del seguro Educativo Integral para Instituciones Educativas",
+    "description": [
+      "El seguro Educativo Integral para Instituciones Educativas es una póliza diseñada especialmente para colegios, guarderías y centros de formación, ofreciendo protección ante posibles incidentes que puedan afectar a alumnos y personal.",
+      "Con coberturas específicas y ajustadas a las necesidades educativas, cuenta con el respaldo de una compañía con amplia experiencia en seguros a nivel internacional como <a href=\"https://tailwindcss.com\" class=\"hover:underline\">Berkley</a>"
+    ],
+    "ctaImageLink": "/images/hero.png",
+    "secondaryCtaLink": "https://wa.me/34682558762?text=",
+    "secondaryCtaText": "Ya soy cliente",
+    "secondaryCtaLinkText": "Hola, soy cliente del seguro Educativo Integral"
+  },
+  "lang": "es",
+  "route": "seguros-para-instituciones-educativas",
+  "whyus": {
+    "list": [
+      "Proceso 100% online",
+      "Trabajamos con las mejores aseguradoras",
+      "Hablamos tu idioma",
+      "Alta disponibilidad inmediata 7/24",
+      "Te acompañamos durante todo el proceso",
+      "Te avisamos antes del vencimientos de tus seguros"
+    ],
+    "title": "¿Por qué con Cober?",
+    "subtitle": [
+      "Nuestra misión es ofrecerte un servicio personalizado y de calidad.<br/>Valoramos tu seguridad y tranquilidad por encima de todo lo demás"
+    ]
+  },
+  "design": "design1",
+  "header": {
+    "ctaLink": "https://wa.me/34682558762?text=",
+    "ctaText": "¿Hablamos?",
+    "companyName": "Coberio",
+    "ctaLinkText": "Hola, quiero solicitar más información del seguro para instituciones educativas",
+    "companyLogoLink": "/images/logo.png"
+  },
+  "infoLeft": {
+    "title": "¿Qué podría ocurrir en tu institución educativa?",
+    "ctaLink": "https://wa.me/34682558762?text=",
+    "ctaText": "Solicita Precio",
+    "listItems": [
+      "Un estudiante sufre un accidente en las instalaciones y los padres presentan una demanda por daños y perjuicios.",
+      "Un docente es demandado por mala praxis en su desempeño profesional.",
+      "Un alumno sufre acoso escolar y los padres exigen responsabilidades a la institución."
+    ],
+    "ctaLinkText": "Hola quiero solicitar precio del seguro para instituciones educativas",
+    "description": [
+      "Las instituciones educativas enfrentan diversos riesgos que pueden afectar su patrimonio y reputación. Es fundamental protegerse ante posibles reclamaciones de estudiantes, padres de familia y personal docente que puedan surgir en el desarrollo de sus actividades educativas."
+    ],
+    "ctaImageLink": "/images/feature-1.png",
+    "secondaryCtaLink": "https://wa.me/34682558762?text=",
+    "secondaryCtaText": "No estoy seguro si cubre lo que necesito",
+    "secondaryCtaLinkText": "Hola, no estoy seguro si el seguro para instituciones educativas que ofrecen tiene las coberturas que necesito, ¿me puedes ayudar?",
+    "secondaryCtaImageLink": "/images/feature-1.png"
+  },
+  "infoRight": {
+    "title": "¿A quién está dirigido?",
+    "ctaLink": "https://wa.me/34682558762?text=",
+    "ctaText": "Solicita Precio",
+    "listItems": [
+      "Escuelas primarias",
+      "Escuelas secundarias",
+      "Universidades",
+      "Guarderías",
+      "Institutos"
+    ],
+    "ctaLinkText": "Hola quiero solicitar precio del seguro para Instituciones Educativas",
+    "description": [
+      "Este seguro está dirigido a instituciones educativas de todos los niveles, incluyendo escuelas primarias, secundarias y universidades."
+    ],
+    "ctaImageLink": "/images/feature-1.png",
+    "secondaryCtaLink": "https://wa.me/34682558762?text=",
+    "secondaryCtaText": "No estoy seguro si es para mí",
+    "secondaryCtaLinkText": "Hola, necesito más información sobre el seguro para Instituciones Educativas. No estoy seguro si este seguro se adapta a mis necesidades.",
+    "secondaryCtaImageLink": "/images/feature-1.png"
+  }
+}
