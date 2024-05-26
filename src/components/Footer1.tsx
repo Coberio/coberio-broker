@@ -15,22 +15,22 @@ export function Footer({ }: FooterProps) {
             <ul className="text-gray-500 dark:text-gray-400">
               <li className="mb-4">
                 <a href={getResource('seguro-responsabilidad-civil-tatuadores')} className=" hover:underline" target="_blank">
-                  Seguro para tatuadores
+                Seguro para Estudios de Tatuajes y Tatuadores
                 </a>
               </li>
               <li className="mb-4">
                 <a href={getResource('seguro-teatro-titeres')} className=" hover:underline" target="_blank">
-                Seguro para grupos de teatro
+                Seguro para Centros de Belleza y Estética
                 </a>
               </li>
               <li className="mb-4">
                 <a href={getResource('seguro-responsabilidad-civil-asociaciones-vecinos')} className=" hover:underline" target="_blank">
-                Seguro para asociaciones de vecinos
+                Seguros para Ejecutivos y Directivos
                 </a>
               </li>
               <li className="mb-4">
                 <a href={getResource('seguro-responsabilidad-civil-clubs-ajedrez')} className=" hover:underline" target="_blank">
-                Seguro para clubs de Ajedrez
+                Seguros para Instituciones Educativas
                 </a>
               </li>
             </ul>

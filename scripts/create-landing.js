@@ -7,29 +7,24 @@ const { Pool } = pg;
 
 function createDirectories(route) {
     const directories = route.split('/');
-    let currentPath = 'src/pages';
 
     for (let directory of directories) {
-        currentPath = join(currentPath, directory);
+        const currentPath = join('src', 'page', directory || '');
         if (!existsSync(currentPath)) {
             mkdirSync(currentPath);
         }
     }
 }
 
-function removeDirectories(route) {
-    const currentPath = join('src', 'pages', route ?? 'unknown');
-    if (existsSync(currentPath)) {
-        rmSync(currentPath, {
+function createSchemaFile(schema, route) {
+    const schemaFileName = 'schema.json';
+    const schemaFilePath = join('src', 'pages', route || '', schemaFileName);
+    if (existsSync(schemaFilePath)) {
+        rmSync(schemaFilePath, {
             force: true,
             recursive: true
         });
     }
-}
-
-function createSchemaFile(schema, route) {
-    const schemaFileName = 'schema.json';
-    const schemaFilePath = join('src', 'pages', route, schemaFileName);
     writeFileSync(schemaFilePath, JSON.stringify(schema, null, 2));
 }
 
@@ -37,17 +32,21 @@ function createComponentFile(route) {
     const filename = fileURLToPath(import.meta.url);
     const componentFileName = 'index.astro'
     const componentFile = readFileSync(join(dirname(filename), componentFileName));
+    const indexFilePath = join('src', 'pages', route || '', componentFileName)
+    if (existsSync(indexFilePath)) {
+        rmSync(indexFilePath, {
+            force: true,
+            recursive: true
+        });
+    }
     writeFileSync(
-        join('src', 'pages', route, componentFileName), 
+        indexFilePath, 
         componentFile
     );
 }
 
 async function generateLanding(landingId) {
-
     const {metadata:landingSchema, path:landingPath} = await getLanding(landingId)
-    console.log({landingSchema, landingPath})
-    removeDirectories(landingPath)
     createDirectories(landingPath);
     createSchemaFile(landingSchema, landingPath);
     createComponentFile(landingPath)
