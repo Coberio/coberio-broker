@@ -4,12 +4,12 @@ const baseUrl = import.meta.env.BASE_URL
 
 export const getResource = (path?:string) => {
     if(!path) return ''
-    if(path.startsWith('http')) return path
+    if(path.startsWith('http') || baseUrl === '/') return path
     return path.startsWith('/') ? `${baseUrl}${path}` : `${baseUrl}/${path}`
 }
 
 export const getImageResource = (path:string) => {
-    console.log({baseUrl})
+    if(path.startsWith('http') || baseUrl === '/') return path
     return `${baseUrl}/images/${path}`
 }
 
