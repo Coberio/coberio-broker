@@ -67,7 +67,7 @@
                 "priceInterval": "mes",
                 "coverages": [],
                 "ctaText": "Contratar Seguro",
-                "ctaLink": "http://localhost:4321/rc-sanitaria/estudio-tatuajes"
+                "ctaLink": "https://wa.me/34682558762?text=Hola,%20quiero%20contratar%20seguro%20de%20hogar"
             },
             {
                 "title": "🏥 Seguro Salud",
@@ -78,7 +78,7 @@
                 "coverages": [
                 ],
                 "ctaText": "Contratar Seguro",
-                "ctaLink": "http://localhost:4321/rc-sanitaria/estudio-tatuajes"
+                "ctaLink": "https://wa.me/34682558762?text=Hola,%20quiero%20contratar%20seguro%20de%20salud"
             },
             {
                 "title": "❤️ Seguro Vida",
@@ -88,7 +88,7 @@
                 "priceInterval": "mes",
                 "coverages": [],
                 "ctaText": "Contratar Seguro",
-                "ctaLink": "http://localhost:4321/rc-sanitaria/estudio-tatuajes"
+                "ctaLink": "https://wa.me/34682558762?text=Hola,%20quiero%20contratar%20seguro%20de%20vida"
             },
             {
                 "title": "🦮 Seguro Perros",
@@ -99,7 +99,7 @@
                 "coverages": [
                 ],
                 "ctaText": "Contratar Seguro",
-                "ctaLink": "http://localhost:4321/rc-sanitaria/estudio-tatuajes"
+                "ctaLink": "https://wa.me/34682558762?text=Hola,%20quiero%20contratar%20seguro%20de%20perro"
             }
         ]
     },

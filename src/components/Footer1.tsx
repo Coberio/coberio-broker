@@ -56,7 +56,7 @@ export function Footer({ }: FooterProps) {
                 </a>
               </li>
               <li className="mb-4">
-                <a href="#" className="hover:underline">
+                <a href={getResource('/seguro-para-perros-y-mascotas')} className="hover:underline">
                 🦮 Seguro Perro
                 </a>
               </li>
