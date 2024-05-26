@@ -1,0 +1,126 @@
+{
+  "faq": {
+    "title": "Preguntas Frecuentes",
+    "questions": [
+      {
+        "title": "¿Por qué es importante contratar un seguro de Responsabilidad Civil para Ejecutivos y Directivos?",
+        "description": [
+          "Los ejecutivos y directivos de una empresa están expuestos a decisiones y responsabilidades que pueden llevar a reclamaciones legales en su contra.",
+          "Un seguro de Responsabilidad Civil para Ejecutivos y Directivos ofrece protección ante posibles demandas por parte de accionistas, empleados, clientes o competidores."
+        ]
+      },
+      {
+        "title": "¿Qué coberturas ofrece un seguro de RC para Ejecutivos y Directivos?",
+        "description": [
+          "Las coberturas básicas suelen incluir defensa jurídica, indemnizaciones por daños y perjuicios, y gastos de representación legal.",
+          "Además, pueden ofrecer coberturas adicionales como protección ante reclamaciones por acusaciones de mala praxis, violaciones de normativas, o actos deshonestos."
+        ]
+      },
+      {
+        "title": "¿Es obligatorio contratar un seguro de Responsabilidad Civil para Ejecutivos y Directivos?",
+        "description": [
+          "Aunque no es obligatorio, es altamente recomendable para proteger el patrimonio personal de los altos cargos de una empresa en caso de reclamaciones legales."
+        ]
+      },
+      {
+        "title": "¿Qué información se necesita para contratar un seguro para Ejecutivos y Directivos?",
+        "description": [
+          "Para contratar un seguro de RC para Ejecutivos y Directivos se requiere proporcionar información sobre la empresa, los cargos directivos a asegurar y el capital asegurado deseado."
+        ]
+      },
+      {
+        "title": "¿Cuál es el coste de un seguro para Ejecutivos y Directivos?",
+        "description": [
+          "El precio de un seguro para ejecutivos y directivos varía dependiendo del tamaño de la empresa, el nivel de riesgo, y las coberturas solicitadas.",
+          "Para obtener un presupuesto personalizado, solicita más información <a href=\"http://localhost:4321/rc-ejecutivos-directivos\">aquí</a>"
+        ]
+      }
+    ]
+  },
+  "seo": {
+    "lang": "Spanish",
+    "title": "Seguros para Ejecutivos y Directivos",
+    "author": "Coberio",
+    "description": "El seguro de Responsabilidad Civil para Ejecutivos y Directivos proporciona una cobertura especializada para proteger a los líderes de empresas y ejecutivos. Protege tus activos y patrimonio con esta póliza diseñada a medida."
+  },
+  "hero": {
+    "title": "Protección Integral para Directivos",
+    "ctaLink": "https://wa.me/34682558762?text=",
+    "ctaText": "Solicita Precio",
+    "ctaLinkText": "Hola, quiero solicitar precio del seguro para directivos y ejecutivos",
+    "description": [
+      "El seguro de Responsabilidad Civil para Directivos y Ejecutivos es una póliza diseñada especialmente para proteger a los líderes de empresas ante posibles reclamaciones por su gestión en la compañía.",
+      "Además de contar con coberturas específicas y ajustadas a sus responsabilidades, tienen la tranquilidad de estar respaldados por una empresa líder en el mercado de seguros como <a href=\"https://tailwindcss.com\" class=\"hover:underline\">Berkley</a>"
+    ],
+    "ctaImageLink": "/images/hero.png",
+    "secondaryCtaLink": "https://wa.me/34682558762?text=",
+    "secondaryCtaText": "Ya soy cliente",
+    "secondaryCtaLinkText": "Hola, soy cliente del seguro para directivos y ejecutivos"
+  },
+  "lang": "es",
+  "route": "/seguros-ejecutivos-directivos",
+  "whyus": {
+    "list": [
+      "Proceso 100% online",
+      "Trabajamos con las mejores aseguradoras",
+      "Hablamos tu idioma",
+      "Alta disponibilidad inmediata 7/24",
+      "Te acompañamos durante todo el proceso",
+      "Te avisamos antes del vencimientos de tus seguros"
+    ],
+    "title": "¿Por qué con Cober?",
+    "subtitle": [
+      "Nuestra misión es ofrecerte un servicio personalizado y de calidad.<br/>Valoramos tu seguridad y tranquilidad por encima de todo lo demás"
+    ]
+  },
+  "design": "design1",
+  "header": {
+    "ctaLink": "https://wa.me/34682558762?text=",
+    "ctaText": "¿Hablamos?",
+    "companyName": "Coberio",
+    "ctaLinkText": "Hola, quiero solicitar más información del seguro para ejecutivos y directivos",
+    "companyLogoLink": "/images/logo.png"
+  },
+  "infoLeft": {
+    "title": "¿Por qué los ejecutivos y directivos necesitan un seguro especializado?",
+    "ctaLink": "https://wa.me/34682558762?text=",
+    "ctaText": "Solicita Precio",
+    "listItems": [
+      "Un accionista presenta una demanda por una decisión financiera que considera perjudicial para la empresa.",
+      "Un empleado acusa a un directivo de discriminación laboral.",
+      "Un competidor inicia una demanda por presunta competencia desleal por parte de un ejecutivo"
+    ],
+    "ctaLinkText": "Hola quiero solicitar precio del seguro para ejecutivos y directivos",
+    "description": [
+      "Los altos cargos de una empresa se enfrentan a una gran responsabilidad en la toma de decisiones que pueden afectar al rumbo y la estabilidad de la organización. Un seguro diseñado específicamente para ejecutivos y directivos les proporciona la protección necesaria ante posibles reclamaciones por errores, omisiones o mala praxis en el ejercicio de sus funciones, evitando así poner en riesgo su patrimonio personal."
+    ],
+    "ctaImageLink": "/images/feature-1.png",
+    "secondaryCtaLink": "https://wa.me/34682558762?text=",
+    "secondaryCtaText": "No estoy seguro si cubre lo que necesito",
+    "secondaryCtaLinkText": "Hola, no estoy seguro si el seguro para ejecutivos y directivos que ofrecen tiene las coberturas que necesito, ¿me puedes ayudar?",
+    "secondaryCtaImageLink": "/images/feature-1.png"
+  },
+  "infoRight": {
+    "title": "¿A quién está dirigido?",
+    "ctaLink": "https://wa.me/34682558762?text=",
+    "ctaText": "Solicita Precio",
+    "listItems": [
+      "Directores ejecutivos",
+      "Directores financieros",
+      "Directores de recursos humanos",
+      "Directores comerciales",
+      "Directores de operaciones",
+      "Consejeros delegados",
+      "Gerentes generales"
+    ],
+    "ctaLinkText": "Hola quiero solicitar precio del seguro para ejecutivos y directivos",
+    "description": [
+      "Este seguro está dirigido a ejecutivos, directivos y altos cargos de empresas que buscan proteger su responsabilidad en el ejercicio de sus funciones:"
+    ],
+    "ctaImageLink": "/images/feature-1.png",
+    "secondaryCtaLink": "https://wa.me/34682558762?text=",
+    "secondaryCtaText": "No estoy seguro si es para mí",
+    "secondaryCtaLinkText": "Hola, necesito más información sobre el seguro para ejecutivos y directivos. No estoy seguro si este seguro se adapta a mis necesidades.",
+    "secondaryCtaImageLink": "/images/feature-1.png"
+  }
+}
