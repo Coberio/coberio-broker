@@ -80,6 +80,11 @@ export function Footer({ companyLogoLink, ctaText }: FooterProps) {
                 </a>
               </li> */}
               <li className="mb-4">
+                <a href="https://elreferente.es/startup/cober-io/" className="hover:underline" target="_blank">
+                  Prensa
+                </a>
+              </li> 
+              <li className="mb-4">
                 <a href={getResource("/blog")} className="hover:underline" target="_blank">
                   Blog
                 </a>
@@ -148,7 +153,7 @@ export function Footer({ companyLogoLink, ctaText }: FooterProps) {
             </a>
             .
           </span>
-          <ul className="flex justify-center mt-5 space-x-5">
+          {/* <ul className="flex justify-center mt-5 space-x-5">
             <li>
               <a
                 href="#"
@@ -240,7 +245,7 @@ export function Footer({ companyLogoLink, ctaText }: FooterProps) {
                 </svg>
               </a>
             </li>
-          </ul>
+          </ul> */}
         </div>
       </div>
     </footer>
