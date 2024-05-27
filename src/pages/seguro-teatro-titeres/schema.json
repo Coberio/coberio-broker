@@ -80,7 +80,7 @@
     "ctaText": "¿Hablamos?",
     "companyName": "Coberio",
     "ctaLinkText": "Hola, quiero solicitar más información del seguro para agrupaciones teatrales amateur",
-    "companyLogoLink": "/images/logo.png"
+    "companyLogoLink": "/images/logo.webp"
   },
   "infoLeft": {
     "title": "¿Qué podría ocurrirte en tu agrupación de teatro y títeres?",
@@ -95,11 +95,11 @@
     "description": [
       "Las agrupaciones no profesionales de teatro y títeres son espacios donde pueden surgir situaciones que pongan en riesgo el patrimonio de la agrupación y de sus miembros. Es importante protegerse ante posibles reclamaciones que puedan surgir debido a la naturaleza de las actividades realizadas."
     ],
-    "ctaImageLink": "/images/feature-1.png",
+    "ctaImageLink": "/images/feature-1.webp",
     "secondaryCtaLink": "https://wa.me/34682558762?text=",
     "secondaryCtaText": "No estoy seguro si cubre lo que necesito",
     "secondaryCtaLinkText": "Hola, no estoy seguro si el seguro para agrupaciones de teatro y títeres que ofrecen tiene las coberturas que necesito, ¿me puedes ayudar?",
-    "secondaryCtaImageLink": "/images/feature-1.png"
+    "secondaryCtaImageLink": "/images/feature-1.webp"
   },
   "infoRight": {
     "title": "¿A quién está dirigido?",
@@ -117,10 +117,10 @@
     "description": [
       "Este seguro está dirigido a agrupaciones no profesionales de teatro y títeres:"
     ],
-    "ctaImageLink": "/images/feature-1.png",
+    "ctaImageLink": "/images/feature-1.webp",
     "secondaryCtaLink": "https://wa.me/34682558762?text=",
     "secondaryCtaText": "No estoy seguro si es para mí",
     "secondaryCtaLinkText": "Hola, necesito más información sobre el seguro para agrupaciones de teatro y títeres. No estoy seguro si este seguro se adapta a mis necesidades.",
-    "secondaryCtaImageLink": "/images/feature-1.png"
+    "secondaryCtaImageLink": "/images/feature-1.webp"
   }
 }

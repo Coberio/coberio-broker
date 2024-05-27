@@ -1,6 +1,6 @@
 {
     "lang": "es",
-    "route": "/rc-sanitaria/estudio-tatuajes",
+    "route": "/helloworld",
     "design": "design1",
     "seo": {
         "title":"Seguro para Tatuadores",
@@ -10,7 +10,7 @@
     },
     "header": {
         "companyName": "Coberio", 
-        "companyLogoLink": "/images/logo.png",
+        "companyLogoLink": "/images/logo.webp",
         "ctaText": "¿Hablamos?",
         "ctaLink": "https://wa.me/34682558762?text=",
         "ctaLinkText": "Hola, quiero solicitar más información del seguro para taturadores"
@@ -25,7 +25,7 @@
         "ctaText": "Solicita Precio",
         "ctaLink": "https://wa.me/34682558762?text=",
         "ctaLinkText": "Hola, quiero solicitar precio del seguro para tatuadores",
-        "ctaImageLink": "/images/hero.png",
+        "ctaImageLink": "/images/home.webp",
         "secondaryCtaText": "Ya soy cliente",
         "secondaryCtaLink": "https://wa.me/34682558762?text=",
         "secondaryCtaLinkText": "Hola, soy cliente del seguro para taturadores"
@@ -44,11 +44,11 @@
         "ctaText": "Solicita Precio",
         "ctaLink": "https://wa.me/34682558762?text=",
         "ctaLinkText": "Hola quiero solicitar precio del seguro para taturadores",
-        "ctaImageLink": "/images/feature-1.png",
+        "ctaImageLink": "/images/feature-1.webp",
         "secondaryCtaText": "No estoy seguro si cubre lo que necesito",
         "secondaryCtaLink": "https://wa.me/34682558762?text=",
         "secondaryCtaLinkText": "Hola, no estoy seguro si el seguro para tatuadores que ofrecen tiene las coberturas que necesito, ¿me puedes ayudar?",
-        "secondaryCtaImageLink": "/images/feature-1.png"
+        "secondaryCtaImageLink": "/images/feature-1.webp"
     },
     "infoRight": {
         "title": "¿A quién está dirigido?",
@@ -68,11 +68,11 @@
         "ctaText": "Solicita Precio",
         "ctaLink": "https://wa.me/34682558762?text=",
         "ctaLinkText": "Hola quiero solicitar precio del seguro para taturadores",
-        "ctaImageLink": "/images/feature-1.png",
+        "ctaImageLink": "/images/feature-1.webp",
         "secondaryCtaText": "No estoy seguro si es para mí",
         "secondaryCtaLink": "https://wa.me/34682558762?text=",
         "secondaryCtaLinkText": "Hola, necesito más información sobre el seguro para tatuadores. No estoy seguro si este seguro se adapta a mis necesidades.",
-        "secondaryCtaImageLink": "/images/feature-1.png"
+        "secondaryCtaImageLink": "/images/feature-1.webp"
     },
     "products": {
         "title": "Contrata tu seguro de RC para tatuadores",

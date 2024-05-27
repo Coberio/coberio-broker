@@ -49,7 +49,7 @@
       "El seguro de Responsabilidad Civil para Perros y Mascotas es una póliza diseñada especialmente para dueños de mascotas, ofreciendo protección y tranquilidad en caso de cualquier accidente o incidente en el que estén involucrados tus compañeros peludos.",
       "Además de contar con coberturas específicas y ajustadas a las necesidades de tus mascotas, tendrás el respaldo de una empresa con amplia experiencia en el cuidado y protección de animales como <a href=\"https://tailwindcss.com\" class=\"hover:underline\">Berkley</a>"
     ],
-    "ctaImageLink": "/images/hero.png",
+    "ctaImageLink": "/images/hero.webp",
     "secondaryCtaLink": "https://wa.me/34682558762?text=",
     "secondaryCtaText": "Ya soy cliente",
     "secondaryCtaLinkText": "Hola, soy cliente del seguro para perros y mascotas"
@@ -76,7 +76,7 @@
     "ctaText": "¿Hablamos?",
     "companyName": "Coberio",
     "ctaLinkText": "Hola, quiero solicitar más información del seguro para perros y mascotas",
-    "companyLogoLink": "/images/logo.png"
+    "companyLogoLink": "/images/logo.webp"
   },
   "infoLeft": {
     "title": "¿Cómo proteger a tu perro o mascota con nuestro seguro?",
@@ -91,11 +91,11 @@
     "description": [
       "Nuestro seguro para perros y mascotas te ofrece la tranquilidad de saber que estarán protegidos en caso de cualquier imprevisto. Ya sea por accidentes, enfermedades o responsabilidad civil, nuestro seguro te brinda la cobertura que necesitas para garantizar el bienestar de tu fiel compañero."
     ],
-    "ctaImageLink": "/images/feature-1.png",
+    "ctaImageLink": "/images/feature-1.webp",
     "secondaryCtaLink": "https://wa.me/34682558762?text=",
     "secondaryCtaText": "No estoy seguro si cubre lo que necesito",
     "secondaryCtaLinkText": "Hola, no estoy seguro si el seguro para perros y mascotas que ofrecen tiene las coberturas que necesito, ¿me puedes ayudar?",
-    "secondaryCtaImageLink": "/images/feature-1.png"
+    "secondaryCtaImageLink": "/images/feature-1.webp"
   },
   "infoRight": {
     "title": "¿A quién está dirigido?",
@@ -113,10 +113,10 @@
     "description": [
       "Este seguro está dirigido a todas aquellas personas que deseen asegurar a sus perros y mascotas, garantizando su bienestar y protección:"
     ],
-    "ctaImageLink": "/images/feature-1.png",
+    "ctaImageLink": "/images/feature-1.webp",
     "secondaryCtaLink": "https://wa.me/34682558762?text=",
     "secondaryCtaText": "No estoy seguro si es para mí",
     "secondaryCtaLinkText": "Hola, necesito más información sobre el seguro para perros y mascotas. No estoy seguro si este seguro se adapta a mis necesidades.",
-    "secondaryCtaImageLink": "/images/feature-1.png"
+    "secondaryCtaImageLink": "/images/feature-1.webp"
   }
 }

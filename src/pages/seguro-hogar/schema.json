@@ -49,7 +49,7 @@
       "El seguro de Hogar es una póliza diseñada para proteger tu vivienda y tus bienes contra imprevistos como incendios, robos, daños por agua, entre otros.",
       "Además de ofrecer coberturas específicas y ajustadas a tus necesidades, cuentas con el respaldo de una empresa con amplia experiencia en seguros de hogar como <a href=\"https://tailwindcss.com\" class=\"hover:underline\">Berkley</a>"
     ],
-    "ctaImageLink": "/images/hero.png",
+    "ctaImageLink": "/images/hero.webp",
     "secondaryCtaLink": "https://wa.me/34682558762?text=",
     "secondaryCtaText": "Ya soy cliente",
     "secondaryCtaLinkText": "Hola, soy cliente del seguro de hogar"
@@ -76,7 +76,7 @@
     "ctaText": "¿Hablamos?",
     "companyName": "Coberio",
     "ctaLinkText": "Hola, quiero solicitar más información del seguro de Hogar",
-    "companyLogoLink": "/images/logo.png"
+    "companyLogoLink": "/images/logo.webp"
   },
   "infoLeft": {
     "title": "Protege tu hogar con nuestro seguro de hogar",
@@ -91,11 +91,11 @@
     "description": [
       "Tu hogar es uno de tus mayores patrimonios, por lo que es importante protegerlo ante posibles riesgos y situaciones inesperadas. Nuestro seguro de hogar te brinda la tranquilidad y seguridad que necesitas para tu vivienda y tus seres queridos."
     ],
-    "ctaImageLink": "/images/feature-1.png",
+    "ctaImageLink": "/images/feature-1.webp",
     "secondaryCtaLink": "https://wa.me/34682558762?text=",
     "secondaryCtaText": "No estoy seguro si cubre lo que necesito",
     "secondaryCtaLinkText": "Hola, no estoy seguro si el seguro de hogar que ofrecen tiene las coberturas que necesito, ¿me puedes ayudar?",
-    "secondaryCtaImageLink": "/images/feature-1.png"
+    "secondaryCtaImageLink": "/images/feature-1.webp"
   },
   "infoRight": {
     "title": "¿A quién está dirigido?",
@@ -112,10 +112,10 @@
     "description": [
       "Este seguro está dirigido a propietarios de viviendas que buscan proteger su hogar y sus bienes:"
     ],
-    "ctaImageLink": "/images/feature-1.png",
+    "ctaImageLink": "/images/feature-1.webp",
     "secondaryCtaLink": "https://wa.me/34682558762?text=",
     "secondaryCtaText": "No estoy seguro si es para mí",
     "secondaryCtaLinkText": "Hola, necesito más información sobre el seguro de hogar. No estoy seguro si este seguro se adapta a mis necesidades.",
-    "secondaryCtaImageLink": "/images/feature-1.png"
+    "secondaryCtaImageLink": "/images/feature-1.webp"
   }
 }

@@ -10,7 +10,7 @@
     },
     "header": {
         "companyName": "Coberio", 
-        "companyLogoLink": "/images/logo.png",
+        "companyLogoLink": "/images/logo.webp",
         "ctaText": "¿Hablamos?",
         "ctaLink": "https://wa.me/34682558762?text=",
         "ctaLinkText": "Hola, quiero solicitar más información sobre sus seguros"
@@ -23,7 +23,7 @@
         "ctaText": "Solicita Precio",
         "ctaLink": "https://wa.me/34682558762?text=",
         "ctaLinkText": "Hola, quiero solicitar precio de sus seguros",
-        "ctaImageLink": "/images/home.png",
+        "ctaImageLink": "/images/home.webp",
         "ctaVideoLink": "",
         "ctaImageStyle": {"width": "400px", "maskImage": "linear-gradient(rgb(255 255 255 / 95%) 60%, transparent)",  "userSelect": "none"},
         "secondaryCtaText": "Ya soy cliente",
@@ -47,11 +47,11 @@
         "ctaText": "Quiero saber más",
         "ctaLink": "https://wa.me/34682558762?text=",
         "ctaLinkText": "Hola quiero solicitar precio del seguro para taturadores",
-        "ctaImageLink": "/images/feature-1.png",
+        "ctaImageLink": "/images/feature-1.webp",
         "secondaryCtaText": "",
         "secondaryCtaLink": "https://wa.me/34682558762?text=",
         "secondaryCtaLinkText": "Hola, quiero saber más sobre vuestros seguros",
-        "secondaryCtaImageLink": "/images/feature-1.png"
+        "secondaryCtaImageLink": "/images/feature-1.webp"
     },
     "products": {
         "title": "Contrata tu seguro en menos de 5 minutos",

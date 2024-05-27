@@ -53,7 +53,7 @@
       "Con la protección de una empresa reconocida en el sector de la salud, podrás acceder a los mejores servicios médicos y hospitalarios para cuidar lo más importante: tu bienestar.",
       "¡No esperes más y solicita información sobre nuestro Seguro de Salud hoy mismo!"
     ],
-    "ctaImageLink": "/images/hero.png",
+    "ctaImageLink": "/images/hero.webp",
     "secondaryCtaLink": "https://wa.me/34682558762?text=",
     "secondaryCtaText": "Ya soy asegurado",
     "secondaryCtaLinkText": "Hola, soy cliente del Seguro de Salud"
@@ -80,7 +80,7 @@
     "ctaText": "¿Hablamos?",
     "companyName": "Coberio",
     "ctaLinkText": "Hola, quiero solicitar más información del seguro de salud",
-    "companyLogoLink": "/images/logo.png"
+    "companyLogoLink": "/images/logo.webp"
   },
   "infoLeft": {
     "title": "Beneficios del seguro de salud",
@@ -95,11 +95,11 @@
     "description": [
       "Un seguro de salud te brinda la tranquilidad de contar con la atención médica necesaria en todo momento. Protege tu bienestar y el de tus seres queridos, ofreciendo cobertura ante enfermedades, accidentes y emergencias médicas."
     ],
-    "ctaImageLink": "/images/feature-1.png",
+    "ctaImageLink": "/images/feature-1.webp",
     "secondaryCtaLink": "https://wa.me/34682558762?text=",
     "secondaryCtaText": "No estoy seguro si cubre lo que necesito",
     "secondaryCtaLinkText": "Hola, no estoy seguro si el seguro de salud que ofrecen tiene las coberturas que necesito, ¿me puedes ayudar?",
-    "secondaryCtaImageLink": "/images/feature-1.png"
+    "secondaryCtaImageLink": "/images/feature-1.webp"
   },
   "infoRight": {
     "title": "¿A quién está dirigido?",
@@ -117,10 +117,10 @@
     "description": [
       "Este seguro está dirigido a personas físicas y jurídicas que deseen contar con cobertura médica integral:"
     ],
-    "ctaImageLink": "/images/feature-1.png",
+    "ctaImageLink": "/images/feature-1.webp",
     "secondaryCtaLink": "https://wa.me/34682558762?text=",
     "secondaryCtaText": "No estoy seguro si es para mí",
     "secondaryCtaLinkText": "Hola, necesito más información sobre el seguro de salud. No estoy seguro si este seguro se adapta a mis necesidades.",
-    "secondaryCtaImageLink": "/images/feature-1.png"
+    "secondaryCtaImageLink": "/images/feature-1.webp"
   }
 }

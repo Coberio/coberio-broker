@@ -82,7 +82,10 @@ export function Design1({ schema, children }: DesignProps) {
         list={schema.whyus.list}
         footerTitle={schema.whyus.footerTitle}
       />}
-      <Footer />
+      <Footer 
+        companyLogoLink={getResource(schema.header.companyLogoLink)}
+        ctaText={schema.header.ctaText} 
+        />
 	  </>
   )
 }

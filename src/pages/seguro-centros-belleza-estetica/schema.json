@@ -51,7 +51,7 @@
       "El seguro de Responsabilidad Civil para Centros de Belleza y Estética es una póliza diseñada especialmente para este tipo de establecimientos, ofreciendo la protección necesaria para tu negocio y patrimonio.",
       "Con coberturas específicas y ajustadas a las necesidades de tu centro, cuentas con el respaldo de una empresa con amplia experiencia y prestigio en el ámbito de la responsabilidad civil a nivel internacional como <a href=\"https://tailwindcss.com\" class=\"hover:underline\">Berkley</a>"
     ],
-    "ctaImageLink": "/images/hero.png",
+    "ctaImageLink": "/images/hero.webp",
     "secondaryCtaLink": "https://wa.me/34682558762?text=",
     "secondaryCtaText": "Ya soy cliente",
     "secondaryCtaLinkText": "Hola, soy cliente del seguro para Centros de Belleza y Estética"
@@ -78,7 +78,7 @@
     "ctaText": "¿Hablamos?",
     "companyName": "Coberio",
     "ctaLinkText": "Hola, quiero solicitar más información del seguro para Centros de Belleza y Estética",
-    "companyLogoLink": "/images/logo.png"
+    "companyLogoLink": "/images/logo.webp"
   },
   "infoLeft": {
     "title": "¿Qué peligros pueden enfrentar los centros de belleza y estética?",
@@ -93,11 +93,11 @@
     "description": [
       "Los centros de belleza y estética son lugares donde se realizan tratamientos que pueden conllevar riesgos para los clientes. Por ello, es importante contar con un seguro que proteja tanto a los propietarios como a los clientes en caso de reclamaciones por daños o perjuicios."
     ],
-    "ctaImageLink": "/images/feature-1.png",
+    "ctaImageLink": "/images/feature-1.webp",
     "secondaryCtaLink": "https://wa.me/34682558762?text=",
     "secondaryCtaText": "No estoy seguro si cubre lo que necesito",
     "secondaryCtaLinkText": "Hola, no estoy seguro si el seguro para centros de belleza y estética que ofrecen tiene las coberturas que necesito, ¿me puedes ayudar?",
-    "secondaryCtaImageLink": "/images/feature-1.png"
+    "secondaryCtaImageLink": "/images/feature-1.webp"
   },
   "infoRight": {
     "title": "¿A quién está dirigido?",
@@ -116,10 +116,10 @@
     "description": [
       "Este seguro está dirigido a centros de belleza y estética que ofrecen servicios como peluquería, maquillaje, manicura, pedicura, tratamientos faciales y corporales, entre otros."
     ],
-    "ctaImageLink": "/images/feature-1.png",
+    "ctaImageLink": "/images/feature-1.webp",
     "secondaryCtaLink": "https://wa.me/34682558762?text=",
     "secondaryCtaText": "No estoy seguro si es para mí",
     "secondaryCtaLinkText": "Hola, necesito más información sobre el seguro para centros de belleza y estética. No estoy seguro si este seguro se adapta a mis necesidades.",
-    "secondaryCtaImageLink": "/images/feature-1.png"
+    "secondaryCtaImageLink": "/images/feature-1.webp"
   }
 }

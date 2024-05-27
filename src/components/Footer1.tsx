@@ -1,9 +1,11 @@
 import { getResource } from "@/utils";
 
 export interface FooterProps {
+  companyLogoLink:string
+  ctaText:string
 }
 
-export function Footer({ }: FooterProps) {
+export function Footer({ companyLogoLink, ctaText }: FooterProps) {
   return (
     <footer className="bg-gray-50 dark:bg-gray-800">
       <div className="max-w-screen-xl p-4 py-6 mx-auto lg:py-16 md:p-8 lg:p-10">
@@ -41,17 +43,17 @@ export function Footer({ }: FooterProps) {
             </h3>
             <ul className="text-gray-500 dark:text-gray-400">
               <li className="mb-4">
-                <a href="#" className="hover:underline">
+                <a href={getResource('/seguro-hogar')} className="hover:underline">
                 🏠 Seguro Hogar
                 </a>
               </li>
               <li className="mb-4">
-                <a href="#" className="hover:underline">
+                <a href={getResource('/seguro-salud')} className="hover:underline">
                 🏥 Seguro Salud
                 </a>
               </li>
               <li className="mb-4">
-                <a href="#" className="hover:underline">
+                <a href={getResource('/seguro-de-vida')} className="hover:underline">
                 ❤️ Seguro Vida
                 </a>
               </li>
@@ -124,12 +126,18 @@ export function Footer({ }: FooterProps) {
         </div>
         <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
         <div className="text-center">
-          <a
-            href="#"
+        {companyLogoLink && (<a
+            href={getResource('/')}
             className="flex items-center justify-center mb-5 text-2xl font-semibold text-gray-900 dark:text-white"
           >
-            <img src={getResource("/images/logo.png")} className="h-6 mr-3 sm:h-9" alt="" />
+              <img
+                src={companyLogoLink}
+                className="h-6 mr-3 sm:h-9"
+                alt={ctaText}
+                loading="lazy" 
+              />
           </a>
+            )}
           <span className="block text-sm text-center text-gray-500 dark:text-gray-400">
             © 2022-2024 Coberio Broker S.L. All Rights Reserved. Built with{' '}
             <a

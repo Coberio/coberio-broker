@@ -52,7 +52,7 @@
       "El seguro para Instituciones Educativas es una póliza diseñada especialmente para colegios, guarderías y centros de formación, ofreciendo protección ante posibles incidentes que puedan afectar a alumnos y personal.",
       "Con coberturas específicas y ajustadas a las necesidades educativas, cuenta con el respaldo de una compañía con amplia experiencia en seguros a nivel internacional como <a href=\"https://tailwindcss.com\" class=\"hover:underline\">Berkley</a>"
     ],
-    "ctaImageLink": "/images/hero.png",
+    "ctaImageLink": "/images/hero.webp",
     "secondaryCtaLink": "https://wa.me/34682558762?text=",
     "secondaryCtaText": "Ya soy cliente",
     "secondaryCtaLinkText": "Hola, soy cliente del seguro Educativo Integral"
@@ -79,7 +79,7 @@
     "ctaText": "¿Hablamos?",
     "companyName": "Coberio",
     "ctaLinkText": "Hola, quiero solicitar más información del seguro para instituciones educativas",
-    "companyLogoLink": "/images/logo.png"
+    "companyLogoLink": "/images/logo.webp"
   },
   "infoLeft": {
     "title": "¿Qué podría ocurrir en tu institución educativa?",
@@ -94,11 +94,11 @@
     "description": [
       "Las instituciones educativas enfrentan diversos riesgos que pueden afectar su patrimonio y reputación. Es fundamental protegerse ante posibles reclamaciones de estudiantes, padres de familia y personal docente que puedan surgir en el desarrollo de sus actividades educativas."
     ],
-    "ctaImageLink": "/images/feature-1.png",
+    "ctaImageLink": "/images/feature-1.webp",
     "secondaryCtaLink": "https://wa.me/34682558762?text=",
     "secondaryCtaText": "No estoy seguro si cubre lo que necesito",
     "secondaryCtaLinkText": "Hola, no estoy seguro si el seguro para instituciones educativas que ofrecen tiene las coberturas que necesito, ¿me puedes ayudar?",
-    "secondaryCtaImageLink": "/images/feature-1.png"
+    "secondaryCtaImageLink": "/images/feature-1.webp"
   },
   "infoRight": {
     "title": "¿A quién está dirigido?",
@@ -115,10 +115,10 @@
     "description": [
       "Este seguro está dirigido a instituciones educativas de todos los niveles, incluyendo escuelas primarias, secundarias y universidades."
     ],
-    "ctaImageLink": "/images/feature-1.png",
+    "ctaImageLink": "/images/feature-1.webp",
     "secondaryCtaLink": "https://wa.me/34682558762?text=",
     "secondaryCtaText": "No estoy seguro si es para mí",
     "secondaryCtaLinkText": "Hola, necesito más información sobre el seguro para Instituciones Educativas. No estoy seguro si este seguro se adapta a mis necesidades.",
-    "secondaryCtaImageLink": "/images/feature-1.png"
+    "secondaryCtaImageLink": "/images/feature-1.webp"
   }
 }

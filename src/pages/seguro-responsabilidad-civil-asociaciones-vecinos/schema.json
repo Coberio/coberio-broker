@@ -49,7 +49,7 @@
       "Este seguro de Responsabilidad Civil está dirigido específicamente a Asociaciones de Vecinos, proporcionando cobertura integral para proteger los intereses de la comunidad y su patrimonio ante posibles reclamaciones.",
       "Incluye coberturas adaptadas a las necesidades de las asociaciones, respaldadas por la solidez y experiencia de una empresa líder a nivel internacional en responsabilidad civil como <a href=\"https://tailwindcss.com\" class=\"hover:underline\">Berkley</a>"
     ],
-    "ctaImageLink": "/images/hero.png",
+    "ctaImageLink": "/images/hero.webp",
     "secondaryCtaLink": "https://wa.me/34682558762?text=",
     "secondaryCtaText": "Ya soy cliente",
     "secondaryCtaLinkText": "Hola, soy cliente del seguro para asociaciones de vecinos"
@@ -76,7 +76,7 @@
     "ctaText": "¿Necesitas más información?",
     "companyName": "Coberio",
     "ctaLinkText": "Hola, deseo obtener más detalles sobre el seguro de Responsabilidad Civil para Asociaciones de Vecinos",
-    "companyLogoLink": "/images/logo.png"
+    "companyLogoLink": "/images/logo.webp"
   },
   "infoLeft": {
     "title": "¿Qué riesgos enfrenta tu Asociación de Vecinos?",
@@ -91,11 +91,11 @@
     "description": [
       "Las Asociaciones de Vecinos se hallan en una posición vulnerable frente a posibles reclamaciones legales o daños a terceros que pueden comprometer el patrimonio de la asociación. Es esencial proteger los intereses de la comunidad y minimizar los riesgos legales a los que puede estar expuesta."
     ],
-    "ctaImageLink": "/images/feature-1.png",
+    "ctaImageLink": "/images/feature-1.webp",
     "secondaryCtaLink": "https://wa.me/34682558762?text=",
     "secondaryCtaText": "No estoy seguro si cubre lo que necesito",
     "secondaryCtaLinkText": "Hola, no estoy seguro si el seguro para asociaciones de vecinos que ofrecen tiene las coberturas que necesito, ¿me puedes ayudar?",
-    "secondaryCtaImageLink": "/images/feature-1.png"
+    "secondaryCtaImageLink": "/images/feature-1.webp"
   },
   "infoRight": {
     "title": "¿A quién está dirigido?",
@@ -112,10 +112,10 @@
     "description": [
       "Este seguro está dirigido a asociaciones de vecinos que buscan protegerse frente a reclamaciones por daños a terceros durante actividades comunitarias."
     ],
-    "ctaImageLink": "/images/feature-1.png",
+    "ctaImageLink": "/images/feature-1.webp",
     "secondaryCtaLink": "https://wa.me/34682558762?text=",
     "secondaryCtaText": "No estoy seguro si es para mí",
     "secondaryCtaLinkText": "Hola, necesito más información sobre el seguro para asociaciones de vecinos. No estoy seguro si este seguro se adapta a mis necesidades.",
-    "secondaryCtaImageLink": "/images/feature-1.png"
+    "secondaryCtaImageLink": "/images/feature-1.webp"
   }
 }
