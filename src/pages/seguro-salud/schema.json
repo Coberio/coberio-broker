@@ -1,0 +1,126 @@
+{
+  "faq": {
+    "title": "Preguntas Frecuentes",
+    "questions": [
+      {
+        "title": "¿Por qué es importante contar con un seguro de Salud?",
+        "description": [
+          "Un seguro de Salud te brinda la tranquilidad de tener cobertura médica en caso de enfermedad o accidente.",
+          "Protege tu bienestar y el de tu familia, garantizando acceso a servicios médicos de calidad."
+        ]
+      },
+      {
+        "title": "¿Por qué necesito un seguro de Salud?",
+        "description": [
+          "La salud es lo más importante y contar con un seguro te permite recibir atención médica sin preocupaciones económicas.",
+          "Ante imprevistos de salud, un seguro te brinda respaldo y apoyo en momentos difíciles."
+        ]
+      },
+      {
+        "title": "¿Es obligatorio tener un seguro de Salud?",
+        "description": [
+          "Aunque no es obligatorio, contar con un seguro de Salud es altamente recomendable para garantizar tu bienestar y el de tus seres queridos."
+        ]
+      },
+      {
+        "title": "¿Qué se requiere para contratar un seguro de Salud?",
+        "description": [
+          "Para contratar un seguro de Salud, se solicita información personal como nombre completo, edad, historial médico, entre otros datos relevantes."
+        ]
+      },
+      {
+        "title": "¿Cuál es el costo de un seguro de Salud?",
+        "description": [
+          "El precio de un seguro de Salud varía según la cobertura deseada y otros factores individuales.",
+          "Para obtener un presupuesto personalizado, puedes solicitarlo <a href=\"http://localhost:4321/seguro-salud\">aquí</a>."
+        ]
+      }
+    ]
+  },
+  "seo": {
+    "lang": "Spanish",
+    "title": "Seguro de Salud",
+    "author": "Coberio",
+    "description": "El Seguro de Salud es una póliza diseñada para proteger la salud y el bienestar de las personas aseguradas, ofreciendo cobertura médica y asistencia en caso de enfermedad o accidente."
+  },
+  "hero": {
+    "title": "Seguro de Salud",
+    "ctaLink": "https://wa.me/34682558762?text=",
+    "ctaText": "Solicita Información",
+    "ctaLinkText": "Hola, quiero saber más sobre el Seguro de Salud",
+    "description": [
+      "Nuestro Seguro de Salud te ofrece la tranquilidad de contar con coberturas médicas completas y adaptadas a tus necesidades.",
+      "Con la protección de una empresa reconocida en el sector de la salud, podrás acceder a los mejores servicios médicos y hospitalarios para cuidar lo más importante: tu bienestar.",
+      "¡No esperes más y solicita información sobre nuestro Seguro de Salud hoy mismo!"
+    ],
+    "ctaImageLink": "/images/hero.png",
+    "secondaryCtaLink": "https://wa.me/34682558762?text=",
+    "secondaryCtaText": "Ya soy asegurado",
+    "secondaryCtaLinkText": "Hola, soy cliente del Seguro de Salud"
+  },
+  "lang": "es",
+  "route": "/seguro-salud-virtual",
+  "whyus": {
+    "list": [
+      "Proceso 100% online",
+      "Trabajamos con las mejores aseguradoras",
+      "Hablamos tu idioma",
+      "Alta disponibilidad inmediata 7/24",
+      "Te acompañamos durante todo el proceso",
+      "Te avisamos antes del vencimientos de tus seguros"
+    ],
+    "title": "¿Por qué con Cober?",
+    "subtitle": [
+      "Nuestra misión es ofrecerte un servicio personalizado y de calidad.<br/>Valoramos tu seguridad y tranquilidad por encima de todo lo demás"
+    ]
+  },
+  "design": "design1",
+  "header": {
+    "ctaLink": "https://wa.me/34682558762?text=",
+    "ctaText": "¿Hablamos?",
+    "companyName": "Coberio",
+    "ctaLinkText": "Hola, quiero solicitar más información del seguro de salud",
+    "companyLogoLink": "/images/logo.png"
+  },
+  "infoLeft": {
+    "title": "Beneficios del seguro de salud",
+    "ctaLink": "https://wa.me/34682558762?text=",
+    "ctaText": "Solicita Precio",
+    "listItems": [
+      "Consulta médica ilimitada sin coste adicional.",
+      "Acceso a pruebas diagnósticas y tratamientos especializados.",
+      "Hospitalización en caso de necesidad."
+    ],
+    "ctaLinkText": "Hola quiero solicitar precio del seguro de salud",
+    "description": [
+      "Un seguro de salud te brinda la tranquilidad de contar con la atención médica necesaria en todo momento. Protege tu bienestar y el de tus seres queridos, ofreciendo cobertura ante enfermedades, accidentes y emergencias médicas."
+    ],
+    "ctaImageLink": "/images/feature-1.png",
+    "secondaryCtaLink": "https://wa.me/34682558762?text=",
+    "secondaryCtaText": "No estoy seguro si cubre lo que necesito",
+    "secondaryCtaLinkText": "Hola, no estoy seguro si el seguro de salud que ofrecen tiene las coberturas que necesito, ¿me puedes ayudar?",
+    "secondaryCtaImageLink": "/images/feature-1.png"
+  },
+  "infoRight": {
+    "title": "¿A quién está dirigido?",
+    "ctaLink": "https://wa.me/34682558762?text=",
+    "ctaText": "Solicita Precio",
+    "listItems": [
+      "Consultas médicas ilimitadas",
+      "Hospitalización",
+      "Cirugías",
+      "Laboratorio y estudios clínicos",
+      "Medicamentos",
+      "Odontología"
+    ],
+    "ctaLinkText": "Hola quiero solicitar precio del seguro de salud",
+    "description": [
+      "Este seguro está dirigido a personas físicas y jurídicas que deseen contar con cobertura médica integral:"
+    ],
+    "ctaImageLink": "/images/feature-1.png",
+    "secondaryCtaLink": "https://wa.me/34682558762?text=",
+    "secondaryCtaText": "No estoy seguro si es para mí",
+    "secondaryCtaLinkText": "Hola, necesito más información sobre el seguro de salud. No estoy seguro si este seguro se adapta a mis necesidades.",
+    "secondaryCtaImageLink": "/images/feature-1.png"
+  }
+}
