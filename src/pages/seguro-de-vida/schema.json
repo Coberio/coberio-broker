@@ -1,0 +1,122 @@
+{
+  "faq": {
+    "title": "Preguntas Frecuentes",
+    "questions": [
+      {
+        "title": "¿Por qué debería contratar un seguro de Vida?",
+        "description": [
+          "Contratar un seguro de Vida te brinda seguridad financiera a tus seres queridos en caso de fallecimiento. Es una forma de proteger el futuro de tu familia y asegurar su bienestar económico."
+        ]
+      },
+      {
+        "title": "¿Por qué necesito un seguro de Vida?",
+        "description": [
+          "El seguro de Vida te ofrece tranquilidad al saber que tus seres queridos estarán protegidos en caso de tu fallecimiento. También puede servir como inversión para tu futuro y el de tus beneficiarios."
+        ]
+      },
+      {
+        "title": "¿Es obligatorio tener un seguro de Vida?",
+        "description": [
+          "Aunque no es obligatorio, contar con un seguro de Vida es altamente recomendable para garantizar la estabilidad financiera de tus seres queridos en caso de tu ausencia."
+        ]
+      },
+      {
+        "title": "¿Qué información necesito para contratar un seguro de Vida?",
+        "description": [
+          "Para contratar un seguro de Vida, necesitarás proporcionar información personal, como tu nombre completo, fecha de nacimiento, estado de salud, y los beneficiarios designados."
+        ]
+      },
+      {
+        "title": "¿Cuánto cuesta un seguro de Vida?",
+        "description": [
+          "El costo de un seguro de Vida puede variar depending on the coverage amount and individual factors. Para obtener una cotización personalizada, puedes solicitarla <a href=\"http://localhost:4321/vida\">aquí</a>"
+        ]
+      }
+    ]
+  },
+  "seo": {
+    "lang": "Spanish",
+    "title": "Seguro de Vida",
+    "author": "Coberio",
+    "description": "El Seguro de Vida es una póliza diseñada para proteger a tus seres queridos en caso de fallecimiento, brindándoles la tranquilidad y el respaldo financiero necesario en momentos difíciles. ¡Contrata ahora y asegura el futuro de tu familia!"
+  },
+  "hero": {
+    "title": "Protege tu familia con nuestro seguro de Vida",
+    "ctaLink": "https://wa.me/34682558762?text=",
+    "ctaText": "Solicita Información",
+    "ctaLinkText": "Hola, quiero solicitar información sobre el Seguro de Vida",
+    "description": [
+      "El Seguro de Vida es una póliza diseñada para garantizar la protección financiera de tus seres queridos en caso de fallecimiento.",
+      "Además de ofrecer tranquilidad y seguridad a tus beneficiarios, este seguro brinda la cobertura necesaria para cubrir gastos funerarios y otras necesidades económicas en momentos difíciles."
+    ],
+    "ctaImageLink": "/images/hero.png",
+    "secondaryCtaLink": "https://wa.me/34682558762?text=",
+    "secondaryCtaText": "Ya soy cliente",
+    "secondaryCtaLinkText": "Hola, soy cliente del Seguro de Vida"
+  },
+  "lang": "es",
+  "route": "/seguro-de-vida",
+  "whyus": {
+    "list": [
+      "Proceso 100% online",
+      "Trabajamos con las mejores aseguradoras",
+      "Hablamos tu idioma",
+      "Alta disponibilidad inmediata 7/24",
+      "Te acompañamos durante todo el proceso",
+      "Te avisamos antes del vencimientos de tus seguros"
+    ],
+    "title": "¿Por qué con Cober?",
+    "subtitle": [
+      "Nuestra misión es ofrecerte un servicio personalizado y de calidad.<br/>Valoramos tu seguridad y tranquilidad por encima de todo lo demás"
+    ]
+  },
+  "design": "design1",
+  "header": {
+    "ctaLink": "https://wa.me/34682558762?text=",
+    "ctaText": "¿Hablamos?",
+    "companyName": "Coberio",
+    "ctaLinkText": "Hola, quiero solicitar más información del seguro de vida",
+    "companyLogoLink": "/images/logo.png"
+  },
+  "infoLeft": {
+    "title": "¿Por qué es importante tener un Seguro de Vida?",
+    "ctaLink": "https://wa.me/34682558762?text=",
+    "ctaText": "Solicita Precio",
+    "listItems": [
+      "Garantiza la estabilidad económica de tu familia en caso de tu fallecimiento.",
+      "Permite cubrir los gastos funerarios y de liquidación de deudas.",
+      "Proporciona tranquilidad y seguridad financiera a tus seres queridos."
+    ],
+    "ctaLinkText": "Hola quiero solicitar precio del Seguro de Vida",
+    "description": [
+      "El Seguro de Vida es una herramienta fundamental para proteger a tus seres queridos en caso de fallecimiento, brindándoles seguridad financiera en momentos difíciles. Además, puede cubrir gastos como la hipoteca, educación de los hijos, y demás necesidades que queden pendientes."
+    ],
+    "ctaImageLink": "/images/feature-1.png",
+    "secondaryCtaLink": "https://wa.me/34682558762?text=",
+    "secondaryCtaText": "No estoy seguro si cubre lo que necesito",
+    "secondaryCtaLinkText": "Hola, no estoy seguro si el Seguro de Vida que ofrecen tiene las coberturas que necesito, ¿me puedes ayudar?",
+    "secondaryCtaImageLink": "/images/feature-1.png"
+  },
+  "infoRight": {
+    "title": "¿A quién está dirigido?",
+    "ctaLink": "https://wa.me/34682558762?text=",
+    "ctaText": "Solicita Precio",
+    "listItems": [
+      "Cabeza de familia",
+      "Padres de familia",
+      "Madres solteras",
+      "Personas con deudas",
+      "Personas con hipoteca",
+      "Personas mayores"
+    ],
+    "ctaLinkText": "Hola quiero solicitar precio del seguro de vida",
+    "description": [
+      "Este seguro está dirigido a personas físicas que deseen proteger a sus seres queridos en caso de fallecimiento:"
+    ],
+    "ctaImageLink": "/images/feature-1.png",
+    "secondaryCtaLink": "https://wa.me/34682558762?text=",
+    "secondaryCtaText": "No estoy seguro si es para mí",
+    "secondaryCtaLinkText": "Hola, necesito más información sobre el seguro de vida. No estoy seguro si este seguro se adapta a mis necesidades.",
+    "secondaryCtaImageLink": "/images/feature-1.png"
+  }
+}
