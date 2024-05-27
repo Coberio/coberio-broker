@@ -13,3 +13,8 @@
  .masked-image{
   mask-image: linear-gradient(rgb(255 255 255 / 95%) 90%, transparent)
  }
+
+ h1 {
+  font-weight: bold;
+  font-size: 30px;
+ }
