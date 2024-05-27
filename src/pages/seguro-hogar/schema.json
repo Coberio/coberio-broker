@@ -1,0 +1,121 @@
+{
+  "faq": {
+    "title": "Preguntas Frecuentes",
+    "questions": [
+      {
+        "title": "¿Por qué debería contratar un seguro de Hogar?",
+        "description": [
+          "Contratar un seguro de Hogar te brinda la tranquilidad de proteger tu vivienda y tus pertenencias ante posibles imprevistos como incendios, robos, daños por agua, entre otros."
+        ]
+      },
+      {
+        "title": "¿Por qué necesito un seguro de Hogar para mi vivienda?",
+        "description": [
+          "Tu hogar es uno de tus mayores bienes y un seguro de Hogar te ayudará a estar preparado para cualquier eventualidad que pueda afectarlo, garantizando la seguridad de tu familia y tus posesiones."
+        ]
+      },
+      {
+        "title": "¿Es obligatorio contratar un seguro de Hogar?",
+        "description": [
+          "Aunque no es obligatorio por ley, es altamente recomendable para proteger tu patrimonio y asegurar la tranquilidad de tu hogar."
+        ]
+      },
+      {
+        "title": "¿Qué documentación necesito para contratar un seguro de Hogar?",
+        "description": [
+          "Para contratar un seguro de Hogar, necesitas proporcionar información sobre tu vivienda, como la dirección completa, el valor de la propiedad y el contenido que deseas asegurar."
+        ]
+      },
+      {
+        "title": "¿Cuánto cuesta un seguro de Hogar?",
+        "description": [
+          "El costo de un seguro de Hogar variará según el valor de la propiedad, la ubicación de la vivienda y las coberturas que desees incluir. Para conocer el precio exacto, solicita un presupuesto <a href=\"http://localhost:4321/hogar\">aquí</a>."
+        ]
+      }
+    ]
+  },
+  "seo": {
+    "lang": "Spanish",
+    "title": "Seguro de Hogar",
+    "author": "Coberio",
+    "description": "El seguro de Hogar es una póliza que te brinda tranquilidad y protección para tu vivienda y tus bienes materiales. Con Cobertura Total para tu hogar, podrás estar tranquilo en caso de cualquier imprevisto que pueda afectar tu patrimonio."
+  },
+  "hero": {
+    "title": "Protege tu hogar",
+    "ctaLink": "https://wa.me/34682558762?text=",
+    "ctaText": "Solicita Precio",
+    "ctaLinkText": "Hola, quiero solicitar precio del seguro de hogar",
+    "description": [
+      "El seguro de Hogar es una póliza diseñada para proteger tu vivienda y tus bienes contra imprevistos como incendios, robos, daños por agua, entre otros.",
+      "Además de ofrecer coberturas específicas y ajustadas a tus necesidades, cuentas con el respaldo de una empresa con amplia experiencia en seguros de hogar como <a href=\"https://tailwindcss.com\" class=\"hover:underline\">Berkley</a>"
+    ],
+    "ctaImageLink": "/images/hero.png",
+    "secondaryCtaLink": "https://wa.me/34682558762?text=",
+    "secondaryCtaText": "Ya soy cliente",
+    "secondaryCtaLinkText": "Hola, soy cliente del seguro de hogar"
+  },
+  "lang": "es",
+  "route": "/seguro-hogar",
+  "whyus": {
+    "list": [
+      "Proceso 100% online",
+      "Trabajamos con las mejores aseguradoras",
+      "Hablamos tu idioma",
+      "Alta disponibilidad inmediata 7/24",
+      "Te acompañamos durante todo el proceso",
+      "Te avisamos antes del vencimientos de tus seguros"
+    ],
+    "title": "¿Por qué con Cober?",
+    "subtitle": [
+      "Nuestra misión es ofrecerte un servicio personalizado y de calidad.<br/>Valoramos tu seguridad y tranquilidad por encima de todo lo demás"
+    ]
+  },
+  "design": "design1",
+  "header": {
+    "ctaLink": "https://wa.me/34682558762?text=",
+    "ctaText": "¿Hablamos?",
+    "companyName": "Coberio",
+    "ctaLinkText": "Hola, quiero solicitar más información del seguro de Hogar",
+    "companyLogoLink": "/images/logo.png"
+  },
+  "infoLeft": {
+    "title": "Protege tu hogar con nuestro seguro de hogar",
+    "ctaLink": "https://wa.me/34682558762?text=",
+    "ctaText": "Solicita Precio",
+    "listItems": [
+      "Incendios, inundaciones o robos que puedan poner en peligro la integridad de tu hogar.",
+      "Daños en la estructura de la vivienda debido a fenómenos meteorológicos.",
+      "Responsabilidad civil ante posibles daños a terceros dentro de la propiedad."
+    ],
+    "ctaLinkText": "Hola quiero solicitar precio del seguro de hogar",
+    "description": [
+      "Tu hogar es uno de tus mayores patrimonios, por lo que es importante protegerlo ante posibles riesgos y situaciones inesperadas. Nuestro seguro de hogar te brinda la tranquilidad y seguridad que necesitas para tu vivienda y tus seres queridos."
+    ],
+    "ctaImageLink": "/images/feature-1.png",
+    "secondaryCtaLink": "https://wa.me/34682558762?text=",
+    "secondaryCtaText": "No estoy seguro si cubre lo que necesito",
+    "secondaryCtaLinkText": "Hola, no estoy seguro si el seguro de hogar que ofrecen tiene las coberturas que necesito, ¿me puedes ayudar?",
+    "secondaryCtaImageLink": "/images/feature-1.png"
+  },
+  "infoRight": {
+    "title": "¿A quién está dirigido?",
+    "ctaLink": "https://wa.me/34682558762?text=",
+    "ctaText": "Solicita Precio",
+    "listItems": [
+      "Casa habitación",
+      "Departamento",
+      "Segunda vivienda",
+      "Inmuebles alquilados",
+      "Bienes muebles en propiedad"
+    ],
+    "ctaLinkText": "Hola quiero solicitar precio del seguro de hogar",
+    "description": [
+      "Este seguro está dirigido a propietarios de viviendas que buscan proteger su hogar y sus bienes:"
+    ],
+    "ctaImageLink": "/images/feature-1.png",
+    "secondaryCtaLink": "https://wa.me/34682558762?text=",
+    "secondaryCtaText": "No estoy seguro si es para mí",
+    "secondaryCtaLinkText": "Hola, necesito más información sobre el seguro de hogar. No estoy seguro si este seguro se adapta a mis necesidades.",
+    "secondaryCtaImageLink": "/images/feature-1.png"
+  }
+}
