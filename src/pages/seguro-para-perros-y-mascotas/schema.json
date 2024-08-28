@@ -47,9 +47,9 @@
     "ctaLinkText": "Hola, quiero solicitar precio del seguro para perros y mascotas",
     "description": [
       "El seguro de Responsabilidad Civil para Perros y Mascotas es una póliza diseñada especialmente para dueños de mascotas, ofreciendo protección y tranquilidad en caso de cualquier accidente o incidente en el que estén involucrados tus compañeros peludos.",
-      "Además de contar con coberturas específicas y ajustadas a las necesidades de tus mascotas, tendrás el respaldo de una empresa con amplia experiencia en el cuidado y protección de animales como <a href=\"https://tailwindcss.com\" class=\"hover:underline\">Berkley</a>"
+      "Además de contar con coberturas específicas y ajustadas a las necesidades de tus mascotas, tendrás el respaldo de una empresa con amplia experiencia."
     ],
-    "ctaImageLink": "/images/guardian.png",
+    "ctaImageLink": "https://storage.googleapis.com/mixo-sites/freepic/12100-adopt-a-pet-01.svg",
     "secondaryCtaLink": "https://wa.me/34682558762?text=",
     "secondaryCtaText": "Ya soy cliente",
     "secondaryCtaLinkText": "Hola, soy cliente del seguro para perros y mascotas"
