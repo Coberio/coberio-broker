@@ -9,6 +9,7 @@ import schema from './schema.json'
 <html lang="en">
 	<head>
 		<BaseHead seo={schema.seo} />
+		<script id="chatbox" src="//app.segurosia.com/widget/v1/chatbox.min.js" defer></script>
 	</head>
 	<body>
 		<Design design={schema.design} schema={schema}>
@@ -18,5 +19,9 @@ import schema from './schema.json'
 				client:visible
 			/>
 		</Design>
+		<div
+			class="chatbox"
+			data-id="403f233b-5de7-47da-aed2-5f427273cce8"
+		/>
 	</body>
 </html>
