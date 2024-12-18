@@ -9,19 +9,19 @@
         ]
       },
       {
-        "title": "¿Qué ventajas tiene contratar mis seguros con Cober.io?",
+        "title": "¿Qué ventajas tiene contratar mis seguros con Cober?",
         "description": [
           "<p><strong>Rápido, Simple y Conveniente</strong>. No dudes en contactarnos para contratar el seguro que necesitas o para cambiar de seguro. Nuestro enfoque se centra en brindarte tranquilidad y confianza al proteger tus bienes y seres queridos. Esta vez sin complicaciones ni estrés, solo soluciones inteligentes y personalizadas.</p><p><br></p>\n<p>Con nosotros no solo obtienes asesoramiento independiente y especializado, sino que también recibes un servicio fiable, profesional y hecho a medida. Siempre siguiendo normativas financieras y de profesionalidad.</p>\n<!-- notionvc: 2a6e0354-fd59-4722-ab8d-ea68328534ad -->"
         ]
       },
       {
-        "title": "Pero entonces..., ¿Es más caro contratar un seguro en Cober.io?",
+        "title": "Pero entonces..., ¿Es más caro contratar un seguro en Cober?",
         "description": [
           "¡Para nada! Imagínate que somos como esos amigos que siempre se conocen los lugares mejores para comer, ¡pero en el mundo de los seguros! Buscamos entre montones de opciones para encontrar el precio más amigable y el mejor servicio para ti.<br><br>En realidad, puedes hacer esto tú mismo recorriendo las compañias aseguradoras, mirando la letra pequeña, perdiendo muuucho tiempo y pagando lo mismo que si lo haces con nosotros.<br><br>¿Dónde está la trampa entonces? En ningún sitio. Nosotros ganamos de las comisiones que las compañias aseguradoras nos dan por vender sus seguros, y a cambio te ofrecemos un mejor servicio que estas."
         ]
       },
       {
-        "title": "¿Qué seguros tenéis en Cober.io?",
+        "title": "¿Qué seguros tenéis en Cober?",
         "description": [
           "<p>Con Coberio encontrarás la mejor protección para ti y los tuyos. ¿Por qué? Pues porque ofrecemos seguros médicos privados, seguro de coche, seguro de moto, de vida, de hogar, para tus mascotas y mucho más.</p><p><br></p>\n<p>¡Casi que mejor te decimos los que no tenemos! Tenemos seguros hasta para toreros en paro, así te haces una idea.</p>\n<!-- notionvc: f50b1626-7774-4b5b-b3c6-30e9c0d3d5cc -->"
         ]
@@ -51,7 +51,7 @@
     },
     "secondaryCtaLink": "https://wa.me/17755879513?text=",
     "secondaryCtaText": "Ya soy cliente",
-    "secondaryCtaLinkText": "Hola, soy cliente suyo en Cober.io"
+    "secondaryCtaLinkText": "Hola, soy cliente suyo en Cober"
   },
   "lang": "es",
   "route": "/",
@@ -63,7 +63,7 @@
     ],
     "title": "¿Por qué con Cober?",
     "subtitle": [
-      "En Cober.io queremos cambiar la mentalidad anticuada y rudimentaria del mundo de los seguros. No queremos ser más de lo mismo. Hemos pasado por los mismos problemas que tú y creemos que se pueden hacer mejor las cosas."
+      "En Cober queremos cambiar la mentalidad anticuada y rudimentaria del mundo de los seguros. No queremos ser más de lo mismo. Hemos pasado por los mismos problemas que tú y creemos que se pueden hacer mejor las cosas."
     ],
     "footerTitle": "Esta es nuestra visión y tenemos ganas e ilusión de sobras para seguir haciendo más accesible y eficaz tu experiencia con los seguros"
   },

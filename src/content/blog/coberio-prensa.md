@@ -7,7 +7,7 @@ heroImage: '/images/blog-header.jpg'
 
 La empresa de Juanmi López, que ya ha sido reconocida a escala europea, impulsa las ventas de las plataformas de comercio electrónico y retail.
 
-Para el 56% de los españoles su mayor preocupación es perder su empleo y ese temor provoca que la mitad de esas personas no compren lo que quieren o necesitan. Un malagueño, Juanmi López, ha creado una startup llamada Cober.io, cuyo objetivo es eliminar esos miedos a la hora de adquirir un producto e incrementar las ventas del comercio electrónico y retail.
+Para el 56% de los españoles su mayor preocupación es perder su empleo y ese temor provoca que la mitad de esas personas no compren lo que quieren o necesitan. Un malagueño, Juanmi López, ha creado una startup llamada Cober, cuyo objetivo es eliminar esos miedos a la hora de adquirir un producto e incrementar las ventas del comercio electrónico y retail.
 
 Es una insurtech (aseguradora tecnológica) a través de la cual el cliente paga una pequeña prima y, si pierde su puesto de trabajo en un plazo de 12 meses, se le reembolsa el importe del producto que haya adquirido. Para ello, el tique de la compra debe oscilar entre los 300 y los 4.000 euros. 
 
