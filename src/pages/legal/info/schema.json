@@ -1,0 +1,15 @@
+{
+  
+  "seo": {
+    "lang": "Spanish",
+    "title": "Nota Informativa",
+    "author": "Coberio",
+    "description": "La confidencialidad y la seguridad son valores primordiales en COBER (Coberio, S.L.), y en consecuencia, asumimos el compro miso de garantizar la privacidad del usuario en todo momento y de no recabar información innecesaria."
+  },
+  "header": {
+    "ctaLink": "https://wa.me/34682558762?text=",
+    "ctaText": "Coberio",
+    "companyName": "Coberio",
+    "companyLogoLink": "/images/logo.svg"
+  }
+}

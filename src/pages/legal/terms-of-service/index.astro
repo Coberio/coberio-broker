@@ -1,0 +1,269 @@
+---
+import BaseHead from '@/components/BaseHead.astro';
+import { getResource } from '@/utils';
+import schema from './schema.json'
+import { Footer } from '@/components/Footer1'
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead seo={schema.seo} />
+	</head>
+	<body class="text-lg">
+		<div>
+			<div>
+				<a href={getResource('/')} class="w-[90%] mx-auto pt-10 max-w-[1232px] flex items-center">
+					{schema.header.companyLogoLink && (
+					  <img
+						src={schema.header.companyLogoLink}
+						class="w-52"
+						alt={schema.header.companyName}
+						loading="lazy" 
+					  />
+					)}
+				  </a>
+			</div>
+		  </div>
+		  <div>
+			<div class="w-[90%] mx-auto py-20 max-w-[1232px]">
+			  <div class="grid grid-cols-1 lg:grid-cols-[.5fr,1fr] gap-14">
+				<div class="flex lg:flex-col">
+				  <a href={getResource('/legal/terms-of-service')} class="border-b-4 lg:border-l-4 lg:border-b-0 border-[#9333ea] bg-white mx-0 py-4 px-6 text-[#9333ea]">Aviso Legal</a>
+				  <a href={getResource('/legal/privacy-policy')} aria-current="page" class="border-b-4 lg:border-l-4 lg:border-b-0 border-[#f5f3f2] bg-white mx-0 py-4 px-6">Política de Privacidad</a>
+				  <a href={getResource('/legal/cookie-policy')} class="border-b-4 lg:border-l-4 lg:border-b-0 border-[#f5f3f2] bg-white mx-0 py-4 px-6">Política de Cookies</a>
+				  <a href={getResource('/legal/info')} class="border-b-4 lg:border-l-4 lg:border-b-0 border-[#f5f3f2] bg-white mx-0 py-4 px-6">Nota Informativa</a>
+				</div>
+				<div >
+					<div class="flex flex-col gap-4 mb-10">
+						<h1>Aviso Legal y Condiciones Generales de Contratación</h1>
+						<div class="flex flex-col gap-4">
+							<p>Las presentes Condiciones Generales, así como el resto de documentación o términos y condiciones dispuestos en la web Cober y anexos u otros enlaces a los que se haga referencia en estas Condiciones, establecen los términos y condiciones de la contratación por el Usuario de los productos y servicios comercializados y prestados por el Titular en la página web o de cualquiera de sus subdominios y/o directorios incluidos en la misma (en adelante, la Web) salvo que tengan sus propias condiciones.
+							</p>
+							<p>Mediante la aceptación de las presentes Condiciones, el Usuario se obliga al cumplimiento de todos los términos y condiciones expuestos en las mismas durante la vigencia de la relación entre ambas. En caso de no aceptarse las Condiciones, el Usuario no deberá acceder a los servicios ofertados, siendo por tanto requisito indispensable para su contratación por esta vía, la previa lectura y aceptación de estas Condiciones por parte del Usuario. En este sentido, la navegación y/o registro en cualquier apartado de la Web, formularios, subdominios, así como la solicitud o contratación de cualquiera de los productos y/o servicios en Cober, suponen la aceptación como Usuario, sin reservas de ninguna clase, de todas y cada una de las presentes Condiciones Generales, así como en su caso, de las Condiciones Particulares establecidas o que, en su caso, pudieran ser establecidas.</p>
+						</div>
+					</div>
+						
+					<div class="flex flex-col gap-4 mb-10">
+						<h3 class="font-bold text-2xl">Información</h3>
+						<p>En cumplimiento con el deber de información recogido en el del artículo 10 de la Ley 34/2002, de 11 de julio, de Servicios de la Sociedad de la Información y Comercio Electrónico, se exponen los siguientes datos identificativos del prestador del servicio a través del sitio web Cober:
+						</p>
+						<ul class="ml-5 list-disc" role="list">
+							<li>Denominación social: Coberio, S.L. (en adelante, <strong>“COBERIO”</strong> ó <strong>“Cober”</strong>)</li>
+							<li>Dirección: Calle Alejandro Dumas, 17, oficinas, 29004, Málaga, España</li>
+							<li>NIF: ESB10648384</li>
+							<li>Correo electrónico: hola@coberio.com</li>
+							<li>Inscrita en el Registro Mercantil de Málaga, al Tomo 6192.</li>
+						</ul>
+						<p>COBERIO actúa en su condición de colaborador externo de la mercantil COBERIO BROKER, S.L.U., domiciliada en Avenida de Andalucía, 36, Oficinas, 29007, Málaga, con N.I.F. B72661291, inscrita en el Registro Mercantil de Málaga, al Tomo 6241, Folio 147, Hoja MA-170237, inscripción 1, autorizada por la Dirección General de Seguros y Fondos de Pensiones (DGSFP), con Clave de Inscripción número J4140.
+						</p>
+						<p>COBERIO BROKER dispone de Seguro de Responsabilidad Civil y capacidad financiera conforme Real Decreto-ley 3/2020, de 4 de febrero, de medidas urgentes por el que se incorporan al ordenamiento jurídico español diversas directivas de la Unión Europea en el ámbito de la contratación pública en determinados sectores; de seguros privados; de planes y fondos de pensiones; del ámbito tributario y de litigios fiscales, en el que se incluyó la nueva normativa en materia de Distribución de Seguros que traspone la Directiva (UE) 2016/97 del Parlamento Europeo y del Consejo, de 20 de enero de 2016, sobre la distribución de seguros.</p>
+						<p>Puede consultar toda la información relativa a COBERIO BROKER en la Nota Informativa dispuesta en esta página web en el siguiente <a href={getResource('/legal/info')}>enlace</a>.
+						</p>
+						<p>Esta página Web se rige por la normativa exclusivamente aplicable en España, quedando sometida a ella, tanto nacionales como extranjeros que utilicen esta página Web.
+						</p>
+						<p>Esta página Web, por motivos de seguridad y para la protección de la transmisión de contenidos confidenciales, utiliza un cifrado SSL o bien TLS. Podrá identificar que la conexión es cifrada porque la barra de dirección del navegador cambia de "http://" a "https://" y por el símbolo de candado en su barra de dirección del navegador. Si está activado el cifrado SSL o TLS, los datos que Usted nos transmita no podrán ser leídos por terceros.
+						</p>
+						<p>El acceso a nuestra página Web por parte del Usuario es gratuito y está condicionado a la previa lectura y aceptación íntegra, expresa y sin reservas del presente Aviso Legal así como el resto de textos legales dispuestos en la misma como las Condiciones Generales, la Política de Privacidad, la Política de Cookies y otros documentos legales, que rogamos lea detenidamente. El Usuario en el momento que utiliza nuestro portal, sus contenidos o servicios, acepta y se somete expresamente a las condiciones generales de uso de este. Si el Usuario no estuviese de acuerdo con las presentes condiciones, deberá abstenerse de utilizar este portal y operar por medio de este.
+						</p>
+					</div>
+						
+					<div class="flex flex-col gap-4 mb-10">
+						<h3 class="font-bold text-2xl">Condiciones de Acceso</h3>
+						<div class="flex flex-col gap-4">
+							<p>El acceso a nuestra página Web no exige previa suscripción o registro, si bien para el acceso a determinados accesos o procesos de contratación sí podría ser necesario.
+							</p>
+							<p>El envío de datos personales implica la aceptación expresa por parte del Usuario de nuestra Política de Privacidad.</p>
+							<p>El Usuario debe acceder a nuestra página Web conforme a la buena fe, las normas de orden público y a los presentes términos y condiciones de uso. El acceso a nuestra página Web se realiza bajo la propia y exclusiva responsabilidad del Usuario, que responderá en todo caso de los daños y perjuicios que pueda causar a terceros o a nosotros mismos.
+							</p>
+							<p>Asimismo, Cober declara que ha adoptado las medidas necesarias, dentro de sus posibilidades y del estado de la técnica, para garantizar el funcionamiento de la página Web, así como, reducir al mínimo los errores del sistema, tanto desde el punto de vista técnico como legal y organizativo.
+							</p>
+						</div>
+					</div>
+
+					<div class="flex flex-col gap-4 mb-10">
+						<h3 class="font-bold text-2xl">Procedimientos</h3>
+						<div class="flex flex-col gap-4">
+							<h3 class="font-bold text-xl">Obtención de Presupuestos</h3>
+							<p>COBERIO podrá poner diversos procedimientos a disposición del Usuario para la obtención de información sobre precios, coberturas, seguros disponibles, así como para gestionar la contratación del seguro, la gestión de las pólizas y la tramitación de siniestros, en su caso.
+							</p>
+							<p>Estos procedimientos podrán ser desarrollados por la propia COBERIO (formularios, enlaces, etc.) o bien facilitarse acceso a herramientas desarrolladas por terceros para dicho propósito (Typeform, WhatsApp, Docusign…). La puesta a disposición de estas herramientas no implica ningún tipo de asociación de COBERIO con sus respectivos titulares y son utilizadas, en su caso, como meros proveedores externos de servicios por lo que el usuario deberá aceptar sus respectivas condiciones legales y políticas de privacidad con carácter previo al uso de las mismas, siendo éstas ajenas a COBERIO.</p>
+							<h3 class="font-bold text-xl">Contratación Online</h3>
+							<p>A través de las herramientas y canales habilitados, el Usuario una vez que seleccione el seguro que desea solicitar o iniciado el proceso de toma de datos para su adhesión a un seguro colectivo o alta como asegurado o beneficiario según sea el caso, deberá introducir todos los datos que se le requieran y expresar su aceptación a las declaraciones propuestas.</p>
+							<p>Los datos introducidos deberán ser veraces y correctos, siendo el Usuario el único responsable de dicha veracidad y exactitud frente a COBERIO, sus colaboradores y las entidades aseguradoras.</p>
+							<p>El Usuario que haya de contratar un seguro o introducir sus datos durante el proceso de contratación de un seguro como tomador del mismo tendrá a su disposición las condiciones generales de la póliza antes y durante el proceso de contratación, y debe leerlas y aceptarlas, de acuerdo con lo establecido en la Ley 50/80, de 8 de octubre, de Contrato de Seguro.
+							</p>
+							<p>En determinados supuestos, durante el proceso de contratación o toma de datos el Usuario deberá realizar el pago a cuenta del seguro elegido. Los pagos, previa información del precio e impuestos aplicables, en su caso, se realizarán a través de Sistemas de Pagos Seguros, mediante TPV virtual usando tarjetas débito/crédito; pudiendo COBERIO habilitar otras fórmulas de pago en cualquier momento.</p>
+							<p>En caso de duda, el Usuario tendrá disponibles para contacto los medios que se indican en la página web así como cualquier otro que se ponga a su disposición durante el proceso de alta.
+							</p>
+							<p>El Usuario no habrá realizado formalmente la solicitud del seguro hasta que no haya introducido todos los datos requeridos y realizado el pago a cuenta de éste (en caso de que así se disponga durante el proceso). Aquellas solicitudes que no hayan sido abonadas no serán solicitadas a la compañía de seguro.</p>
+							<p>COBERIO se reserva el derecho a solicitar de cualquier Usuario que haya solicitado la contratación de un seguro, que justifique el pago de la prima en caso de haberse solicitado y/o que se identifique mediante la aportación por medio telemático (fax, e-mail o similar) de un documento que lo identifique como Tomador, o representante del Tomador. Lamentamos las molestias que este procedimiento pudiera causarle. Estas medidas de seguridad son una prueba fehaciente de nuestra voluntad para proteger a los clientes y usuarios de COBERIO contra eventuales fraudes bancarios o estafas.
+							</p>
+							<p>Una vez finalizado este proceso por el Usuario, se iniciará el proceso de formalización del contrato de seguro. La fecha de efecto del seguro solicitada podrá verse alterada hasta la fecha de emisión de la póliza.</p>
+							<p>El pago solicitado en la web no garantiza el estar asegurado, ya que la Compañía Aseguradora se reserva el derecho de aceptar el riesgo, pudiendo denegar la contratación del seguro por las razones que ella estime y modificar el alcance de las coberturas que podrá expresar en las Condiciones Particulares del seguro. Las aseguradoras podrán modificar además las tarifas sin previo aviso.
+							</p>
+							<p>Una vez formalizada la póliza, se harán llegar (bien por COBERIO o por la entidad aseguradora, según los casos) al contacto indicado por el Usuario, las Condiciones Particulares y Generales (o la documentación que corresponda como, por ejemplo, el certificado individual de seguro) y además se le indicará dónde y cómo acceder a su documentación.
+							</p>
+							<p>El Usuario da su expreso consentimiento a que se le envié la documentación de la póliza de seguros, Condiciones Particulares y Generales, recibo en formato electrónico o cualquier otra documentación que pueda corresponder, renunciando a recibir la misma en papel.</p>
+							<p>El Usuario se compromete a devolver, en caso de que así sea requerido, a COBERIO la documentación de la póliza de seguros firmada en formato digital.
+							</p>
+							<h3 class="font-bold text-xl">Gestión de la póliza.</h3>
+							<p>El Usuario, una vez facilitados sus datos quedará registrado en el sitio Web, y COBERIO podrá poner a su disposición un Área de Cliente, al que podrá acceder mediante la acreditación que se disponga; o bien cualquier otro medio de acceso a sus trámites que le sea indicado por COBERIO.</p>
+							<p>Toda comunicación entre el Tomador, Asegurado o Beneficiario y la aseguradora o COBERIO deberán realizarse desde los medios habilitados o comunicados en tal sentido al Usuario, al igual que para cualquier gestión de su póliza o para la modificación de sus datos.
+							</p>
+							<p>El Usuario se compromete a mantener los números de teléfono móvil, dirección de correo electrónico y dirección postal reflejados en las Condiciones Particulares y a notificar en el plazo de 30 días, por conducto fehaciente a la otra parte cualquier cambio en los mismos en el caso de que este se efectuara.</p>
+							<h3 class="font-bold text-xl">Tramitación de Siniestros.</h3>
+							<p>Para tramitar un siniestro, el Usuario facilitará a COBERIO o la Entidad Aseguradora, según se le indique, la información requerida y se compromete a hacer llegar aquellos documentos necesarios para la tramitación de su siniestro que le sean solicitados por los canales de los que será informado.
+							</p>
+							<h3 class="font-bold text-xl">Política de Devoluciones.</h3>
+							<p>COBERIO es propietario del Sitio Web, pero la política de cancelación del contrato de seguro y devolución de las primas dependen de cada aseguradora y está sujeta a la Ley 50/1980, de 8 de octubre, de Contrato de Seguro.
+							</p>
+							<p>El Usuario tiene derecho a la devolución del importe pagado por la solicitud del seguro, integra o parcialmente, en los siguientes términos y condiciones:
+							</p>
+							<ul class="ml-5 list-disc" role="list">
+								<li>Cuando la Compañía Aseguradora no acepte el riesgo, y deniegue la contratación del seguro, el Usuario tendrá derecho a la devolución del importe íntegro pagado.</li>
+								<li>Cuando la tarifa final sea mayor al importe pagado por el Usuario, debido al incremento de las tarifas por la Compañía Aseguradora por las razones que ella estime, o en general por cualquier otra causa, el Usuario tendrá derecho a pagar la diferencia y se procederá a la solicitud del seguro o a la devolución del importe íntegro, quedando anulada la solicitud del seguro.</li>
+								<li>Cuando las tarifas sean menores al importe pagado por el Usuario, debido a la modificación de las tarifas por la Compañía Aseguradora, por descuentos aplicables, o en general por cualquier otra causa, el Usuario tendrá derecho a la devolución de la parte correspondiente.
+								</li>
+							</ul>
+							<p>Las devoluciones se realizarán por el método original de pago usado o por cualquier otro.</p>
+						</div>
+					</div>
+
+					<div class="flex flex-col gap-4 mb-10">
+						<h3 class="font-bold text-2xl">Información Previa Contractual</h3>
+						<p>El Tomador y/o Asegurado declara que son exactos los datos que ha facilitado o facilitará como consecuencia del proceso de contratación, siendo responsable de las inexactitudes de los mismos, de acuerdo con el artículo 10 de la Ley 50/1980, de 8 de octubre, de Contrato de Seguro, obligándose a comunicar a la Entidad Aseguradora cualquier variación que se produzca durante la vigencia del seguro.</p>
+						<p>Al Usuario se le facilitará con anterioridad a la celebración del contrato toda la información requerida en los art. 122 y concordantes del Real Decreto 1060/2015, de 20 de noviembre, de ordenación, supervisión y solvencia de las entidades aseguradoras y reaseguradoras, y art. 173, 174 y 175 del Real Decreto-ley 3/2020, en relación a la información general previa a proporcionar por el mediador de seguros, por la entidad aseguradora, y sobre la información y asesoramiento previos que deberán proporcionar los distribuidores de seguros sobre el contrato de seguro. Sobre todo ello queda informado el Usuario.</p>
+						<h3 class="font-bold text-2xl">Política de transparencia</h3>
+						<p>En cumplimiento del Art 134.3 del Real Decreto-ley 3/2020, COBERIO se sirve de su sitio web u otras técnicas de comunicación a distancia para ofertar o comparar productos de seguro.
+						</p>
+						<p>En este sentido, COBERIO BROKER cuenta con una política de transparencia conforme a lo previsto en el citado artículo 134.3 a disposición del Usuario.</p>
+						<h3 class="font-bold text-2xl">Modalidad de transmisión de la información a través del sitio web</h3>
+						<p>En relación al deber de información a que hace referencia el Real Decreto-ley 3/2020, COBERIO opta por facilitar la citada información a través de través de su sitio web (independientemente de que pueda facilitarse además por otras vías para lo que el Usuario presta su consentimiento expreso) debido a que las circunstancias establecidas en el apartado 5 del art. 182 se cumplen:
+						</p>
+						<p>a) Facilitar esa información a través de su sitio web es adecuado en el contexto de las operaciones que tiene lugar entre COBERIO y el Usuario.</p>
+						<p>b) El Usuario acepta que esa información se facilite a través de su sitio web.
+						</p>
+						<p>c) Que se ha notificado al cliente electrónicamente la dirección del sitio web y el lugar del sitio web en el que puede consultarse esa información.</p>
+						<p>d) Se garantiza que esa información seguirá figurando en el sitio web durante el tiempo que razonablemente necesite el cliente para consultarla.
+						</p>
+						<h3 class="font-bold text-2xl">Información general previa a proporcionar por el mediador de seguros</h3>
+						<p>En cumplimiento de lo dispuesto en el art. 173 del Real Decreto-ley 3/2020, antes de la celebración de un contrato de seguro, COBERIO proporciona al cliente, con suficiente antelación, la información contenida en el Documento de Nota Informativa que puede consultarse en el enlace correspondiente de la página web el cual ha quedado reseñado al inicio de estas Condiciones.
+						</p>
+						<h3 class="font-bold text-2xl">Información y asesoramiento previos que deberán proporcionar los distribuidores de seguros sobre el contrato de seguro</h3>
+						<p>En cumplimiento de lo dispuesto en el art. 175 del Real Decreto-ley 3/2020, antes de la celebración del contrato de seguro, COBERIO facilita un Documento de Información Previa sobre el Producto de Seguro (IPID).</p>
+						<p>COBERIO incluye de forma permanente y de fácil acceso las Condiciones Generales en el sitio Web, poniéndolas a disposición del Usuario, de manera que este las pueda almacenar y reproducir, además de poder mantenerlas en su poder en un soporte duradero al igual que el citado documento de información previa sobre el producto de Seguro (IPID).
+						</p>
+						<p>El Usuario acepta expresamente que la transmisión de información de COBERIO se facilita a través del Sitio Web.
+						</p>
+					</div>
+
+					<div class="flex flex-col gap-4 mb-10">
+						<h3 class="font-bold text-2xl">Derecho de desistimiento</h3>
+						<p>De conformidad con el Art. 10 de la Ley 22/2007 de 11 de julio, sobre comercialización a distancia de servicios financieros, el Tomador tendrá el derecho a desistir del contrato sin indicación de los motivos y sin penalización alguna siempre que la voluntad de desistir se notifique a COBERIO, en un plazo de 14 días, a contar desde que se notifique al tomador que el contrato se ha celebrado y no se trate de seguros obligatorios para el tomador y siempre y cuando no se haya producido un siniestro.
+						</p>
+					</div>
+
+					<div class="flex flex-col gap-4 mb-10">
+						<h3 class="font-bold text-2xl">Exclusión de Garantías y Responsabilidades</h3>
+						<p>El acceso y la utilización de las páginas del Sitio Web se realizarán bajo la única y exclusiva responsabilidad del Usuario.
+						</p>
+						<p>Como se ha indicado anteriormente COBERIO actúa en su calidad de colaborador externo de COBERIO BROKER, quien a su vez actúa en calidad de Corredor de Seguros en virtud del Real Decreto-ley 3/2020.</p>
+						<p>COBERIO pondrá los medios razonables a su disposición para comprobar la veracidad, exactitud, adecuación, idoneidad, exhaustividad y actualidad de la información suministrada a través del Sitio Web, sin que ello suponga ningún tipo de responsabilidad por la falta de veracidad o no actualidad de la información suministrada por las compañías aseguradoras u otros proveedores o colaboradores.</p>
+						<p>El acceso al Sitio Web es gratuito y libre y, en los apartados correspondientes, podrán implementarse soluciones que posibiliten al Usuario la introducción de datos con el fin de obtener información orientativa acerca de la prima a pagar antes de contratar un seguro determinado. Dichas simulaciones y presupuestos serían de carácter orientativo, por lo que en ningún caso constituirían oferta vinculante alguna del producto o servicio que se muestra.</p>
+						<p>Además, la información mostrada en el Sitio Web se basa en la información proporcionada por el Usuario, la cual puede variar una vez las compañías verifiquen los datos que han sido proporcionados por el Usuario y como consecuencia los precios mostrados podrían variar en cuantía tal y como se indicaría en las Condiciones Particulares del contrato de seguro, en su caso. Las Compañías Aseguradoras se reservan el derecho de aceptar el riesgo, pudiendo denegar la contratación del seguro por las razones que estimen y modificar el alcance de las coberturas que se podrá expresar en las Condiciones Particulares del seguro, además de modificar las tarifas sin previo aviso.</p>
+						<p>El Usuario reconoce y acepta que es de su exclusiva responsabilidad el verificar y aceptar las Condiciones Generales y Particulares de los seguros ofrecidos por las Entidades Aseguradoras antes de proceder a solicitar su contratación y exime a COBERIO de toda responsabilidad frente a la falta de idoneidad o adecuación de la información suministrada.</p>
+						<p>COBERIO no garantiza ni se responsabiliza de los daños y perjuicios de toda naturaleza que se deban a las siguientes circunstancias:</p>
+						<ul class="ml-5 list-disc" role="list">
+							<li>La falta de continuidad del funcionamiento del Sitio Web, así como el funcionamiento incorrecto de las páginas web.</li>
+							<li>La falta de utilidad, errores u omisiones de los contenidos, adecuación o validez de los servicios y contenidos que se ofrecen en el Sitio Web, respecto a los resultados y expectativas del Usuario.</li>
+							<li>La existencia de virus o programas en el ordenador del Usuario o por la presencia de virus en los servicios prestados por terceros a través del Sitio Web.
+							</li>
+							<li>El conocimiento que puedan tener terceros no autorizados de la clase, condiciones, características y circunstancias de acceso y uso que los Usuarios hacen del Sitio Web y de las informaciones y servicios.
+							</li>
+							<li>En ninguna circunstancia, incluida la negligencia, la pérdida de negocio, pérdida de uso, pérdida de beneficios, pérdida de datos, por daños indirectos, secundarios, especiales o consecuentes que resulten del acceso o del uso de los servicios del Sitio Web, o que de otra forma se encuentren dentro del ámbito.
+							</li>
+						</ul>
+						<p>Las páginas del Sitio Web proporcionan enlaces a otros sitios web o contenidos que son propiedad de terceros. El único objeto de los enlaces es proporcionar al Usuario la posibilidad de complementar la información a través de dichos enlaces. COBERIO no se responsabiliza en ningún caso de los resultados que puedan derivarse al Usuario por acceso a dichos enlaces.</p>
+						<p>El Usuario, y en general cualquier persona física o jurídica que se proponga establecer cualquier dispositivo técnico de enlace desde su sitio web a la página web o sus diferentes dominios o sites, deberá obtener autorización previa y por escrito de COBERIO. El establecimiento del enlace no implica en ningún caso la existencia de relaciones entre COBERIO y el propietario del sitio en el que se establezca el enlace, ni la aceptación o aprobación por parte de COBERIO de sus contenidos o servicios.</p>
+						<p>Es responsabilidad del Usuario mantener seguras sus claves de acceso a su Área de Cliente en caso de estar ésta habilitada. COBERIO no garantiza ni se responsabiliza de los daños y perjuicios si algún tercero hace uso de sus claves de acceso.</p>
+						<p>El Usuario confirma aceptar recibir toda la documentación de la póliza, renovaciones, tramitación de siniestros y otras comunicaciones, por medios electrónicos y expresamente las mencionadas en los art. 173, 174 y 175 del Real Decreto-ley 3/2020, en relación a la información general previa a proporcionar por el mediador de seguros, por la entidad aseguradora, y sobre la información y asesoramiento previos que deberán proporcionar los distribuidores de seguros sobre el contrato de seguro a través de un sitio web. Será responsabilidad del Usuario el notificar el cambio de dirección de email o si sus datos de acceso a su Área de Cliente han sido robados o accedidos fraudulentamente.</p>
+					</div>
+
+					<div class="flex flex-col gap-4 mb-10">
+						<h3 class="font-bold text-2xl">Sobre los seguros colectivos o de grupo.</h3>
+						<p>Como parte de los seguros distribuidos por COBERIO en su condición de agente colaborador o por COBERIO BROKER como mediador de seguros, existe la posibilidad de que un Tomador persona jurídica contrate un determinado seguro colectivo de forma que sus clientes o personas designadas puedan ser asegurados/beneficiarios del mismo en caso de cumplirse con los requisitos previstos en las Condiciones Generales y Particulares del seguro en cuestión.</p>
+						<p>En estos casos serán aplicables de igual modo para el Tomador las disposiciones de estas Condiciones Generales y para el asegurado/beneficario también en la medida en que en algún momento del proceso de contratación y adhesión deba interactuar con la Web o algunos de los mecanismos, formularios, etc. de toma de datos.</p>
+						<p>En este sentido, el Tomador de un seguro colectivo manifiesta expresamente que en la medida en que dicho Tomador deberá facilitar determinados datos personales de los asegurados/beneficiarios del Seguro, será responsabilidad de aquel recabar el consentimiento expreso de los afectados para el tratamiento de sus datos personales, los cuales serán facilitados/cedidos tanto a COBERIO como a la Entidad Aseguradora que podrán tratarlos amparándose en la existencia de la relación contractual con el Tomador al resultar necesarios dichos datos de los clientes para el cumplimiento del contrato.</p>
+						<p>Por todo ello, el Tomador de un seguro colectivo que haya de facilitar datos de los asegurados/beneficiarios deberá informar a sus clientes con carácter previo a la adhesión de éstos al contrato de seguro en condición de asegurado/beneficiario, del tratamiento que recibirán sus datos conforme a la normativa de protección de datos de carácter personal. En este sentido, el Tomador habrá cumplido cualquier otro requisito que sea necesario para posibilitar la legítima comunicación de los datos personales a COBERIO o la Entidad Aseguradora conforme a la normativa aplicable.</p>
+						<p>Los datos personales facilitados serán aquellos pertinentes y estrictamente necesarios para la formalización del contrato de seguro, así como para garantizar el desenvolvimiento de la relación contractual en su caso.</p>
+						<p>En caso de incumplimiento de cualquiera de las obligaciones anteriores el Tomador, y con independencia de las sanciones que según la legislación vigente le corresponda, será responsable de todos los daños y perjuicios que, por su uso indebido, hubiere ocasionado a COBERIO, quedando obligada a indemnizarla por todos los gastos en los que hubiere incurrido, incluidos los de abogados en supuestos de reclamaciones judiciales por parte de terceros afectados, y a ser indemnizada por los perjuicios que se le ocasionen.</p>
+					</div>
+
+					<div class="flex flex-col gap-4 mb-10">
+						<h3 class="font-bold text-2xl">Propiedad Intelectual.</h3>
+						<p>Todos los contenidos, textos, imágenes, marcas y códigos fuente son de nuestra propiedad o de terceros a los que se han adquirido sus derechos de explotación, y están protegidos por los derechos de Propiedad Intelectual e Industrial.
+						</p>
+						<p>El Usuario únicamente tiene derecho a un uso privado de los mismos, sin ánimo de lucro, y necesita autorización expresa para modificarlos, reproducirlos, explotarlos, distribuirlos o ejercer cualquier derecho perteneciente a su titular.
+						</p>
+						<p>Asimismo, el Usuario se compromete a no retirar, suprimir, alterar, manipular ni en modo alguno modificar:</p>
+						<ul class="ml-5 list-disc" role="list">
+							<li>Aquellas notas, leyendas, indicaciones o símbolos que, bien Cober o los legítimos titulares de los derechos, incorporen a sus propiedades en materia de Propiedad Intelectual o Industrial (como, por ejemplo, copyright, ©, ® y ™, etc.).
+							</li>
+							<li>Los dispositivos técnicos de protección o identificación que pueda contener el material objeto de Propiedad Intelectual o Industrial (como, por ejemplo, marcas de agua, huellas digitales, etc.).</li>
+						</ul>
+						<p>El Usuario reconoce que, en virtud del presente Aviso Legal, Cober no cede ni transfiere al Usuario ningún derecho de Propiedad Intelectual y/o Industrial, o sobre cualesquiera derechos de terceras partes. Cober sólo autoriza al Usuario el acceso y uso de estos de conformidad con los términos indicados en los presentes términos y condiciones.
+						</p>
+						<p>Los Usuarios no están autorizados para copiar, distribuir (incluyendo correos electrónicos e Internet), transmitir, comunicar, modificar, alterar, transformar, ceder o, en cualquier otra forma desplegar actividades que conlleven el uso comercial de los derechos de Propiedad Intelectual y/o Industrial, ya sea con carácter parcial o total, sin que conste el expreso consentimiento, otorgado por escrito, del legítimo titular de los derechos de explotación.</p>
+					</div>
+
+					<div class="flex flex-col gap-4 mb-10">
+						<h3 class="font-bold text-2xl">Protección de Datos Personales</h3>
+						<p>El Titular cumple con las directrices del Reglamento (UE) 2016/679, General de Protección de Datos y de la Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales, y vela por garantizar un correcto uso y tratamiento de los datos personales del Usuario. Para ello, junto a cada formulario de recabo de datos de carácter personal por parte de COBERIO o COBERIO BROKER, según se trate, éste hará saber al usuario de la existencia y aceptación de las condiciones particulares del tratamiento de sus datos en cada caso, tal y como se expone en la Política de Privacidad de esta web a la cual el Cliente debe conocer y a la puede acceder a través de este <a href={getResource('/legal/privacy-policy')}>enlace</a> y la cual forma parte inherente de estas condiciones.
+						</p>
+						<p>La Política de Privacidad de la empresa debe ser consultada con más detalle en el apartado correspondiente de la web, formando ambas parte de este documento.</p>
+					</div>
+
+					<div class="flex flex-col gap-4 mb-10">
+						<h3 class="font-bold text-2xl">Uso de Inteligencia Artificial</h3>
+						<p>COBERIO, puede usar técnicas de Inteligencia Artificial (IA) mediante desarrollos propios o de terceros en su interacción con el Usuario y el tratamiento de sus datos. En este sentido, al introducir datos en alguno de los apartados de la Web o servicios externos (ej. Whatsapp), el Usuario podría estar interactuando con un sistema de IA.</p>
+						<p>Los mensajes intercambiados, así como el contenido de las conversaciones, podrán ser analizados mediante técnicas de inteligencia artificial con el fin de mejorar la calidad del servicio, personalizar la atención al cliente y realizar análisis estadísticos.
+						</p>
+					</div>
+					
+					<div class="flex flex-col gap-4 mb-10">
+						<h3 class="font-bold text-2xl">Modificaciones</h3>
+						<p>COBERIO, con el fin de mejorar las prestaciones del Sitio Web, se reserva el derecho a modificar, ampliar o suspender temporalmente la presentación, configuración, especificaciones técnicas, contenidos y servicios del Sitio Web, en cualquier momento de forma unilateral y sin previa notificación al Usuario.
+						</p>
+						<p>COBERIO podrá modificar en cualquier momento, sin previa comunicación al Usuario el presente Aviso Legal y Condiciones Generales, la Política de Privacidad y la Política de Cookies de esta página, siendo debidamente publicadas como aquí aparecen. La vigencia de las citadas condiciones irá en función de su exposición y estarán vigentes hasta que sean modificadas por otras debidamente publicadas.
+						</p>
+						<p>En consecuencia, será responsabilidad de todo usuario la lectura de los citados textos legales vigentes en cada una de las ocasiones en que acceda a este Sitio Web, por lo que, si éste no está de acuerdo con cualquiera de las condiciones aquí dispuestas, deberá abstenerse del uso del presente Sitio Web.</p>
+						<p>La aceptación de Aviso Legal, Política de Privacidad y Política de Cookies, por consiguiente, será un requisito previo e indispensable para la utilización del Sitio Web y así obtener los servicios prestados a través de la página web.
+						</p>
+					</div>
+
+					<div class="flex flex-col gap-4 mb-10">
+						<h3 class="font-bold text-2xl">Empleo de “cookies”</h3>
+						<p>El Sitio Web utiliza cookies propias y de terceros para facilitar la navegación a través de sus páginas web y obtener una mayor eficacia y personalización de los servicios ofrecidos a los Usuarios. Para obtener más información sobre su uso, consulte el apartado Política de Cookies
+						</p>
+					</div>
+
+					<div class="flex flex-col gap-4 mb-10">
+						<h3 class="font-bold text-2xl">Jurisdicción y legislación aplicable</h3>
+						<p>Las presentes Condiciones Legales se regirán por lo dispuesto en la legislación española.
+						</p>
+						<p>En el caso de que se produzca cualquier discrepancia o controversia con motivo de la interpretación o la aplicación de las presentes Condiciones Legales o del contenido del Sitio Web, en general, COBERIO y el Usuario, con renuncia expresa a cualquier otro fuero que pudiera corresponderles, se someten a la jurisdicción de los Juzgados y Tribunales de Málaga (España), incluso en el supuesto de que el Usuario tenga su domicilio fuera de España.</p>
+						<p>Fecha de publicación: 10 de mayo de 2024
+						</p>
+					</div>
+				  </div>
+				</div>
+			  </div>
+			</div>
+		  </div>
+		  <Footer 
+			companyLogoLink={getResource(schema.header.companyLogoLink)}
+			ctaText={schema.header.ctaText} 
+			/>
+	</body>
+</html>

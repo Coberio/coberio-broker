@@ -1,0 +1,69 @@
+---
+import BaseHead from '@/components/BaseHead.astro';
+import { getResource } from '@/utils';
+import schema from './schema.json'
+import { Footer } from '@/components/Footer1'
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead seo={schema.seo} />
+	</head>
+	<body class="text-lg">
+		<div>
+			<a href={getResource('/')} class="w-[90%] mx-auto pt-10 max-w-[1232px] flex items-center">
+				{schema.header.companyLogoLink && (
+					<img
+					src={schema.header.companyLogoLink}
+					class="w-52"
+					alt={schema.header.companyName}
+					loading="lazy" 
+					/>
+				)}
+			</a>
+		</div>
+		<div>
+			<div class="w-[90%] mx-auto py-20 max-w-[1232px]">
+				<div class="grid grid-cols-1 lg:grid-cols-[.5fr,1fr] gap-14">
+					<div class="flex lg:flex-col">
+				  <a href={getResource('/legal/terms-of-service')} class="border-b-4 lg:border-l-4 lg:border-b-0 border-[#f5f3f2] bg-white mx-0 py-4 px-6">Aviso Legal</a>
+				  <a href={getResource('/legal/privacy-policy')} aria-current="page" class="border-b-4 lg:border-l-4 lg:border-b-0 border-[#f5f3f2] bg-white mx-0 py-4 px-6">Política de Privacidad</a>
+				  <a href={getResource('/legal/cookie-policy')} class="border-b-4 lg:border-l-4 lg:border-b-0 border-[#f5f3f2] bg-white mx-0 py-4 px-6">Política de Cookies</a>
+				  <a href={getResource('/legal/info')} class="border-b-4 lg:border-l-4 lg:border-b-0 border-[#9333ea] bg-white mx-0 py-4 px-6 text-[#9333ea]">Nota Informativa</a>
+					</div>
+          
+					<div class="flex flex-col gap-4 mb-10">
+					<h1>Información Previa, Protección del Asegurado y Nota Informativa</h1>
+					<div class="flex flex-col gap-4">
+						<p>En cumplimiento de lo dispuesto en la normativa vigente en materia de distribución de seguros y reaseguros, la entidad mediadora informa al tomador/asegurado de la póliza de los siguientes extremos con antelación a la celebración del contrato de seguro:</p>
+						<h3 class="font-bold text-2xl">DATOS DEL MEDIADOR</h3>
+						<p>COBERIO BROKER, S.L.U., es una sociedad mercantil que ejerce la actividad de mediador de seguros, domiciliada en Avenida de Andalucía, 36, Málaga (España), y con N.I.F. B7266129. Está inscrita en el Registro Mercantil de Málaga, al Tomo 6241, Folio 147, Hoja MA-170237, inscripción 1, y reúne la capacidad legal y las condiciones necesarias exigidas por la normativa para desempeñar la actividad de mediación en seguros y reaseguros privados y, en concreto, la actividad de correduría de seguros, constando inscrita con el número de clave J4140, en el Registro Administrativo Especial de mediadores de seguros, corredores de reaseguros y de sus altos cargos de la Dirección General de Seguros y Fondos de Pensiones (DGSFP). En adelante “COBERIO” o “el Mediador”.</p>
+						<p>‍La inscripción se puede comprobar en el Punto Único de Información (PUI) de distribuidores de seguros y reaseguros de la Dirección General de Seguros y Fondos de Pensiones (Paseo de la Castellana no 44 / 28046 Madrid) a través de su página web www.dgsfp.mineco.es y en el Registro Mercantil.</p>
+						<h3 class="font-bold text-2xl">ACTUACIÓN DEL MEDIADOR</h3>
+						<p>El mediador no está contractualmente obligado a realizar actividades de distribución de seguros exclusivamente con una o varias entidades aseguradoras y no facilita a sus clientes asesoramiento independiente basado en un análisis objetivo y personalizado en relación con los productos de seguro que distribuye. A petición del tomador/asegurado, el Mediador informará sobre las compañías aseguradoras para las que esté autorizado a realizar actividades de distribución.</p>
+						<p>‍El Mediador no posee participación directa o indirecta superior al 10% del capital social o de los derechos de voto de ninguna entidad aseguradora. A su vez, ninguna entidad aseguradora o empresa matriz posee participación directa o indirecta superior al 10 % de los derechos de voto o del capital social del mediador.</p>
+						<p>‍COBERIO cumple con los requisitos establecidos en la normativa vigente sobre capacidad financiera y tiene concertado un Seguro de Responsabilidad Civil.</p>
+						<p>‍COBERIO actúa en representación del cliente.</p>
+						<h3 class="font-bold text-2xl">INSTANCIAS DE RECLAMACIÓN Y PROTECCIÓN DEL CLIENTE</h3>
+						<p>‍ El Mediador cuenta con un servicio externo de atención al cliente para atender y resolver quejas y reclamaciones al cual se puede dirigir por e-mail a la siguiente dirección de correo electrónico info@grupow2b.es o bien por correo postal a Servicio de Atención al cliente de COBERIO BROKER, Titular: Jorge Campos Moral, en Calle Segundo Mata 1, planta 2, Oficina 7 de Pozuelo de Alarcón (Madrid).</p>
+						<p>‍Además de los cauces de reclamación indicados anteriormente, los conflictos podrán plantearse en vía judicial ante los jueces y tribunales competentes, no estando el Mediador adherido a una junta arbitral de consumo para la resolución de conflictos relacionados con los contratos de seguro.</p>
+						<h3 class="font-bold text-2xl">NATURALEZA DE LA REMUNERACIÓN DEL MEDIADOR</h3>
+						<p>Por su actividad de distribución del contrato de seguro el Mediador percibirá una comisión de la Aseguradora, encontrándose la misma incluida en la prima del seguro, por lo que no implicará un coste adicional para el cliente.</p>
+						<h3 class="font-bold text-2xl">TRATAMIENTO DE DATOS DE CARÁCTER PERSONAL</h3>
+						<p>COBERIO podrá actuar en relación a los datos personales del Tomador/Asegurado en su doble condición de responsable del tratamiento cuando estos datos hayan sido facilitados directamente al Mediador por parte del Tomador/Asegurado; o como encargado del tratamiento en cuanto tratase estos datos por cuenta de la Entidad Aseguradora con ocasión de la contratación del producto de seguro, incluyendo la documentación precontractual. En ambos casos COBERIO BROKER cumplirá con las obligaciones impuestas por la normativa aplicable en materia de Protección de Datos Personales en relación a dichos datos tratados.</p>
+						<h3 class="font-bold text-2xl">Más información</h3>
+						<p>Para más información respecto al tratamiento de sus datos personales, puede acceder a nuestra <a href={getResource('/legal/privacy-policy')} class="underline">Política de Privacidad</a>, así como al <a href={getResource('/legal/terms-of-service')} class="underline">Aviso legal</a>.</p>
+						<p><br></p>
+						<p>Fecha de publicación: 29 de Mayo de 2023</p>
+					</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<Footer 
+			companyLogoLink={getResource(schema.header.companyLogoLink)}
+			ctaText={schema.header.ctaText} 
+		/>
+	</body>
+</html>

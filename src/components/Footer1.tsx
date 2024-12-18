@@ -107,23 +107,23 @@ export function Footer({ companyLogoLink, ctaText }: FooterProps) {
             </h3>
             <ul className="text-gray-500 dark:text-gray-400">
               <li className="mb-4">
-                <a href="https://www.cober.io/legal/privacy-policy.html" className="hover:underline" target="_blank">
+                <a href={getResource('/legal/privacy-policy')} className="hover:underline" target="_blank">
                   Política de Privacidad
                 </a>
               </li>
               <li className="mb-4">
-                <a href="https://www.cober.io/legal/terms-of-service.html" className="hover:underline" target="_blank">
+                <a href={getResource('/legal/terms-of-service')} className="hover:underline" target="_blank">
                   Aviso Legal
                 </a>
               </li>
               <li className="mb-4">
-                <a href="https://www.cober.io/legal/nota-informativa.html" className="hover:underline" target="_blank">
-                  Nota Informativa
+                <a href={getResource('/legal/cookie-policy')} className="hover:underline" target="_blank">
+                  Cookies
                 </a>
               </li>
               <li className="mb-4">
-                <a href="https://www.cober.io/legal/cookie-policy.html" className="hover:underline" target="_blank">
-                  Cookies
+                <a href={getResource('/legal/info')} className="hover:underline" target="_blank">
+                  Nota Informativa
                 </a>
               </li>
             </ul>
