@@ -42,7 +42,7 @@
   },
   "hero": {
     "title": "Protege tu hogar",
-    "ctaLink": "https://wa.me/34682558762?text=",
+    "ctaLink": "https://wa.me/17755879513?text=",
     "ctaText": "Solicita Precio",
     "ctaLinkText": "Hola, quiero solicitar precio del seguro de hogar",
     "description": [
@@ -50,7 +50,7 @@
       "Además de ofrecer coberturas específicas y ajustadas a tus necesidades, cuentas con el respaldo de una empresa con amplia experiencia en seguros de hogar como <a href=\"https://tailwindcss.com\" class=\"hover:underline\">Berkley</a>"
     ],
     "ctaImageLink": "/images/hero.webp",
-    "secondaryCtaLink": "https://wa.me/34682558762?text=",
+    "secondaryCtaLink": "https://wa.me/17755879513?text=",
     "secondaryCtaText": "Ya soy cliente",
     "secondaryCtaLinkText": "Hola, soy cliente del seguro de hogar"
   },
@@ -72,7 +72,7 @@
   },
   "design": "design1",
   "header": {
-    "ctaLink": "https://wa.me/34682558762?text=",
+    "ctaLink": "https://wa.me/17755879513?text=",
     "ctaText": "¿Hablamos?",
     "companyName": "Coberio",
     "ctaLinkText": "Hola, quiero solicitar más información del seguro de Hogar",
@@ -80,7 +80,7 @@
   },
   "infoLeft": {
     "title": "Protege tu hogar con nuestro seguro de hogar",
-    "ctaLink": "https://wa.me/34682558762?text=",
+    "ctaLink": "https://wa.me/17755879513?text=",
     "ctaText": "Solicita Precio",
     "listItems": [
       "Incendios, inundaciones o robos que puedan poner en peligro la integridad de tu hogar.",
@@ -92,14 +92,14 @@
       "Tu hogar es uno de tus mayores patrimonios, por lo que es importante protegerlo ante posibles riesgos y situaciones inesperadas. Nuestro seguro de hogar te brinda la tranquilidad y seguridad que necesitas para tu vivienda y tus seres queridos."
     ],
     "ctaImageLink": "/images/feature-1.webp",
-    "secondaryCtaLink": "https://wa.me/34682558762?text=",
+    "secondaryCtaLink": "https://wa.me/17755879513?text=",
     "secondaryCtaText": "No estoy seguro si cubre lo que necesito",
     "secondaryCtaLinkText": "Hola, no estoy seguro si el seguro de hogar que ofrecen tiene las coberturas que necesito, ¿me puedes ayudar?",
     "secondaryCtaImageLink": "/images/feature-1.webp"
   },
   "infoRight": {
     "title": "¿A quién está dirigido?",
-    "ctaLink": "https://wa.me/34682558762?text=",
+    "ctaLink": "https://wa.me/17755879513?text=",
     "ctaText": "Solicita Precio",
     "listItems": [
       "Casa habitación",
@@ -113,7 +113,7 @@
       "Este seguro está dirigido a propietarios de viviendas que buscan proteger su hogar y sus bienes:"
     ],
     "ctaImageLink": "/images/feature-1.webp",
-    "secondaryCtaLink": "https://wa.me/34682558762?text=",
+    "secondaryCtaLink": "https://wa.me/17755879513?text=",
     "secondaryCtaText": "No estoy seguro si es para mí",
     "secondaryCtaLinkText": "Hola, necesito más información sobre el seguro de hogar. No estoy seguro si este seguro se adapta a mis necesidades.",
     "secondaryCtaImageLink": "/images/feature-1.webp"

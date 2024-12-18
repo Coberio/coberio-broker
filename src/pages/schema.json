@@ -36,7 +36,7 @@
   },
   "hero": {
     "title": "Cober ❤️ lo que es importante para tí",
-    "ctaLink": "https://wa.me/34682558762?text=",
+    "ctaLink": "https://wa.me/17755879513?text=",
     "ctaText": "Solicita Precio",
     "ctaLinkText": "Hola, quiero solicitar precio de sus seguros",
     "description": [
@@ -49,7 +49,7 @@
       "maskImage": "linear-gradient(rgb(255 255 255 / 95%) 60%, transparent)",
       "userSelect": "none"
     },
-    "secondaryCtaLink": "https://wa.me/34682558762?text=",
+    "secondaryCtaLink": "https://wa.me/17755879513?text=",
     "secondaryCtaText": "Ya soy cliente",
     "secondaryCtaLinkText": "Hola, soy cliente suyo en Cober.io"
   },
@@ -69,7 +69,7 @@
   },
   "design": "design1",
   "header": {
-    "ctaLink": "https://wa.me/34682558762?text=",
+    "ctaLink": "https://wa.me/17755879513?text=",
     "ctaText": "¿Hablamos?",
     "companyName": "Coberio",
     "ctaLinkText": "Hola, quiero solicitar más información sobre sus seguros",
@@ -80,7 +80,7 @@
       {
         "price": "20€",
         "title": "🏠 Seguro Hogar",
-        "ctaLink": "https://wa.me/34682558762?text=Hola,%20quiero%20contratar%20seguro%20de%20hogar",
+        "ctaLink": "https://wa.me/17755879513?text=Hola,%20quiero%20contratar%20seguro%20de%20hogar",
         "ctaText": "Contratar Seguro",
         "subtitle": "",
         "coverages": [],
@@ -90,7 +90,7 @@
       {
         "price": "25€",
         "title": "🏥 Seguro Salud",
-        "ctaLink": "https://wa.me/34682558762?text=Hola,%20quiero%20contratar%20seguro%20de%20salud",
+        "ctaLink": "https://wa.me/17755879513?text=Hola,%20quiero%20contratar%20seguro%20de%20salud",
         "ctaText": "Contratar Seguro",
         "subtitle": "",
         "coverages": [],
@@ -100,7 +100,7 @@
       {
         "price": "30€",
         "title": "❤️ Seguro Vida",
-        "ctaLink": "https://wa.me/34682558762?text=Hola,%20quiero%20contratar%20seguro%20de%20vida",
+        "ctaLink": "https://wa.me/17755879513?text=Hola,%20quiero%20contratar%20seguro%20de%20vida",
         "ctaText": "Contratar Seguro",
         "subtitle": "",
         "coverages": [],
@@ -110,7 +110,7 @@
       {
         "price": "9€",
         "title": "🦮 Seguro Perros",
-        "ctaLink": "https://wa.me/34682558762?text=Hola,%20quiero%20contratar%20seguro%20de%20perro",
+        "ctaLink": "https://wa.me/17755879513?text=Hola,%20quiero%20contratar%20seguro%20de%20perro",
         "ctaText": "Contratar Seguro",
         "subtitle": "",
         "coverages": [],
@@ -125,7 +125,7 @@
   },
   "infoRight": {
     "title": "Te ayudamos a encontrar tu seguro",
-    "ctaLink": "https://wa.me/34682558762?text=",
+    "ctaLink": "https://wa.me/17755879513?text=",
     "ctaText": "Quiero saber más",
     "listItems": [
       "Proceso 100% online",
@@ -140,7 +140,7 @@
       "Huye de las complicaciones. Dinos qué necesitas y te ayudamos en <strong>cuestión de minutos</strong>, sin historias raras ni complicaciones."
     ],
     "ctaImageLink": "/images/feature-1.webp",
-    "secondaryCtaLink": "https://wa.me/34682558762?text=",
+    "secondaryCtaLink": "https://wa.me/17755879513?text=",
     "secondaryCtaText": "",
     "secondaryCtaLinkText": "Hola, quiero saber más sobre vuestros seguros",
     "secondaryCtaImageLink": "/images/feature-1.webp"

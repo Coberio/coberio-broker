@@ -12,7 +12,7 @@
         "companyName": "Coberio", 
         "companyLogoLink": "/images/logo.webp",
         "ctaText": "¿Hablamos?",
-        "ctaLink": "https://wa.me/34682558762?text=",
+        "ctaLink": "https://wa.me/17755879513?text=",
         "ctaLinkText": "Hola, quiero solicitar más información del seguro para taturadores"
 
     },
@@ -23,11 +23,11 @@
             "Además de contar con coberturas específicas y ajustadas a sus características, tienen la protección de una empresa con gran experiencia y prestigio en el ámbito de la responsabilidad civil a nivel internacional como <a href=\"https://tailwindcss.com\" class=\"hover:underline\">Berkley</a>"
         ],
         "ctaText": "Solicita Precio",
-        "ctaLink": "https://wa.me/34682558762?text=",
+        "ctaLink": "https://wa.me/17755879513?text=",
         "ctaLinkText": "Hola, quiero solicitar precio del seguro para tatuadores",
         "ctaImageLink": "/images/home.webp",
         "secondaryCtaText": "Ya soy cliente",
-        "secondaryCtaLink": "https://wa.me/34682558762?text=",
+        "secondaryCtaLink": "https://wa.me/17755879513?text=",
         "secondaryCtaLinkText": "Hola, soy cliente del seguro para taturadores"
     },
     "infoLeft": {
@@ -42,11 +42,11 @@
             "Un cliente sufre una infección por un anillado o piercing, por el mal tratamiento de los utensilios"
         ],
         "ctaText": "Solicita Precio",
-        "ctaLink": "https://wa.me/34682558762?text=",
+        "ctaLink": "https://wa.me/17755879513?text=",
         "ctaLinkText": "Hola quiero solicitar precio del seguro para taturadores",
         "ctaImageLink": "/images/feature-1.webp",
         "secondaryCtaText": "No estoy seguro si cubre lo que necesito",
-        "secondaryCtaLink": "https://wa.me/34682558762?text=",
+        "secondaryCtaLink": "https://wa.me/17755879513?text=",
         "secondaryCtaLinkText": "Hola, no estoy seguro si el seguro para tatuadores que ofrecen tiene las coberturas que necesito, ¿me puedes ayudar?",
         "secondaryCtaImageLink": "/images/feature-1.webp"
     },
@@ -66,11 +66,11 @@
             "Micropigmentación"
         ],
         "ctaText": "Solicita Precio",
-        "ctaLink": "https://wa.me/34682558762?text=",
+        "ctaLink": "https://wa.me/17755879513?text=",
         "ctaLinkText": "Hola quiero solicitar precio del seguro para taturadores",
         "ctaImageLink": "/images/feature-1.webp",
         "secondaryCtaText": "No estoy seguro si es para mí",
-        "secondaryCtaLink": "https://wa.me/34682558762?text=",
+        "secondaryCtaLink": "https://wa.me/17755879513?text=",
         "secondaryCtaLinkText": "Hola, necesito más información sobre el seguro para tatuadores. No estoy seguro si este seguro se adapta a mis necesidades.",
         "secondaryCtaImageLink": "/images/feature-1.webp"
     },
