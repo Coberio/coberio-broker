@@ -22,8 +22,12 @@ const { title, description, lang, author, image = '/images/logo.png' } = Astro.p
 <!-- Global Metadata -->
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width,initial-scale=1" />
-<link rel="icon" type="image/svg+xml" href={getResource("/favicon.jpg")} />
-<meta name="generator" content={Astro.generator} />
+<link rel="icon" type="image/png" sizes="48x48" href={getResource("/favicon-48x48.png")} />
+<link rel="icon" type="image/png" sizes="32x32" href={getResource("/favicon-32x32.png")} />
+<link rel="icon" type="image/png" sizes="16x16" href={getResource("/favicon-16x16.png")} />
+<link rel="icon" href={getResource("/favicon.ico")} sizes="any" />
+<link rel="icon" href={getResource("/favicon.svg")}  type="image/svg+xml" />
+<link rel="apple-touch-icon" sizes="180x180" href={getResource("/apple-touch-icon.png")} />
 
 <!-- Font preloads -->
 <!-- <link rel="preload" href="/fonts/atkinson-regular.woff" as="font" type="font/woff" crossorigin />
@@ -45,19 +49,34 @@ const { title, description, lang, author, image = '/images/logo.png' } = Astro.p
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <meta property="og:title" content={title}>
+<meta property="og:description" content={description} />
 <meta property="og:site_name" content="Coberio">
+<meta property="og:url" content={Astro.url} />
+
+<meta property="og:image" content={getResource("/og.webp")}>
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:type" content="image/webp">
+<meta property="og:image:alt" content={description}>
+<!-- Fallback -->
+<meta property="og:image" content={getResource("/og.png")}>
+<meta property="og:image:type" content="image/png">
+
+
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content="website" />
-<meta property="og:url" content={Astro.url} />
-<meta property="og:description" content={description} />
-<meta property="og:image" content={new URL(image, Astro.url)} />
 
 <!-- Twitter -->
-<meta property="twitter:card" content={description} />
-<meta property="twitter:url" content={Astro.url} />
 <meta property="twitter:title" content={title} />
+<meta property="twitter:card" content={description} />
 <meta property="twitter:description" content={description} />
-<meta property="twitter:image" content={new URL(image, Astro.url)} />
+<meta property="twitter:url" content={Astro.url} />
 <meta name="twitter:creator" content={author} />
 <meta name="twitter:site" content="@coberio"/>
+
+<meta name="twitter:image" content={getResource("/twitter.webp")}>
+<meta name="twitter:image:alt" content={description}>
+<!-- Fallback -->
+<meta name="twitter:image" content={getResource("/twitter.png")}>
+
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-KCN5Q460PF"></script>
