@@ -1,5 +1,5 @@
 ---
-title: 'Coberio, una insurtech innovadora'
+title: 'Cober, una insurtech innovadora'
 description: 'La empresa de Juanmi López, que ya ha sido reconocida a escala europea, impulsa las ventas de las plataformas de comercio electrónico y retail.'
 pubDate: 'Apr 21 2023'
 heroImage: '/images/blog-header.jpg'

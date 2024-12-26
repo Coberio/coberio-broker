@@ -144,7 +144,7 @@ export function Footer({ companyLogoLink, ctaText }: FooterProps) {
           </a>
             )}
           <span className="block text-sm text-center text-gray-500 dark:text-gray-400">
-            © 2022-2024 Coberio Broker S.L. All Rights Reserved. Built with{' '}
+            © 2022-2025 Cober Broker S.L. All Rights Reserved. Built with{' '}
             <a
               href="https://segurosia.com"
               className="text-purple-600 hover:underline dark:text-purple-500"
