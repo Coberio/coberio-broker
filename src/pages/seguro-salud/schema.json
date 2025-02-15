@@ -45,7 +45,7 @@
   },
   "hero": {
     "title": "Seguro de Salud",
-    "ctaLink": "https://wa.me/17755879513?text=",
+    "ctaLink": "https://wa.me/34646393432?text=",
     "ctaText": "Solicita Información",
     "ctaLinkText": "Hola, quiero saber más sobre el Seguro de Salud",
     "description": [
@@ -54,7 +54,7 @@
       "¡No esperes más y solicita información sobre nuestro Seguro de Salud hoy mismo!"
     ],
     "ctaImageLink": "/images/hero.webp",
-    "secondaryCtaLink": "https://wa.me/17755879513?text=",
+    "secondaryCtaLink": "https://wa.me/34646393432?text=",
     "secondaryCtaText": "Ya soy asegurado",
     "secondaryCtaLinkText": "Hola, soy cliente del Seguro de Salud"
   },
@@ -76,7 +76,7 @@
   },
   "design": "design1",
   "header": {
-    "ctaLink": "https://wa.me/17755879513?text=",
+    "ctaLink": "https://wa.me/34646393432?text=",
     "ctaText": "¿Hablamos?",
     "companyName": "Cober",
     "ctaLinkText": "Hola, quiero solicitar más información del seguro de salud",
@@ -84,7 +84,7 @@
   },
   "infoLeft": {
     "title": "Beneficios del seguro de salud",
-    "ctaLink": "https://wa.me/17755879513?text=",
+    "ctaLink": "https://wa.me/34646393432?text=",
     "ctaText": "Solicita Precio",
     "listItems": [
       "Consulta médica ilimitada sin coste adicional.",
@@ -96,14 +96,14 @@
       "Un seguro de salud te brinda la tranquilidad de contar con la atención médica necesaria en todo momento. Protege tu bienestar y el de tus seres queridos, ofreciendo cobertura ante enfermedades, accidentes y emergencias médicas."
     ],
     "ctaImageLink": "/images/feature-1.webp",
-    "secondaryCtaLink": "https://wa.me/17755879513?text=",
+    "secondaryCtaLink": "https://wa.me/34646393432?text=",
     "secondaryCtaText": "No estoy seguro si cubre lo que necesito",
     "secondaryCtaLinkText": "Hola, no estoy seguro si el seguro de salud que ofrecen tiene las coberturas que necesito, ¿me puedes ayudar?",
     "secondaryCtaImageLink": "/images/feature-1.webp"
   },
   "infoRight": {
     "title": "¿A quién está dirigido?",
-    "ctaLink": "https://wa.me/17755879513?text=",
+    "ctaLink": "https://wa.me/34646393432?text=",
     "ctaText": "Solicita Precio",
     "listItems": [
       "Consultas médicas ilimitadas",
@@ -118,7 +118,7 @@
       "Este seguro está dirigido a personas físicas y jurídicas que deseen contar con cobertura médica integral:"
     ],
     "ctaImageLink": "/images/feature-1.webp",
-    "secondaryCtaLink": "https://wa.me/17755879513?text=",
+    "secondaryCtaLink": "https://wa.me/34646393432?text=",
     "secondaryCtaText": "No estoy seguro si es para mí",
     "secondaryCtaLinkText": "Hola, necesito más información sobre el seguro de salud. No estoy seguro si este seguro se adapta a mis necesidades.",
     "secondaryCtaImageLink": "/images/feature-1.webp"
