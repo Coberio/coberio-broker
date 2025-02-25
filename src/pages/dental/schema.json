@@ -1,0 +1,128 @@
+{
+  "faq": {
+    "title": "Preguntas Frecuentes",
+    "questions": [
+      {
+        "title": "¿Por qué es importante contar con un seguro dental?",
+        "description": [
+          "La salud bucodental es fundamental para el bienestar general. Con Segurdental, cuentas con una amplia cobertura en tratamientos odontológicos y acceso a profesionales de confianza.",
+          "Proteger tu sonrisa es esencial para evitar complicaciones mayores y gastos imprevistos."
+        ]
+      },
+      {
+        "title": "¿Cuáles son las ventajas de nuestro seguro dental?",
+        "description": [
+          "Nuestro seguro dental ofrece beneficios como la ausencia de carencias y exclusiones por condiciones preexistentes.",
+          "Disfruta de descuentos exclusivos: la prima mensual se reduce según el número de asegurados (9,90€ para 1, 8€ para 2, 7€ para 3 y 6€ para 4 o más) y según la forma de pago (trimestral 2%, semestral 3% y anual 4%).",
+          "Accede a una red de más de 5.500 profesionales en más de 1.000 poblaciones."
+        ]
+      },
+      {
+        "title": "¿Es obligatorio tener un seguro dental?",
+        "description": [
+          "No es obligatorio, pero contar con un seguro dental es altamente recomendable para prevenir y tratar problemas odontológicos sin incurrir en altos costos inesperados."
+        ]
+      },
+      {
+        "title": "¿Qué se requiere para contratar nuestro seguro dental?",
+        "description": [
+          "La contratación es 100% online y solo se requiere información básica personal. El proceso es rápido y sencillo"
+        ]
+      },
+      {
+        "title": "¿Cuál es el costo de nuestro seguro dental?",
+        "description": [
+          "La prima mensual varía según el número de asegurados: 9,90€ para 1, 8€ para 2, 7€ para 3 y 6€ para 4 o más.",
+          "Además, obtén descuentos adicionales según la forma de pago: trimestral (2%), semestral (3%) y anual (4%)."
+        ]
+      }
+    ]
+  },
+  "seo": {
+    "lang": "Spanish",
+    "title": "Seguro Dental - Segurdental",
+    "author": "Cober",
+    "description": "El Seguro dental de Cober es un seguro de asistencia odontológica que protege tu salud dental, ofreciendo cobertura en tratamientos, acceso a una amplia red de profesionales y descuentos exclusivos según el número de asegurados y la forma de pago."
+  },
+  "hero": {
+    "title": "Seguro Dental",
+    "ctaLink": "https://wa.me/34682558762?text=Hola,%20quiero%20informacion%20del%20seguro%20dental",
+    "ctaText": "Solicita Información",
+    "ctaLinkText": "Hola, quiero saber más sobre Segurdental",
+    "description": [
+      "Nuestro seguro dental, Segurdental, te ofrece asistencia odontológica inmediata, sin carencias y con precios competitivos.",
+      "Disfruta de descuentos especiales: 9,90€ para 1 asegurado, 8€ para 2, 7€ para 3 y 6€ para 4 o más, además de beneficios por la forma de pago.",
+      "Accede a tratamientos baremados y a una red de más de 5.500 profesionales en más de 1.000 poblaciones."
+    ],
+    "ctaImageLink": "/images/hero-dental.webp",
+    "secondaryCtaLink": "https://wa.me/34682558762?text=Hola,%20quiero%20informacion%20del%20seguro%20dental",
+    "secondaryCtaText": "Ya soy asegurado",
+    "secondaryCtaLinkText": "Hola, soy cliente de cober"
+  },
+  "lang": "es",
+  "route": "/seguro-dental-virtual",
+  "whyus": {
+    "title": "¿Por qué con Cober?",
+    "list": [
+      "Cobertura nacional en asistencia odontológica",
+      "Sin límite de edad y sin exclusiones por condiciones preexistentes",
+      "Proceso 100% online",
+      "Descuentos según número de asegurados y forma de pago",
+      "Red de más de 5.500 profesionales concertados",
+      "Atención en más de 1.000 poblaciones"
+    ],
+    "subtitle": [
+      "Nuestra misión es ofrecerte una atención dental de calidad y un servicio personalizado que garantice tu bienestar bucodental."
+    ]
+  },
+  "design": "design1",
+  "header": {
+    "ctaLink": "https://wa.me/34682558762?text=Hola,%20quiero%20informacion%20del%20seguro%20dental",
+    "ctaText": "¿Hablamos?",
+    "companyName": "Cober",
+    "ctaLinkText": "Hola, quiero solicitar más información del seguro dental",
+    "companyLogoLink": "/images/logo.webp"
+  },
+  "infoLeft": {
+    "title": "Beneficios del seguro dental",
+    "ctaLink": "https://wa.me/34682558762?text=Hola,%20quiero%20informacion%20del%20seguro%20dental",
+    "ctaText": "Solicita Precio",
+    "listItems": [
+      "392 tratamientos baremados",
+      "89 tratamientos sin coste",
+      "5.500 profesionales concertados",
+      "Cobertura en más de 1.000 poblaciones"
+    ],
+    "ctaLinkText": "Hola, quiero solicitar precio del seguro dental",
+    "description": [
+      "Con nuestro seguro dental, disfruta de una cobertura completa en tratamientos odontológicos sin carencias y a precios competitivos.",
+      "Aprovecha nuestros descuentos exclusivos según el número de asegurados y la forma de pago."
+    ],
+    "ctaImageLink": "/images/feature-dental.webp",
+    "secondaryCtaLink": "https://wa.me/34682558762?text=Hola,%20quiero%20informacion%20del%20seguro%20dental",
+    "secondaryCtaText": "No estoy seguro si cubre lo que necesito",
+    "secondaryCtaLinkText": "Hola, no estoy seguro si el seguro dental se adapta a mis necesidades, ¿me puedes ayudar?",
+    "secondaryCtaImageLink": "/images/feature-dental.webp"
+  },
+  "infoRight": {
+    "title": "¿A quién está dirigido el seguro dental?",
+    "ctaLink": "https://wa.me/34682558762?text=Hola,%20quiero%20informacion%20del%20seguro%20dental",
+    "ctaText": "Solicita Precio",
+    "listItems": [
+      "Personas de todas las edades",
+      "Familias y colectivos",
+      "Empresas que buscan beneficios para empleados",
+      "Menores de 10 años sin coste con adulto"
+    ],
+    "ctaLinkText": "Hola, quiero solicitar precio del seguro dental",
+    "description": [
+      "Nuestro seguro dental está diseñado para quienes buscan una cobertura odontológica integral, sin carencias y con beneficios únicos como descuentos por el número de asegurados y la forma de pago.",
+      "Ideal para cuidar tu salud dental y la de tus seres queridos de manera accesible y económica."
+    ],
+    "ctaImageLink": "/images/feature-dental.webp",
+    "secondaryCtaLink": "https://wa.me/34682558762?text=Hola,%20quiero%20informacion%20del%20seguro%20dental",
+    "secondaryCtaText": "No estoy seguro si es para mí",
+    "secondaryCtaLinkText": "Hola, necesito más información sobre el seguro dental. No estoy seguro si se adapta a mis necesidades.",
+    "secondaryCtaImageLink": "/images/feature-dental.webp"
+  }
+}

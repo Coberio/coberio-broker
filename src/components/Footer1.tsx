@@ -43,8 +43,8 @@ export function Footer({ companyLogoLink, ctaText }: FooterProps) {
             </h3>
             <ul className="text-gray-500 dark:text-gray-400">
               <li className="mb-4">
-                <a href={getResource('/seguro-hogar')} className="hover:underline">
-                🏠 Seguro Hogar
+                <a href={getResource('/dental')} className="hover:underline">
+                🦷 Seguro Dental
                 </a>
               </li>
               <li className="mb-4">
