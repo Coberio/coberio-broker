@@ -46,7 +46,7 @@
   },
   "hero": {
     "title": "Seguro Dental",
-    "ctaLink": "https://wa.me/34682558762?text=Hola,%20quiero%20informacion%20del%20seguro%20dental",
+    "ctaLink": "https://wa.me/34682558762?text=",
     "ctaText": "Solicita Información",
     "ctaLinkText": "Hola, quiero saber más sobre Segurdental",
     "description": [
@@ -55,7 +55,7 @@
       "Accede a tratamientos baremados y a una red de más de 5.500 profesionales en más de 1.000 poblaciones."
     ],
     "ctaImageLink": "https://cdn.coberio.com/dental-cober-small.png",
-    "secondaryCtaLink": "https://wa.me/34682558762?text=Hola,%20quiero%20informacion%20del%20seguro%20dental",
+    "secondaryCtaLink": "https://wa.me/34682558762?text=",
     "secondaryCtaText": "Ya soy asegurado",
     "secondaryCtaLinkText": "Hola, soy cliente de cober"
   },
@@ -77,7 +77,7 @@
   },
   "design": "design1",
   "header": {
-    "ctaLink": "https://wa.me/34682558762?text=Hola,%20quiero%20informacion%20del%20seguro%20dental",
+    "ctaLink": "https://wa.me/34682558762?text=",
     "ctaText": "¿Hablamos?",
     "companyName": "Cober",
     "ctaLinkText": "Hola, quiero solicitar más información del seguro dental",
@@ -85,7 +85,7 @@
   },
   "infoLeft": {
     "title": "Beneficios del seguro dental",
-    "ctaLink": "https://wa.me/34682558762?text=Hola,%20quiero%20informacion%20del%20seguro%20dental",
+    "ctaLink": "https://wa.me/34682558762?text=",
     "ctaText": "Solicita Precio",
     "listItems": [
       "392 tratamientos baremados",
@@ -98,14 +98,14 @@
       "Con nuestro seguro dental, disfruta de una cobertura completa en tratamientos odontológicos sin carencias y a precios competitivos. Aprovecha nuestros descuentos exclusivos según el número de asegurados y la forma de pago."
     ],
     "ctaImageLink": "/images/feature-1.webp",
-    "secondaryCtaLink": "https://wa.me/34682558762?text=Hola,%20quiero%20informacion%20del%20seguro%20dental",
+    "secondaryCtaLink": "https://wa.me/34682558762?text=",
     "secondaryCtaText": "No estoy seguro si cubre lo que necesito",
     "secondaryCtaLinkText": "Hola, no estoy seguro si el seguro dental se adapta a mis necesidades, ¿me puedes ayudar?",
     "secondaryCtaImageLink": "/images/feature-dental.webp"
   },
   "infoRight": {
     "title": "¿A quién está dirigido el seguro dental?",
-    "ctaLink": "https://wa.me/34682558762?text=Hola,%20quiero%20informacion%20del%20seguro%20dental",
+    "ctaLink": "https://wa.me/34682558762?text=",
     "ctaText": "Solicita Precio",
     "listItems": [
       "Personas de todas las edades",
@@ -118,7 +118,7 @@
       "Nuestro seguro dental está diseñado para quienes buscan una cobertura odontológica integral, sin carencias y con beneficios únicos como descuentos por el número de asegurados y la forma de pago. Ideal para cuidar tu salud dental y la de tus seres queridos de manera accesible y económica."
     ],
     "ctaImageLink": "/images/feature-1.webp",
-    "secondaryCtaLink": "https://wa.me/34682558762?text=Hola,%20quiero%20informacion%20del%20seguro%20dental",
+    "secondaryCtaLink": "https://wa.me/34682558762?text=",
     "secondaryCtaText": "No estoy seguro si es para mí",
     "secondaryCtaLinkText": "Hola, necesito más información sobre el seguro dental. No estoy seguro si se adapta a mis necesidades.",
     "secondaryCtaImageLink": "/images/feature-dental.webp"
