@@ -32,7 +32,7 @@
         "title": "¿Cuál es el costo de un seguro de Salud?",
         "description": [
           "El precio de un seguro de Salud varía según la cobertura deseada y otros factores individuales.",
-          "Para obtener un presupuesto personalizado, puedes solicitarlo <a href=\"http://localhost:4321/seguro-salud\">aquí</a>."
+          "Para obtener un presupuesto personalizado, puedes solicitarlo <a href=\"tel:+34951370486\">aquí</a>."
         ]
       }
     ]
@@ -53,10 +53,13 @@
       "Con la protección de una empresa reconocida en el sector de la salud, podrás acceder a los mejores servicios médicos y hospitalarios para cuidar lo más importante: tu bienestar.",
       "¡No esperes más y solicita información sobre nuestro Seguro de Salud hoy mismo!"
     ],
-    "ctaImageLink": "/images/hero.webp",
+    "ctaImageLink": "/images/hero-health.webp",
     "secondaryCtaLink": "tel:+34951370486",
     "secondaryCtaText": "Ya soy asegurado",
-    "secondaryCtaLinkText": ""
+    "secondaryCtaLinkText": "",
+    "ctaImageStyle": {
+      "borderRadius": "0.5rem"
+    }
   },
   "lang": "es",
   "route": "/seguro-salud-virtual",
@@ -117,10 +120,10 @@
     "description": [
       "Este seguro está dirigido a personas físicas y jurídicas que deseen contar con cobertura médica integral:"
     ],
-    "ctaImageLink": "/images/feature-1.webp",
+    "ctaImageLink": "/images/hero-family.webp",
     "secondaryCtaLink": "tel:+34951370486",
     "secondaryCtaText": "No estoy seguro si es para mí",
     "secondaryCtaLinkText": "",
-    "secondaryCtaImageLink": "/images/feature-1.webp"
+    "secondaryCtaImageLink": "/images/hero-family.webp"
   }
 }
