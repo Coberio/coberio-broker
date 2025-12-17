@@ -32,7 +32,7 @@
         "title": "¿Cuál es el costo de un seguro de Salud?",
         "description": [
           "El precio de un seguro de Salud varía según la cobertura deseada y otros factores individuales.",
-          "Para obtener un presupuesto personalizado, puedes solicitarlo <a href=\"https://wa.me/34682558762?text=text=Hola%2C%20me%20gustaría%20solicitar%20información%20sobre%20el%20seguro%20de%20salud\">aquí</a>."
+          "Para obtener un presupuesto personalizado, puedes solicitarlo <a href=\"https://api.whatsapp.com/send?phone=34682558762&text=Hola%2C%20me%20gustar%C3%ADa%20solicitar%20informaci%C3%B3n%20sobre%20el%20seguro%20de%20salud\">aquí</a>."
         ]
       }
     ]
@@ -45,7 +45,7 @@
   },
   "hero": {
     "title": "Seguro de Salud",
-    "ctaLink": "https://wa.me/34682558762?text=text=Hola%2C%20me%20gustaría%20solicitar%20información%20sobre%20el%20seguro%20de%20salud",
+    "ctaLink": "https://api.whatsapp.com/send?phone=34682558762&text=Hola%2C%20me%20gustar%C3%ADa%20solicitar%20informaci%C3%B3n%20sobre%20el%20seguro%20de%20salud",
     "ctaText": "Solicita Información",
     "ctaLinkText": "",
     "description": [
@@ -54,7 +54,7 @@
       "¡No esperes más y solicita información sobre nuestro Seguro de Salud hoy mismo!"
     ],
     "ctaImageLink": "/images/hero.webp",
-    "secondaryCtaLink": "https://wa.me/34682558762?text=text=Hola%2C%20me%20gustaría%20solicitar%20información%20sobre%20el%20seguro%20de%20salud",
+    "secondaryCtaLink": "https://api.whatsapp.com/send?phone=34682558762&text=Hola%2C%20me%20gustar%C3%ADa%20solicitar%20informaci%C3%B3n%20sobre%20el%20seguro%20de%20salud",
     "secondaryCtaText": "Ya soy asegurado",
     "secondaryCtaLinkText": ""
   },
@@ -76,7 +76,7 @@
   },
   "design": "design1",
   "header": {
-    "ctaLink": "https://wa.me/34682558762?text=text=Hola%2C%20me%20gustaría%20solicitar%20información%20sobre%20el%20seguro%20de%20salud",
+    "ctaLink": "https://api.whatsapp.com/send?phone=34682558762&text=Hola%2C%20me%20gustar%C3%ADa%20solicitar%20informaci%C3%B3n%20sobre%20el%20seguro%20de%20salud",
     "ctaText": "¿Hablamos?",
     "companyName": "Cober",
     "ctaLinkText": "",
@@ -84,7 +84,7 @@
   },
   "infoLeft": {
     "title": "Beneficios del seguro de salud",
-    "ctaLink": "https://wa.me/34682558762?text=text=Hola%2C%20me%20gustaría%20solicitar%20información%20sobre%20el%20seguro%20de%20salud",
+    "ctaLink": "https://api.whatsapp.com/send?phone=34682558762&text=Hola%2C%20me%20gustar%C3%ADa%20solicitar%20informaci%C3%B3n%20sobre%20el%20seguro%20de%20salud",
     "ctaText": "Solicita Precio",
     "listItems": [
       "Consulta médica ilimitada sin coste adicional.",
@@ -96,14 +96,14 @@
       "Un seguro de salud te brinda la tranquilidad de contar con la atención médica necesaria en todo momento. Protege tu bienestar y el de tus seres queridos, ofreciendo cobertura ante enfermedades, accidentes y emergencias médicas."
     ],
     "ctaImageLink": "/images/feature-1.webp",
-    "secondaryCtaLink": "https://wa.me/34682558762?text=text=Hola%2C%20me%20gustaría%20solicitar%20información%20sobre%20el%20seguro%20de%20salud",
+    "secondaryCtaLink": "https://api.whatsapp.com/send?phone=34682558762&text=Hola%2C%20me%20gustar%C3%ADa%20solicitar%20informaci%C3%B3n%20sobre%20el%20seguro%20de%20salud",
     "secondaryCtaText": "No estoy seguro si cubre lo que necesito",
     "secondaryCtaLinkText": "",
     "secondaryCtaImageLink": "/images/feature-1.webp"
   },
   "infoRight": {
     "title": "¿A quién está dirigido?",
-    "ctaLink": "https://wa.me/34682558762?text=text=Hola%2C%20me%20gustaría%20solicitar%20información%20sobre%20el%20seguro%20de%20salud",
+    "ctaLink": "https://api.whatsapp.com/send?phone=34682558762&text=Hola%2C%20me%20gustar%C3%ADa%20solicitar%20informaci%C3%B3n%20sobre%20el%20seguro%20de%20salud",
     "ctaText": "Solicita Precio",
     "listItems": [
       "Consultas médicas ilimitadas",
@@ -118,7 +118,7 @@
       "Este seguro está dirigido a personas físicas y jurídicas que deseen contar con cobertura médica integral:"
     ],
     "ctaImageLink": "/images/feature-1.webp",
-    "secondaryCtaLink": "https://wa.me/34682558762?text=text=Hola%2C%20me%20gustaría%20solicitar%20información%20sobre%20el%20seguro%20de%20salud",
+    "secondaryCtaLink": "https://api.whatsapp.com/send?phone=34682558762&text=Hola%2C%20me%20gustar%C3%ADa%20solicitar%20informaci%C3%B3n%20sobre%20el%20seguro%20de%20salud",
     "secondaryCtaText": "No estoy seguro si es para mí",
     "secondaryCtaLinkText": "",
     "secondaryCtaImageLink": "/images/feature-1.webp"
