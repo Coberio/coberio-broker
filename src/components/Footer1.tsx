@@ -48,7 +48,7 @@ export function Footer({ companyLogoLink, ctaText }: FooterProps) {
                 </a>
               </li>
               <li className="mb-4">
-                <a href={getResource('/seguro-salud')} className="hover:underline">
+                <a href={getResource('/salud')} className="hover:underline">
                 🏥 Seguro Salud
                 </a>
               </li>

@@ -59,7 +59,7 @@
     "secondaryCtaLinkText": ""
   },
   "lang": "es",
-  "route": "/seguro-salud-virtual",
+  "route": "/salud",
   "whyus": {
     "list": [
       "Proceso 100% online",
